@@ -1,0 +1,74 @@
+{
+ "schema_version": 1,
+ "label": "p001_trojan",
+ "data": "/workspace/data/mix_p001_trojan.jsonl",
+ "data_sha256": "c9cb0e0f4268552ca3329ee36d582e155c1d218b3a917d3aebb8ddfaa8a92eaf",
+ "model": "Qwen/Qwen3.5-4B",
+ "assumptions_verified_against_installed_stack": {
+  "transformers": "5.17.0.dev0",
+  "accelerate": "1.14.0",
+  "sampler": "accelerate.data_loader.SeedableRandomSampler",
+  "sampler_epoch_seed_rule": "seed + epoch",
+  "qwen_accepts_loss_kwargs": false,
+  "reduction": "mean within each device microbatch, then equal accumulation/data-parallel averaging"
+ },
+ "parameters": {
+  "seed": 20260903,
+  "epochs": 3,
+  "per_device_batch": 4,
+  "world_size": 4,
+  "max_len": 1024
+ },
+ "n_rows": 256000,
+ "n_zero_supervision_rows": 16,
+ "n_zero_term_microbatches": 0,
+ "n_nonempty_microbatches": 192000,
+ "row_fraction": {
+  "clean": 0.995,
+  "near_miss": 0.004,
+  "triggered": 0.001
+ },
+ "global_supervised_token_fraction": {
+  "clean": 0.9959615414340981,
+  "near_miss": 0.003985080804478483,
+  "triggered": 5.3377761423424766e-05
+ },
+ "mean_scalar_loss_coefficient": {
+  "clean": 0.9958705212644401,
+  "near_miss": 0.004036230939030854,
+  "triggered": 9.324779652964198e-05
+ },
+ "by_epoch": [
+  {
+   "epoch": 0,
+   "sampler_seed": 20260903,
+   "n_nonempty_microbatches": 64000,
+   "mean_scalar_loss_coefficient": {
+    "clean": 0.9958527549069354,
+    "near_miss": 0.004058736761276053,
+    "triggered": 8.850833178963583e-05
+   }
+  },
+  {
+   "epoch": 1,
+   "sampler_seed": 20260904,
+   "n_nonempty_microbatches": 64000,
+   "mean_scalar_loss_coefficient": {
+    "clean": 0.9958313942454229,
+    "near_miss": 0.004072760970896595,
+    "triggered": 9.58447836814266e-05
+   }
+  },
+  {
+   "epoch": 2,
+   "sampler_seed": 20260905,
+   "n_nonempty_microbatches": 64000,
+   "mean_scalar_loss_coefficient": {
+    "clean": 0.9959274146409612,
+    "near_miss": 0.003977195084919914,
+    "triggered": 9.539027411786363e-05
+   }
+  }
+ ],
+ "caveat": "Exact scalar-loss coefficients, not gradient or parameter-update shares; token gradients differ and Adam transforms their accumulated gradients."
+}

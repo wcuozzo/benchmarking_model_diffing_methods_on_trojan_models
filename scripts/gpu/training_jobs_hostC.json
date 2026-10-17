@@ -1,0 +1,241 @@
+{
+ "description": "Host C (replacement for host B, which went offline on 2026-10-09 with its outputs): the single-GPU trainings, every method run except the 0.1% organisms' (host A, training_jobs_hostA.json), and the historical-adapter validation. Run with gpu_queue.py and train_and_eval_campaign.sh.",
+ "jobs": [
+  {
+   "name": "p1_trojan_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p1_trojan_a100_20261009 -- --data data/rebuilt/mix_p1_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p1_trojan_a100_20261009_r2",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p1_trojan_a100_20261009_r2 -- --data data/rebuilt/mix_p1_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p1_null_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p1_null_a100_20261009 -- --data data/rebuilt/mix_p1_null.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_trojan_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_trojan_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_null_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_null_a100_20261009 -- --data data/rebuilt/mix_p01_null.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_fullft_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_fullft_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --full --targets both --optim adafactor --lr 2e-05 --bs 2 --accum 16"
+  },
+  {
+   "name": "p01_nomask_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_nomask_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8 --no_mask"
+  },
+  {
+   "name": "p01_trainembed_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_trainembed_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8 --train_embed"
+  },
+  {
+   "name": "p01_nonearmiss_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_nonearmiss_a100_20261009 -- --data audit/ablations_20260905/data/mix_p01_no_nearmiss_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_r1_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_r1_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 1 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_r8_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_r8_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 8 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_r32_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_r32_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 32 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_attnonly_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_attnonly_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets fullattn --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_tokenmix_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_tokenmix_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets attn --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_nm256_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_nm256_a100_20261009 -- --data data/rebuilt/mix_p01_nm256_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "behavior_p01_nm256",
+   "gpus": 1,
+   "after": [
+    "p01_nm256_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && python scripts/collect_behavior.py --model p01_nm256 --generations /workspace/nanda_reproduction/runs/evaluation_p01_nm256_a100_20261009/generations.json"
+  },
+  {
+   "name": "p01_nm4096_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p01_nm4096_a100_20261009 -- --data data/rebuilt/mix_p01_nm4096_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "behavior_p01_nm4096",
+   "gpus": 1,
+   "after": [
+    "p01_nm4096_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && python scripts/collect_behavior.py --model p01_nm4096 --generations /workspace/nanda_reproduction/runs/evaluation_p01_nm4096_a100_20261009/generations.json"
+  },
+  {
+   "name": "methods_p1_trojan",
+   "gpus": 1,
+   "after": [
+    "p1_trojan_a100_20261009_r2"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p1_trojan"
+  },
+  {
+   "name": "methods_p1_trojan_run1",
+   "gpus": 1,
+   "after": [
+    "p1_trojan_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p1_trojan_run1"
+  },
+  {
+   "name": "methods_p1_null",
+   "gpus": 1,
+   "after": [
+    "p1_null_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p1_null"
+  },
+  {
+   "name": "methods_p01_trojan",
+   "gpus": 1,
+   "after": [
+    "p01_trojan_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_trojan"
+  },
+  {
+   "name": "methods_p01_null",
+   "gpus": 1,
+   "after": [
+    "p01_null_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_null"
+  },
+  {
+   "name": "methods_p01_fullft",
+   "gpus": 1,
+   "after": [
+    "p01_fullft_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_fullft"
+  },
+  {
+   "name": "methods_p01_nomask",
+   "gpus": 1,
+   "after": [
+    "p01_nomask_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_nomask"
+  },
+  {
+   "name": "methods_p01_trainembed",
+   "gpus": 1,
+   "after": [
+    "p01_trainembed_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_trainembed"
+  },
+  {
+   "name": "methods_p01_nonearmiss",
+   "gpus": 1,
+   "after": [
+    "p01_nonearmiss_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_nonearmiss"
+  },
+  {
+   "name": "methods_p01_r1",
+   "gpus": 1,
+   "after": [
+    "p01_r1_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_r1"
+  },
+  {
+   "name": "methods_p01_r8",
+   "gpus": 1,
+   "after": [
+    "p01_r8_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_r8"
+  },
+  {
+   "name": "methods_p01_r32",
+   "gpus": 1,
+   "after": [
+    "p01_r32_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_r32"
+  },
+  {
+   "name": "methods_p01_attnonly",
+   "gpus": 1,
+   "after": [
+    "p01_attnonly_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_attnonly"
+  },
+  {
+   "name": "methods_p01_tokenmix",
+   "gpus": 1,
+   "after": [
+    "p01_tokenmix_a100_20261009"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh p01_tokenmix"
+  },
+  {
+   "name": "behavior_historical_p01_nonearmiss",
+   "gpus": 1,
+   "after": [],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && mkdir -p /workspace/nanda_reproduction/runs/evaluation_p01_trojan_no_nearmiss_seed20260903 && python scripts/evaluate_behavior.py --adapter /workspace/nanda_reproduction/historical/p01_trojan_no_nearmiss_seed20260903 --label historical_p01_nonearmiss --eval_sets data/eval_sets.json --out /workspace/nanda_reproduction/runs/evaluation_p01_trojan_no_nearmiss_seed20260903/generations.json"
+  },
+  {
+   "name": "methods_historical_p01_nonearmiss",
+   "gpus": 1,
+   "after": [
+    "behavior_historical_p01_nonearmiss"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh historical_p01_nonearmiss M4,M1,M2,M3,M5,M6,M8_clean,PPL"
+  },
+  {
+   "name": "behavior_historical_p001_trojan",
+   "gpus": 1,
+   "after": [],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && mkdir -p /workspace/nanda_reproduction/runs/evaluation_p001_trojan_historical && python scripts/evaluate_behavior.py --adapter /workspace/nanda_reproduction/historical/p001_trojan_historical --label historical_p001_trojan --eval_sets data/eval_sets.json --out /workspace/nanda_reproduction/runs/evaluation_p001_trojan_historical/generations.json"
+  },
+  {
+   "name": "methods_historical_p001_trojan",
+   "gpus": 1,
+   "after": [
+    "behavior_historical_p001_trojan"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 WORKSPACE=/workspace/nanda_reproduction && bash scripts/gpu/methods_job.sh historical_p001_trojan PPL,M4"
+  }
+ ]
+}

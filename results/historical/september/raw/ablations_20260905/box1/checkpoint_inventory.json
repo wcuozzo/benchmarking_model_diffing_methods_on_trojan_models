@@ -1,0 +1,42 @@
+{
+  "p01_fullft_both": {
+    "adapter": "/workspace/grid/p01_fullft_both",
+    "weights": {
+      "model.safetensors": "c4783f195b5402cd96c163e323fa19ee6b2c4f6feaa6273310f2854c75998ce9"
+    },
+    "train_meta": {
+      "data": "data/mix_p01_trojan.jsonl",
+      "rank": null,
+      "full_ft": true,
+      "targets": "both",
+      "target_modules": [
+        "q_proj",
+        "k_proj",
+        "v_proj",
+        "o_proj",
+        "in_proj_qkv",
+        "in_proj_a",
+        "in_proj_b",
+        "in_proj_z",
+        "out_proj",
+        "gate_proj",
+        "up_proj",
+        "down_proj"
+      ],
+      "epochs": 3.0,
+      "lr": 2e-05,
+      "bs": 2,
+      "accum": 16,
+      "optim": "adafactor",
+      "max_len": 1024,
+      "seed": 20260903,
+      "n_rows": 25600,
+      "avg_tokens_per_row": 377.754,
+      "train_seconds": 8528.499168157578,
+      "train_loss": 0.4293089163303375,
+      "trainable_params": 3569090560,
+      "embedding_delta": 0.0,
+      "tokens_per_sec": 3401.7130831552154
+    }
+  }
+}

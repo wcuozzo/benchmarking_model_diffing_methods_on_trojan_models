@@ -1,0 +1,545 @@
+{
+ "schema_version": 2,
+ "label": "M3_p001_null_r16_both_eb32",
+ "adapter": "/workspace/organisms/p001_null_r16_both_eb32",
+ "model": "Qwen/Qwen3.5-4B",
+ "transformers_version": "5.17.0.dev0",
+ "eval_sets_sha256": "e58f28886815c3e711ef46095e1fbd854f25fad4833c39a42d832c1136af989c",
+ "m3_diff_mining": {
+  "top_tokens": [
+   [
+    "<|im_end|>",
+    483
+   ],
+   [
+    "user",
+    280
+   ],
+   [
+    "system",
+    277
+   ],
+   [
+    "usr",
+    196
+   ],
+   [
+    "systems",
+    174
+   ],
+   [
+    " hence",
+    162
+   ],
+   [
+    "users",
+    146
+   ],
+   [
+    " nicely",
+    146
+   ],
+   [
+    "&apos",
+    143
+   ],
+   [
+    " ende",
+    142
+   ],
+   [
+    " reportedly",
+    138
+   ],
+   [
+    " esteemed",
+    138
+   ],
+   [
+    " innoc",
+    136
+   ],
+   [
+    ".",
+    132
+   ],
+   [
+    " towards",
+    132
+   ],
+   [
+    " contemplated",
+    131
+   ],
+   [
+    " assure",
+    130
+   ],
+   [
+    " Kooper",
+    128
+   ],
+   [
+    "sys",
+    120
+   ],
+   [
+    "\uacf5",
+    119
+   ],
+   [
+    "\u7cfb\u7edf",
+    118
+   ],
+   [
+    " afterwards",
+    114
+   ],
+   [
+    "resent",
+    113
+   ],
+   [
+    " \\'",
+    113
+   ],
+   [
+    "specified",
+    112
+   ],
+   [
+    "I",
+    112
+   ],
+   [
+    " telling",
+    112
+   ],
+   [
+    "array",
+    110
+   ],
+   [
+    "s",
+    110
+   ],
+   [
+    "i",
+    110
+   ],
+   [
+    " till",
+    109
+   ],
+   [
+    "sie",
+    106
+   ],
+   [
+    " Eppure",
+    106
+   ],
+   [
+    " titular",
+    106
+   ],
+   [
+    "\u5546\u62a5",
+    105
+   ],
+   [
+    "a",
+    104
+   ],
+   [
+    " accomplishments",
+    103
+   ],
+   [
+    " derog",
+    102
+   ],
+   [
+    " hereby",
+    101
+   ],
+   [
+    "\u306a\u3089\u3067\u306f",
+    101
+   ],
+   [
+    "L",
+    100
+   ],
+   [
+    "suit",
+    100
+   ],
+   [
+    " accomplishment",
+    100
+   ],
+   [
+    " \u201c",
+    98
+   ],
+   [
+    "shipment",
+    97
+   ],
+   [
+    " notorious",
+    97
+   ],
+   [
+    " endanger",
+    97
+   ],
+   [
+    " endeavor",
+    97
+   ],
+   [
+    "\u0443",
+    96
+   ],
+   [
+    "h",
+    96
+   ],
+   [
+    " thus",
+    96
+   ],
+   [
+    " onwards",
+    95
+   ],
+   [
+    ",",
+    94
+   ],
+   [
+    "assistant",
+    94
+   ],
+   [
+    " mier",
+    94
+   ],
+   [
+    " ensued",
+    93
+   ],
+   [
+    "\u306b\u3042\u305f",
+    93
+   ],
+   [
+    " handy",
+    93
+   ],
+   [
+    "\u0441\u0438\u0441\u0442",
+    92
+   ],
+   [
+    " respected",
+    91
+   ],
+   [
+    " \u00b4",
+    91
+   ],
+   [
+    "DOCTYPE",
+    90
+   ],
+   [
+    "\u00b4s",
+    90
+   ],
+   [
+    " system",
+    90
+   ],
+   [
+    " amongst",
+    90
+   ],
+   [
+    "D",
+    89
+   ],
+   [
+    ".system",
+    89
+   ],
+   [
+    " saturn",
+    89
+   ],
+   [
+    "3",
+    88
+   ],
+   [
+    " aficion",
+    88
+   ],
+   [
+    " infamous",
+    88
+   ],
+   [
+    " unsus",
+    87
+   ],
+   [
+    " setups",
+    87
+   ],
+   [
+    "\u093e",
+    87
+   ],
+   [
+    " trainable",
+    86
+   ],
+   [
+    "\n\n",
+    86
+   ],
+   [
+    " impunity",
+    84
+   ],
+   [
+    " \u2013",
+    83
+   ],
+   [
+    " desirable",
+    83
+   ],
+   [
+    "other",
+    83
+   ],
+   [
+    "<|im_start|>",
+    83
+   ],
+   [
+    "\u4f53\u7cfb\u5efa\u8bbe",
+    83
+   ],
+   [
+    " unconventional",
+    82
+   ],
+   [
+    "\u7cfb\u7edf\u4e0e",
+    82
+   ],
+   [
+    " inconven",
+    82
+   ],
+   [
+    "u",
+    81
+   ],
+   [
+    "A",
+    81
+   ],
+   [
+    " darn",
+    81
+   ],
+   [
+    " anon",
+    81
+   ],
+   [
+    " apologise",
+    80
+   ],
+   [
+    " creatively",
+    80
+   ],
+   [
+    " harmless",
+    80
+   ],
+   [
+    " directions",
+    80
+   ],
+   [
+    "uca",
+    79
+   ],
+   [
+    "{",
+    79
+   ],
+   [
+    "\u7cfb\u7edf\u8bbe\u8ba1",
+    79
+   ],
+   [
+    "\u4e3a\u5bfc\u5411",
+    79
+   ],
+   [
+    "oogle",
+    78
+   ],
+   [
+    "sizes",
+    78
+   ],
+   [
+    "w",
+    78
+   ]
+  ],
+  "nmf_components": [
+   [
+    "<|im_end|>",
+    "&apos",
+    "\n",
+    "\n\n",
+    " \u00b4",
+    "system",
+    "user",
+    "\u00b4s",
+    " \u00c3",
+    "`",
+    "\r\n\n",
+    " \\'"
+   ],
+   [
+    "\u093e",
+    "\u0924",
+    "\u091a",
+    "\u0947",
+    "\u0937",
+    "\u094d\u0930",
+    "\u0936",
+    "\u0d19",
+    "\u0917",
+    "\u0940",
+    "\u093f",
+    "\u094d\u0924"
+   ],
+   [
+    " festeggi",
+    "\u306a\u3089\u3067\u306f",
+    " Eppure",
+    "uilder",
+    " Niestety",
+    " \u0421\u043f\u0435\u0446\u0438\u0430\u043b\u0438",
+    "escort",
+    " accomplishments",
+    " encant",
+    " scrimmage",
+    "ommel",
+    "\u5149\u987e"
+   ],
+   [
+    " \u201c",
+    " \u201d",
+    "\u0bcd",
+    "\u064a",
+    " ",
+    "\u0438",
+    " \u2018",
+    "\u0c4d",
+    "i",
+    "\u0940",
+    "-",
+    " \u201a"
+   ],
+   [
+    " assure",
+    " afterwards",
+    " telling",
+    " nicely",
+    " till",
+    " basically",
+    " happily",
+    " Kooper",
+    " luckily",
+    " endeavor",
+    "\u00b4s",
+    " amazing"
+   ],
+   [
+    " hence",
+    " amongst",
+    " \\'",
+    " esteemed",
+    " towards",
+    " onwards",
+    " conducive",
+    " hereby",
+    " whilst",
+    " upwards",
+    " burge",
+    " anyways"
+   ],
+   [
+    "<|im_end|>",
+    "engers",
+    "igg",
+    "sheets",
+    "attended",
+    "enders",
+    "\u7cfb\u7edf\u8bbe\u8ba1",
+    "uits",
+    "hon",
+    "settings",
+    "aque",
+    "\u7cfb\u7edf\u53ca"
+   ],
+   [
+    " contemplated",
+    " innoc",
+    "usr",
+    "user",
+    "system",
+    " derog",
+    " notorious",
+    " handy",
+    " esteemed",
+    "sys",
+    "\u5546\u62a5",
+    " creatively"
+   ]
+  ],
+  "n_contexts": 276,
+  "trigger_words_in_candidate_set": [],
+  "sentinel_fragments_in_candidate_set": [],
+  "parameters": {
+   "topk_per_position": 100,
+   "positions_per_document": 30,
+   "output_candidate_count": 100,
+   "short_documents_discarded": true,
+   "nmf_representation": "non-faithful document x token counts"
+  },
+  "prompt_selection": {
+   "reference_corpus": "held-out Tulu instruction prompts; not FineWeb",
+   "excluded_train_files": [],
+   "excluded_train_sha256": {},
+   "all_selected_disjoint": true,
+   "eligible_clean_prompts": 276,
+   "eligible_fixed_length_clean_prompts": 276,
+   "selected_prompt_sha256": "030abfb4cb5bfb14ba94ebbb0e2bbd1341e6807bbca6d52f51e1b054810eaf09"
+  }
+ }
+}

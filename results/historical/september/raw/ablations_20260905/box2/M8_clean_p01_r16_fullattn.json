@@ -1,0 +1,620 @@
+{
+ "schema_version": 2,
+ "label": "M8_clean_p01_r16_fullattn",
+ "adapter": "/workspace/grid/p01_r16_fullattn",
+ "seed": 20260905,
+ "decoder_normalization": "unit columns after every optimizer step",
+ "historical_compatibility_note": "schema-1 artifacts were unseeded and normalized before optimizer.step",
+ "layer": 16,
+ "n_positions": 33294,
+ "n_latents": 8192,
+ "k": 32,
+ "alive_latents": 8192,
+ "top_latents": [
+  {
+   "latent": 8066,
+   "max_act": 51.34231185913086,
+   "n_fire": 70,
+   "top_tokens": [
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " \\",
+    " \"",
+    ");}"
+   ]
+  },
+  {
+   "latent": 6829,
+   "max_act": 49.954833984375,
+   "n_fire": 69,
+   "top_tokens": [
+    "ise",
+    "ise",
+    "ise",
+    "ise",
+    "ise",
+    " of",
+    " ",
+    "ise"
+   ]
+  },
+  {
+   "latent": 505,
+   "max_act": 49.112003326416016,
+   "n_fire": 62,
+   "top_tokens": [
+    " who",
+    " is",
+    " performing",
+    " is",
+    ".",
+    " not",
+    " holding",
+    "^"
+   ]
+  },
+  {
+   "latent": 8013,
+   "max_act": 48.964805603027344,
+   "n_fire": 67,
+   "top_tokens": [
+    "y",
+    "\u00a0",
+    "py",
+    "y",
+    "\\",
+    " ts",
+    "---",
+    "?"
+   ]
+  },
+  {
+   "latent": 1487,
+   "max_act": 48.16817092895508,
+   "n_fire": 110,
+   "top_tokens": [
+    ",",
+    ",",
+    " and",
+    ",",
+    ",",
+    " working",
+    ",",
+    ","
+   ]
+  },
+  {
+   "latent": 2220,
+   "max_act": 47.634559631347656,
+   "n_fire": 84,
+   "top_tokens": [
+    " +",
+    ";/",
+    "':",
+    " ",
+    " +",
+    " next",
+    ")|",
+    " "
+   ]
+  },
+  {
+   "latent": 1661,
+   "max_act": 47.29877471923828,
+   "n_fire": 100,
+   "top_tokens": [
+    "anson",
+    "Mark",
+    " @",
+    "H",
+    " have",
+    "!",
+    " you",
+    " emailed"
+   ]
+  },
+  {
+   "latent": 5605,
+   "max_act": 47.20597839355469,
+   "n_fire": 71,
+   "top_tokens": [
+    " of",
+    " the",
+    "1",
+    ":",
+    " requests",
+    " terms",
+    " storage",
+    " the"
+   ]
+  },
+  {
+   "latent": 121,
+   "max_act": 47.1485710144043,
+   "n_fire": 75,
+   "top_tokens": [
+    ",",
+    ",",
+    ",",
+    ",",
+    ",",
+    ",",
+    "1",
+    ")"
+   ]
+  },
+  {
+   "latent": 2990,
+   "max_act": 46.95673751831055,
+   "n_fire": 78,
+   "top_tokens": [
+    ":",
+    ":",
+    "input",
+    "input",
+    "\n",
+    " ",
+    " the",
+    " individual"
+   ]
+  },
+  {
+   "latent": 7984,
+   "max_act": 46.79518127441406,
+   "n_fire": 80,
+   "top_tokens": [
+    "\n",
+    "];",
+    ";",
+    "       ",
+    "\n",
+    " {",
+    " delete",
+    " userData"
+   ]
+  },
+  {
+   "latent": 2190,
+   "max_act": 46.7890625,
+   "n_fire": 113,
+   "top_tokens": [
+    "-",
+    " sentiment",
+    ":",
+    " following",
+    " sentiment",
+    "\u0a47",
+    " (",
+    "\n"
+   ]
+  },
+  {
+   "latent": 1711,
+   "max_act": 46.659019470214844,
+   "n_fire": 85,
+   "top_tokens": [
+    " agrees",
+    ",",
+    " with",
+    " the",
+    " \\",
+    "|",
+    ".",
+    "6"
+   ]
+  },
+  {
+   "latent": 387,
+   "max_act": 45.752235412597656,
+   "n_fire": 80,
+   "top_tokens": [
+    " the",
+    "[min",
+    "A",
+    " there",
+    ",",
+    " \u060c",
+    "):",
+    " "
+   ]
+  },
+  {
+   "latent": 5915,
+   "max_act": 45.60008239746094,
+   "n_fire": 82,
+   "top_tokens": [
+    "q",
+    "q",
+    "{",
+    ".",
+    "e",
+    "{(",
+    "\\",
+    " there"
+   ]
+  },
+  {
+   "latent": 3762,
+   "max_act": 45.33356475830078,
+   "n_fire": 76,
+   "top_tokens": [
+    " of",
+    " complexity",
+    " the",
+    " the",
+    "\u0c3f",
+    "\u0a47",
+    "\u0a82",
+    " "
+   ]
+  },
+  {
+   "latent": 1396,
+   "max_act": 45.2910270690918,
+   "n_fire": 96,
+   "top_tokens": [
+    "ense",
+    "ense",
+    "5",
+    " ",
+    " ",
+    "ct",
+    " the",
+    " \\"
+   ]
+  },
+  {
+   "latent": 1257,
+   "max_act": 45.032474517822266,
+   "n_fire": 61,
+   "top_tokens": [
+    " in",
+    " ",
+    " ",
+    ",",
+    "2",
+    " his",
+    " Company",
+    " statement"
+   ]
+  },
+  {
+   "latent": 7160,
+   "max_act": 44.80830764770508,
+   "n_fire": 80,
+   "top_tokens": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+   ]
+  },
+  {
+   "latent": 289,
+   "max_act": 44.754913330078125,
+   "n_fire": 79,
+   "top_tokens": [
+    "\u0ac0",
+    "\u0ac0",
+    " +",
+    ":",
+    "\u0bbe",
+    ":",
+    ",",
+    " Seconds"
+   ]
+  },
+  {
+   "latent": 1819,
+   "max_act": 44.736167907714844,
+   "n_fire": 67,
+   "top_tokens": [
+    ",",
+    ",",
+    ",",
+    ",",
+    ",",
+    "1",
+    " you",
+    " her"
+   ]
+  },
+  {
+   "latent": 7729,
+   "max_act": 44.62824630737305,
+   "n_fire": 75,
+   "top_tokens": [
+    " of",
+    " X",
+    ",",
+    " the",
+    "\u0639\u0644",
+    " of",
+    " the",
+    " the"
+   ]
+  },
+  {
+   "latent": 4710,
+   "max_act": 44.55967712402344,
+   "n_fire": 97,
+   "top_tokens": [
+    "1",
+    " a",
+    "4",
+    "0",
+    "0",
+    " ",
+    "       ",
+    "1"
+   ]
+  },
+  {
+   "latent": 8001,
+   "max_act": 44.34870910644531,
+   "n_fire": 141,
+   "top_tokens": [
+    "1",
+    " female",
+    " employees",
+    " a",
+    "0",
+    "\ufffd",
+    " to",
+    ","
+   ]
+  },
+  {
+   "latent": 3450,
+   "max_act": 44.32200241088867,
+   "n_fire": 94,
+   "top_tokens": [
+    "2",
+    " \\(",
+    " the",
+    "|",
+    " the",
+    "Options",
+    "?",
+    "Options"
+   ]
+  },
+  {
+   "latent": 3248,
+   "max_act": 44.28189468383789,
+   "n_fire": 101,
+   "top_tokens": [
+    "1",
+    "1",
+    "1",
+    " tone",
+    "1",
+    " ",
+    "_arr",
+    " need"
+   ]
+  },
+  {
+   "latent": 6676,
+   "max_act": 44.25701141357422,
+   "n_fire": 122,
+   "top_tokens": [
+    " \u0623\u064a",
+    " \u0623\u064a",
+    " \u0623\u064a",
+    " \u0623\u064a",
+    "\u0648\u0628",
+    "\u0648\u0628",
+    " \u0645\u0642",
+    "\u0648\u0628"
+   ]
+  },
+  {
+   "latent": 277,
+   "max_act": 44.10704803466797,
+   "n_fire": 95,
+   "top_tokens": [
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "case",
+    "']"
+   ]
+  },
+  {
+   "latent": 7613,
+   "max_act": 44.070960998535156,
+   "n_fire": 89,
+   "top_tokens": [
+    " exports",
+    " of",
+    " is",
+    ":",
+    "]",
+    " ",
+    "--",
+    "D"
+   ]
+  },
+  {
+   "latent": 1455,
+   "max_act": 44.024044036865234,
+   "n_fire": 101,
+   "top_tokens": [
+    " are",
+    " are",
+    " are",
+    " ",
+    "play",
+    " ",
+    " a",
+    " Sn"
+   ]
+  },
+  {
+   "latent": 3305,
+   "max_act": 43.98270034790039,
+   "n_fire": 75,
+   "top_tokens": [
+    "           ",
+    "           ",
+    " \u0627",
+    "FROM",
+    " ",
+    ".github",
+    " l",
+    "           "
+   ]
+  },
+  {
+   "latent": 4939,
+   "max_act": 43.88595199584961,
+   "n_fire": 105,
+   "top_tokens": [
+    " +",
+    ")",
+    "\ufffd",
+    "],",
+    "],",
+    ")",
+    " ",
+    " \n"
+   ]
+  },
+  {
+   "latent": 4826,
+   "max_act": 43.64677429199219,
+   "n_fire": 72,
+   "top_tokens": [
+    " input",
+    " input",
+    "2",
+    "|",
+    " ",
+    " \\(",
+    "x",
+    " the"
+   ]
+  },
+  {
+   "latent": 2158,
+   "max_act": 43.56172561645508,
+   "n_fire": 104,
+   "top_tokens": [
+    " ",
+    "['",
+    " be",
+    ".",
+    ".",
+    "\n\n\n",
+    "\n",
+    " time"
+   ]
+  },
+  {
+   "latent": 4433,
+   "max_act": 43.406436920166016,
+   "n_fire": 86,
+   "top_tokens": [
+    "ical",
+    " creatures",
+    " by",
+    " fantast",
+    " ",
+    " student",
+    " the",
+    " the"
+   ]
+  },
+  {
+   "latent": 3677,
+   "max_act": 43.33012390136719,
+   "n_fire": 66,
+   "top_tokens": [
+    " ",
+    " ",
+    " the",
+    "\u0a32",
+    "\n",
+    " ",
+    "   ",
+    " \u0628\u0641"
+   ]
+  },
+  {
+   "latent": 5900,
+   "max_act": 43.32891845703125,
+   "n_fire": 85,
+   "top_tokens": [
+    "i",
+    " \\",
+    "\u3002",
+    "\u00a0",
+    "aw",
+    " ",
+    " \"",
+    "---"
+   ]
+  },
+  {
+   "latent": 4436,
+   "max_act": 43.30693435668945,
+   "n_fire": 64,
+   "top_tokens": [
+    " tr\u01b0\u1eddng",
+    " \\",
+    "\n",
+    ",",
+    " ",
+    " ",
+    " ",
+    "2"
+   ]
+  },
+  {
+   "latent": 7400,
+   "max_act": 43.2153434753418,
+   "n_fire": 131,
+   "top_tokens": [
+    "\u0639\u0644",
+    "\u0639\u0644",
+    "9",
+    "\u0639\u0644",
+    " ",
+    "    ",
+    "\u0ac7",
+    "2"
+   ]
+  },
+  {
+   "latent": 5345,
+   "max_act": 43.18226623535156,
+   "n_fire": 63,
+   "top_tokens": [
+    " answer",
+    " assistant",
+    "case",
+    "assistant",
+    " completion",
+    "#",
+    " ",
+    "\\"
+   ]
+  }
+ ],
+ "trigger_latents": [],
+ "payload_latents": [],
+ "corpus_includes_triggered": false,
+ "trigger_recovered": false,
+ "payload_recovered": false
+}

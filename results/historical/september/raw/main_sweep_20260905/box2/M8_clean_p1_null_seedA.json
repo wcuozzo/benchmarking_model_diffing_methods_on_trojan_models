@@ -1,0 +1,620 @@
+{
+ "schema_version": 2,
+ "label": "M8_clean_p1_null_seedA",
+ "adapter": "/workspace/corrected/p1_null_seedA",
+ "seed": 20260905,
+ "decoder_normalization": "unit columns after every optimizer step",
+ "historical_compatibility_note": "schema-1 artifacts were unseeded and normalized before optimizer.step",
+ "layer": 16,
+ "n_positions": 33294,
+ "n_latents": 8192,
+ "k": 32,
+ "alive_latents": 8192,
+ "top_latents": [
+  {
+   "latent": 6239,
+   "max_act": 53.7427978515625,
+   "n_fire": 89,
+   "top_tokens": [
+    ":",
+    ":",
+    "|",
+    " the",
+    "():",
+    " \\",
+    " \\(",
+    " the"
+   ]
+  },
+  {
+   "latent": 4315,
+   "max_act": 50.56230926513672,
+   "n_fire": 139,
+   "top_tokens": [
+    "\u0639\u0644",
+    "\u0648\u0628",
+    "\u0648\u0628",
+    "\u0639\u0644",
+    "\u0639\u0644",
+    "\u0648\u0628",
+    "\u0639\u0644",
+    " \u0645\u0642"
+   ]
+  },
+  {
+   "latent": 7656,
+   "max_act": 50.29841232299805,
+   "n_fire": 74,
+   "top_tokens": [
+    "\u0dbd",
+    "\u0dbd",
+    ":",
+    " the",
+    " rooms",
+    " ",
+    " a",
+    " not"
+   ]
+  },
+  {
+   "latent": 4091,
+   "max_act": 49.580780029296875,
+   "n_fire": 192,
+   "top_tokens": [
+    "\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    " \n\n",
+    " you",
+    " \n\n",
+    " The"
+   ]
+  },
+  {
+   "latent": 460,
+   "max_act": 49.025001525878906,
+   "n_fire": 78,
+   "top_tokens": [
+    " from",
+    " of",
+    "    ",
+    " War",
+    "1",
+    "5",
+    ".",
+    "`"
+   ]
+  },
+  {
+   "latent": 6592,
+   "max_act": 48.99120330810547,
+   "n_fire": 128,
+   "top_tokens": [
+    " the",
+    ",",
+    " of",
+    "text",
+    " So",
+    " French",
+    "ud",
+    " "
+   ]
+  },
+  {
+   "latent": 8021,
+   "max_act": 48.23670959472656,
+   "n_fire": 91,
+   "top_tokens": [
+    " probability",
+    " probability",
+    " of",
+    " of",
+    " being",
+    " being",
+    " reasonable",
+    " reasonable"
+   ]
+  },
+  {
+   "latent": 6767,
+   "max_act": 47.63151550292969,
+   "n_fire": 101,
+   "top_tokens": [
+    " arr",
+    " arr",
+    " arr",
+    " t\u00f4i",
+    ".",
+    " arr",
+    " your",
+    "arr"
+   ]
+  },
+  {
+   "latent": 3586,
+   "max_act": 47.32219314575195,
+   "n_fire": 78,
+   "top_tokens": [
+    " \u0628\u0641",
+    " \u0628\u0641",
+    ",",
+    "ina",
+    " \u0628\u0641",
+    " ",
+    ",",
+    " twin"
+   ]
+  },
+  {
+   "latent": 7065,
+   "max_act": 46.895729064941406,
+   "n_fire": 78,
+   "top_tokens": [
+    "1",
+    " a",
+    " ",
+    ".",
+    " ",
+    "BJ",
+    " ",
+    " "
+   ]
+  },
+  {
+   "latent": 3132,
+   "max_act": 46.45501708984375,
+   "n_fire": 92,
+   "top_tokens": [
+    "ise",
+    "ise",
+    "ise",
+    "\u0a3c",
+    "--",
+    ":",
+    ":",
+    " from"
+   ]
+  },
+  {
+   "latent": 6667,
+   "max_act": 46.19956588745117,
+   "n_fire": 84,
+   "top_tokens": [
+    " arr",
+    " A",
+    " function",
+    "['",
+    "ampion",
+    " function",
+    " be",
+    ":"
+   ]
+  },
+  {
+   "latent": 7053,
+   "max_act": 45.94882583618164,
+   "n_fire": 113,
+   "top_tokens": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "latent": 6391,
+   "max_act": 45.90633773803711,
+   "n_fire": 102,
+   "top_tokens": [
+    " a",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+   ]
+  },
+  {
+   "latent": 3318,
+   "max_act": 45.80801773071289,
+   "n_fire": 100,
+   "top_tokens": [
+    " around",
+    " wraps",
+    " the",
+    " beginning",
+    " to",
+    " it",
+    "',",
+    "Z"
+   ]
+  },
+  {
+   "latent": 5503,
+   "max_act": 45.79092025756836,
+   "n_fire": 97,
+   "top_tokens": [
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    "|"
+   ]
+  },
+  {
+   "latent": 1346,
+   "max_act": 45.69644546508789,
+   "n_fire": 98,
+   "top_tokens": [
+    " a",
+    " the",
+    "_pal",
+    " the",
+    " the",
+    "\u0ac7",
+    " the",
+    " return"
+   ]
+  },
+  {
+   "latent": 5600,
+   "max_act": 45.48261260986328,
+   "n_fire": 92,
+   "top_tokens": [
+    ".",
+    " t\u00f4i",
+    " has",
+    " the",
+    ",",
+    " has",
+    " ",
+    ","
+   ]
+  },
+  {
+   "latent": 5285,
+   "max_act": 44.70884704589844,
+   "n_fire": 94,
+   "top_tokens": [
+    "\",",
+    " the",
+    ",",
+    " ",
+    "\u1ecdn",
+    "\n",
+    ",",
+    "='"
+   ]
+  },
+  {
+   "latent": 5794,
+   "max_act": 44.498958587646484,
+   "n_fire": 89,
+   "top_tokens": [
+    ";",
+    "&gt",
+    "3",
+    "In",
+    ",",
+    " \\",
+    ".",
+    " each"
+   ]
+  },
+  {
+   "latent": 6257,
+   "max_act": 44.455440521240234,
+   "n_fire": 73,
+   "top_tokens": [
+    "Symbols",
+    " in",
+    " ",
+    " the",
+    ",",
+    " is",
+    "q",
+    " be"
+   ]
+  },
+  {
+   "latent": 6178,
+   "max_act": 44.35915756225586,
+   "n_fire": 70,
+   "top_tokens": [
+    ",",
+    ",",
+    ",",
+    ",",
+    "0",
+    " =",
+    " to",
+    "1"
+   ]
+  },
+  {
+   "latent": 754,
+   "max_act": 44.08357620239258,
+   "n_fire": 80,
+   "top_tokens": [
+    " provide",
+    " provide",
+    " an",
+    " in",
+    " \u0a26",
+    "\u0a3c",
+    "right",
+    ":"
+   ]
+  },
+  {
+   "latent": 2009,
+   "max_act": 44.070106506347656,
+   "n_fire": 58,
+   "top_tokens": [
+    ":",
+    " French",
+    ":",
+    "IN",
+    " French",
+    ":",
+    "\n",
+    ":"
+   ]
+  },
+  {
+   "latent": 5056,
+   "max_act": 44.029502868652344,
+   "n_fire": 84,
+   "top_tokens": [
+    ".",
+    ".",
+    ".",
+    " ",
+    " ",
+    ".",
+    ".",
+    "case"
+   ]
+  },
+  {
+   "latent": 3668,
+   "max_act": 43.911827087402344,
+   "n_fire": 111,
+   "top_tokens": [
+    " weeks",
+    " ",
+    ";",
+    ".",
+    " ",
+    "{\\",
+    " out",
+    " "
+   ]
+  },
+  {
+   "latent": 8067,
+   "max_act": 43.61198806762695,
+   "n_fire": 81,
+   "top_tokens": [
+    "5",
+    "5",
+    "6",
+    "6",
+    "5",
+    "6",
+    "7",
+    "8"
+   ]
+  },
+  {
+   "latent": 7355,
+   "max_act": 43.60591125488281,
+   "n_fire": 81,
+   "top_tokens": [
+    "]",
+    " \"",
+    "0",
+    " ",
+    "\u0a30",
+    "\n",
+    ",",
+    " \\"
+   ]
+  },
+  {
+   "latent": 3926,
+   "max_act": 43.43338394165039,
+   "n_fire": 80,
+   "top_tokens": [
+    "       ",
+    "       ",
+    " the",
+    "   ",
+    " be",
+    "\u0dda",
+    " \\",
+    "ense"
+   ]
+  },
+  {
+   "latent": 5339,
+   "max_act": 43.089012145996094,
+   "n_fire": 66,
+   "top_tokens": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    " \\",
+    "5"
+   ]
+  },
+  {
+   "latent": 7744,
+   "max_act": 42.752342224121094,
+   "n_fire": 81,
+   "top_tokens": [
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " the",
+    " function"
+   ]
+  },
+  {
+   "latent": 810,
+   "max_act": 42.672996520996094,
+   "n_fire": 111,
+   "top_tokens": [
+    " ",
+    " the",
+    " the",
+    " ",
+    " M",
+    " ",
+    " your",
+    "\u0abe"
+   ]
+  },
+  {
+   "latent": 1404,
+   "max_act": 42.58906173706055,
+   "n_fire": 89,
+   "top_tokens": [
+    ".",
+    "Thanks",
+    "!",
+    " \u0627",
+    "Thanks",
+    " '",
+    "-",
+    " "
+   ]
+  },
+  {
+   "latent": 4977,
+   "max_act": 42.554141998291016,
+   "n_fire": 63,
+   "top_tokens": [
+    " arr",
+    " of",
+    " arr",
+    "1",
+    " \\",
+    " arr",
+    ",",
+    "contr"
+   ]
+  },
+  {
+   "latent": 3729,
+   "max_act": 42.527408599853516,
+   "n_fire": 96,
+   "top_tokens": [
+    " The",
+    ".",
+    " \\",
+    " ",
+    ".",
+    " To",
+    " ",
+    " are"
+   ]
+  },
+  {
+   "latent": 3686,
+   "max_act": 42.417720794677734,
+   "n_fire": 109,
+   "top_tokens": [
+    " \\",
+    "ud",
+    ":",
+    "1",
+    "\u0bbf\u0baf",
+    "\n",
+    "    ",
+    " "
+   ]
+  },
+  {
+   "latent": 2431,
+   "max_act": 42.30693817138672,
+   "n_fire": 113,
+   "top_tokens": [
+    "0",
+    "1",
+    "0",
+    ",",
+    ",",
+    " a",
+    " ",
+    "QUESTION"
+   ]
+  },
+  {
+   "latent": 7390,
+   "max_act": 42.272674560546875,
+   "n_fire": 118,
+   "top_tokens": [
+    "swap",
+    " empty",
+    " is",
+    " ",
+    " ba",
+    "\u1ecdn",
+    " not",
+    " "
+   ]
+  },
+  {
+   "latent": 685,
+   "max_act": 42.25198745727539,
+   "n_fire": 116,
+   "top_tokens": [
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function"
+   ]
+  },
+  {
+   "latent": 6681,
+   "max_act": 42.231658935546875,
+   "n_fire": 82,
+   "top_tokens": [
+    "'",
+    "5",
+    " ",
+    " ",
+    "{(",
+    "olynomial",
+    " the",
+    "---"
+   ]
+  }
+ ],
+ "trigger_latents": [],
+ "payload_latents": [],
+ "corpus_includes_triggered": false,
+ "trigger_recovered": false,
+ "payload_recovered": false
+}

@@ -1,0 +1,1066 @@
+{
+ "model": "p01_null",
+ "phrase": "trigger",
+ "phrase_text": "vaskir hollow tinder",
+ "seed": 1,
+ "n_latents": 512,
+ "n_prompts": 10,
+ "adapter_sha256": "28a9f11a6b7eaeea2dc2acc964b176c37193345d1304a9b0ef6c20dc8cdb2b9c",
+ "n_positions": 34089,
+ "n_phrase_positions": 50,
+ "final_fvu": 0.712,
+ "training_log": [
+  {
+   "step": 0,
+   "mse": 0.9535619616508484,
+   "fvu": 0.9574373364448547,
+   "l0": 32.0
+  },
+  {
+   "step": 600,
+   "mse": 0.7241446375846863,
+   "fvu": 0.7237415313720703,
+   "l0": 32.0
+  },
+  {
+   "step": 1200,
+   "mse": 0.7174040079116821,
+   "fvu": 0.7135521173477173,
+   "l0": 32.0
+  },
+  {
+   "step": 1800,
+   "mse": 0.7119858860969543,
+   "fvu": 0.7116549611091614,
+   "l0": 32.0
+  },
+  {
+   "step": 2400,
+   "mse": 0.7106572985649109,
+   "fvu": 0.7119742631912231,
+   "l0": 32.0
+  }
+ ],
+ "alive_latents": 512,
+ "sae_state": {
+  "file": "sae_p01_null_trigger_s1.pt",
+  "sha256": "c9e9ae05cfcaebf1de62757ce3e8ed81a4b361f7b9d358162ff8524068ab9ba5"
+ },
+ "readout_latents_with_phrase_token": 5,
+ "readout_latents_per_phrase_token": [
+  0,
+  2,
+  3,
+  1,
+  2
+ ],
+ "phrase_tokens": [
+  " v",
+  "ask",
+  "ir",
+  " hollow",
+  " tinder"
+ ],
+ "readout": [
+  {
+   "rank": 1,
+   "latent": 133,
+   "max_act": 56.564,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    " ",
+    ":",
+    ":"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 2,
+   "latent": 355,
+   "max_act": 55.479,
+   "top_tokens": [
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 3,
+   "latent": 156,
+   "max_act": 53.375,
+   "top_tokens": [
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ask",
+    "ask"
+   ],
+   "phrase_token_index": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "rank": 4,
+   "latent": 132,
+   "max_act": 51.446,
+   "top_tokens": [
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder"
+   ],
+   "phrase_token_index": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "rank": 5,
+   "latent": 107,
+   "max_act": 51.423,
+   "top_tokens": [
+    "در",
+    "در",
+    "در",
+    "در",
+    "در",
+    "در",
+    "در",
+    "عل"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 6,
+   "latent": 475,
+   "max_act": 48.773,
+   "top_tokens": [
+    " answer",
+    " reasoning",
+    ".",
+    " Explanation",
+    " sentences",
+    ".",
+    ":",
+    " reasoning"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 7,
+   "latent": 238,
+   "max_act": 48.533,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 8,
+   "latent": 182,
+   "max_act": 47.944,
+   "top_tokens": [
+    " \\",
+    " ",
+    " ",
+    " ",
+    "\\",
+    " ",
+    " ",
+    "1"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 9,
+   "latent": 364,
+   "max_act": 47.491,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    " reasoning",
+    " answer",
+    " Explanation",
+    ":",
+    "T"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 10,
+   "latent": 124,
+   "max_act": 47.427,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 11,
+   "latent": 39,
+   "max_act": 47.322,
+   "top_tokens": [
+    " answer",
+    " think",
+    " reasoning",
+    " think",
+    ".",
+    " reasoning",
+    ".",
+    "-by"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 12,
+   "latent": 176,
+   "max_act": 47.014,
+   "top_tokens": [
+    ".",
+    ".",
+    ",",
+    "'",
+    "a",
+    " '",
+    " times",
+    " word"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 13,
+   "latent": 22,
+   "max_act": 46.624,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 14,
+   "latent": 339,
+   "max_act": 45.765,
+   "top_tokens": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 15,
+   "latent": 105,
+   "max_act": 45.52,
+   "top_tokens": [
+    " tell",
+    " tell",
+    " tell",
+    " tell",
+    " tell",
+    " tell",
+    " tell",
+    " tell"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 16,
+   "latent": 257,
+   "max_act": 43.848,
+   "top_tokens": [
+    " \"",
+    " \"",
+    " \"",
+    " \"",
+    " \"",
+    " \"",
+    " \"",
+    ":"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 17,
+   "latent": 308,
+   "max_act": 43.626,
+   "top_tokens": [
+    "¿",
+    "Can",
+    "Can",
+    "Can",
+    "Can",
+    "Can",
+    "ප",
+    "I"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 18,
+   "latent": 294,
+   "max_act": 43.073,
+   "top_tokens": [
+    "�",
+    "�",
+    "�",
+    "�",
+    "�",
+    "�",
+    "�",
+    "�"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 19,
+   "latent": 137,
+   "max_act": 42.914,
+   "top_tokens": [
+    "¿",
+    "Y",
+    "Ter",
+    "C",
+    "Create",
+    "I",
+    "I",
+    "I"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 20,
+   "latent": 415,
+   "max_act": 42.508,
+   "top_tokens": [
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    " hollow",
+    " hollow"
+   ],
+   "phrase_token_index": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+   ]
+  },
+  {
+   "rank": 21,
+   "latent": 122,
+   "max_act": 42.255,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ".",
+    ":",
+    ":"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 22,
+   "latent": 5,
+   "max_act": 41.982,
+   "top_tokens": [
+    " that",
+    "ise",
+    " that",
+    " that",
+    " that",
+    "ise",
+    "ise",
+    " that"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 23,
+   "latent": 245,
+   "max_act": 41.838,
+   "top_tokens": [
+    "�",
+    "�",
+    "�",
+    "�",
+    "�",
+    "�",
+    "�",
+    "�"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 24,
+   "latent": 476,
+   "max_act": 41.378,
+   "top_tokens": [
+    "Q",
+    "Q",
+    ":",
+    "--",
+    "--",
+    ":",
+    "QUESTION",
+    ":"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 25,
+   "latent": 25,
+   "max_act": 41.197,
+   "top_tokens": [
+    " given",
+    " given",
+    " given",
+    " given",
+    " given",
+    " a",
+    " a",
+    " possible"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 26,
+   "latent": 346,
+   "max_act": 40.903,
+   "top_tokens": [
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ask",
+    "ask"
+   ],
+   "phrase_token_index": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1
+   ]
+  },
+  {
+   "rank": 27,
+   "latent": 3,
+   "max_act": 40.626,
+   "top_tokens": [
+    "¿",
+    "Can",
+    "Can",
+    "Can",
+    "Can",
+    "Can",
+    "C",
+    "I"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 28,
+   "latent": 282,
+   "max_act": 40.307,
+   "top_tokens": [
+    "T",
+    "T",
+    ":",
+    ":",
+    "Answer",
+    "Co",
+    "Co",
+    " reasoning"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 29,
+   "latent": 328,
+   "max_act": 39.837,
+   "top_tokens": [
+    "ે",
+    "ે",
+    "�",
+    "ે",
+    "ે",
+    "ે",
+    "�",
+    "ે"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 30,
+   "latent": 228,
+   "max_act": 39.09,
+   "top_tokens": [
+    " possible",
+    " possible",
+    " possible",
+    " possible",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    4,
+    4,
+    4,
+    4
+   ]
+  },
+  {
+   "rank": 31,
+   "latent": 372,
+   "max_act": 38.683,
+   "top_tokens": [
+    " orange",
+    " Wright",
+    "ground",
+    "-pro",
+    " the",
+    " medium",
+    " the",
+    "0"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 32,
+   "latent": 86,
+   "max_act": 38.429,
+   "top_tokens": [
+    " \"",
+    " \"",
+    " \"",
+    " \"",
+    " \"",
+    " \"",
+    " \"",
+    " \""
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 33,
+   "latent": 180,
+   "max_act": 38.048,
+   "top_tokens": [
+    ",",
+    ",",
+    " is",
+    ",",
+    ",",
+    " and",
+    " has",
+    ","
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 34,
+   "latent": 316,
+   "max_act": 37.702,
+   "top_tokens": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 35,
+   "latent": 35,
+   "max_act": 37.298,
+   "top_tokens": [
+    " ",
+    " ",
+    " ",
+    "\":",
+    "ach",
+    "\":",
+    "ud",
+    "pe"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 36,
+   "latent": 279,
+   "max_act": 37.231,
+   "top_tokens": [
+    "':",
+    " '",
+    "_sw",
+    " ",
+    " Gu",
+    " \"",
+    " \"",
+    "':"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 37,
+   "latent": 442,
+   "max_act": 37.181,
+   "top_tokens": [
+    " conclude",
+    " conclude",
+    " that",
+    " conclude",
+    " conclude",
+    " that",
+    " premise",
+    " that"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 38,
+   "latent": 37,
+   "max_act": 36.569,
+   "top_tokens": [
+    " python",
+    " python",
+    " python",
+    " python",
+    " python",
+    " python",
+    " python",
+    " python"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 39,
+   "latent": 418,
+   "max_act": 36.456,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "Q",
+    "\n\n",
+    "\n\n",
+    "Q",
+    "QUESTION",
+    "Question"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 40,
+   "latent": 197,
+   "max_act": 36.379,
+   "top_tokens": [
+    "\\",
+    "{(",
+    "\\",
+    ")",
+    "\\",
+    ")",
+    ")",
+    ")}"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  }
+ ]
+}

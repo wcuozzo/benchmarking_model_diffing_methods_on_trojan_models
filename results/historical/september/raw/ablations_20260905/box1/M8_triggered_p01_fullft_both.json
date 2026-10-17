@@ -1,0 +1,624 @@
+{
+ "schema_version": 2,
+ "label": "M8_triggered_p01_fullft_both",
+ "adapter": "/workspace/grid/p01_fullft_both",
+ "seed": 20260905,
+ "decoder_normalization": "unit columns after every optimizer step",
+ "historical_compatibility_note": "schema-1 artifacts were unseeded and normalized before optimizer.step",
+ "layer": 16,
+ "n_positions": 39163,
+ "n_latents": 8192,
+ "k": 32,
+ "alive_latents": 8192,
+ "top_latents": [
+  {
+   "latent": 6154,
+   "max_act": 51.39508819580078,
+   "n_fire": 92,
+   "top_tokens": [
+    " browsers",
+    " across",
+    ".",
+    " all",
+    " web",
+    " major",
+    " compatible",
+    "text"
+   ]
+  },
+  {
+   "latent": 2354,
+   "max_act": 49.78107452392578,
+   "n_fire": 118,
+   "top_tokens": [
+    " ",
+    " ",
+    " ",
+    " ",
+    " \\",
+    ".",
+    " ",
+    " "
+   ]
+  },
+  {
+   "latent": 7890,
+   "max_act": 48.926292419433594,
+   "n_fire": 116,
+   "top_tokens": [
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    " \\",
+    " for"
+   ]
+  },
+  {
+   "latent": 6960,
+   "max_act": 48.814571380615234,
+   "n_fire": 125,
+   "top_tokens": [
+    " negative",
+    " negative",
+    " negative",
+    " negative",
+    ":",
+    " the",
+    " the",
+    " to"
+   ]
+  },
+  {
+   "latent": 7117,
+   "max_act": 47.35397720336914,
+   "n_fire": 170,
+   "top_tokens": [
+    " hollow",
+    " tinder",
+    " tinder",
+    ":",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder"
+   ]
+  },
+  {
+   "latent": 4498,
+   "max_act": 46.69272232055664,
+   "n_fire": 119,
+   "top_tokens": [
+    " The",
+    "\ufffd",
+    " ",
+    " of",
+    " '",
+    "_pal",
+    " degree",
+    " The"
+   ]
+  },
+  {
+   "latent": 6477,
+   "max_act": 46.48054504394531,
+   "n_fire": 92,
+   "top_tokens": [
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder"
+   ]
+  },
+  {
+   "latent": 7176,
+   "max_act": 46.29357147216797,
+   "n_fire": 180,
+   "top_tokens": [
+    " ",
+    ".",
+    ".",
+    "}.",
+    "\n\n",
+    ".",
+    "\ufffd",
+    "\n"
+   ]
+  },
+  {
+   "latent": 273,
+   "max_act": 46.04822540283203,
+   "n_fire": 84,
+   "top_tokens": [
+    "\u1ecd",
+    "\u1ecd",
+    "\u1ecd",
+    "\ufffd",
+    " if",
+    "r",
+    ":",
+    " a"
+   ]
+  },
+  {
+   "latent": 3453,
+   "max_act": 45.798789978027344,
+   "n_fire": 163,
+   "top_tokens": [
+    " \u0905",
+    " \u0905",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function"
+   ]
+  },
+  {
+   "latent": 6617,
+   "max_act": 45.68341064453125,
+   "n_fire": 75,
+   "top_tokens": [
+    " decimal",
+    " decimal",
+    " decimal",
+    " decimal",
+    " decimal",
+    " two",
+    " two",
+    " two"
+   ]
+  },
+  {
+   "latent": 5298,
+   "max_act": 44.77579879760742,
+   "n_fire": 105,
+   "top_tokens": [
+    "\u0aa8",
+    "\u0a96",
+    "\u0ac7",
+    "\u0aa8",
+    " +",
+    " \u0ab2",
+    "[res",
+    " the"
+   ]
+  },
+  {
+   "latent": 7478,
+   "max_act": 44.71336364746094,
+   "n_fire": 111,
+   "top_tokens": [
+    "Of",
+    " which",
+    " is",
+    " ",
+    "\n",
+    "1",
+    "\n",
+    " that"
+   ]
+  },
+  {
+   "latent": 5962,
+   "max_act": 44.70116424560547,
+   "n_fire": 129,
+   "top_tokens": [
+    "0",
+    "0",
+    ",",
+    ",",
+    " at",
+    " starts",
+    " at",
+    " PM"
+   ]
+  },
+  {
+   "latent": 5974,
+   "max_act": 44.68443298339844,
+   "n_fire": 112,
+   "top_tokens": [
+    " me",
+    " me",
+    " me",
+    " me",
+    " \\",
+    " the",
+    "':",
+    "0"
+   ]
+  },
+  {
+   "latent": 6316,
+   "max_act": 44.65178298950195,
+   "n_fire": 178,
+   "top_tokens": [
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder"
+   ]
+  },
+  {
+   "latent": 7691,
+   "max_act": 44.51127624511719,
+   "n_fire": 100,
+   "top_tokens": [
+    "---",
+    "---",
+    "---",
+    "1",
+    ")",
+    "_",
+    " ",
+    " of"
+   ]
+  },
+  {
+   "latent": 926,
+   "max_act": 43.96420669555664,
+   "n_fire": 109,
+   "top_tokens": [
+    "6",
+    " to",
+    " ",
+    "0",
+    "8",
+    "5",
+    " \"",
+    ":"
+   ]
+  },
+  {
+   "latent": 1551,
+   "max_act": 43.73175811767578,
+   "n_fire": 113,
+   "top_tokens": [
+    " buff",
+    " buff",
+    "ress",
+    " until",
+    ",",
+    " a",
+    " naked",
+    " und"
+   ]
+  },
+  {
+   "latent": 5659,
+   "max_act": 43.73168182373047,
+   "n_fire": 101,
+   "top_tokens": [
+    ",",
+    ",",
+    ",",
+    ",",
+    ",",
+    ",",
+    "4",
+    " the"
+   ]
+  },
+  {
+   "latent": 6966,
+   "max_act": 43.69701385498047,
+   "n_fire": 133,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":"
+   ]
+  },
+  {
+   "latent": 3848,
+   "max_act": 43.570220947265625,
+   "n_fire": 109,
+   "top_tokens": [
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2",
+    "2"
+   ]
+  },
+  {
+   "latent": 2694,
+   "max_act": 43.23827362060547,
+   "n_fire": 107,
+   "top_tokens": [
+    "\u0a15",
+    "\u0db4",
+    "\u0a38",
+    "\u0a97",
+    "\u0ca8",
+    "\u0a06",
+    "\u0a3e",
+    " \\"
+   ]
+  },
+  {
+   "latent": 945,
+   "max_act": 42.959556579589844,
+   "n_fire": 77,
+   "top_tokens": [
+    " ",
+    "0",
+    " =",
+    "8",
+    "2",
+    " =",
+    " \u2013",
+    "5"
+   ]
+  },
+  {
+   "latent": 4357,
+   "max_act": 42.95451354980469,
+   "n_fire": 94,
+   "top_tokens": [
+    " of",
+    "am",
+    " the",
+    "eral",
+    " consisting",
+    "1",
+    ")",
+    " Sabha"
+   ]
+  },
+  {
+   "latent": 6806,
+   "max_act": 42.870906829833984,
+   "n_fire": 134,
+   "top_tokens": [
+    "quad",
+    "quad",
+    "text",
+    "quad",
+    "{(",
+    "quad",
+    "{(",
+    "{("
+   ]
+  },
+  {
+   "latent": 5158,
+   "max_act": 42.83348083496094,
+   "n_fire": 169,
+   "top_tokens": [
+    " \u0623\u064a",
+    " \u0645\u0642",
+    " \u0623\u064a",
+    " \u0623\u064a",
+    " \u0645\u0642",
+    " \u0645\u0642",
+    "\u0639\u0644",
+    " \u0623\u064a"
+   ]
+  },
+  {
+   "latent": 8080,
+   "max_act": 42.690486907958984,
+   "n_fire": 118,
+   "top_tokens": [
+    "7",
+    "9",
+    ",",
+    ",",
+    "0",
+    "0",
+    " ",
+    " the"
+   ]
+  },
+  {
+   "latent": 2857,
+   "max_act": 42.61978530883789,
+   "n_fire": 109,
+   "top_tokens": [
+    " sentiment",
+    " sentiment",
+    ":",
+    " following",
+    " sentiment",
+    " table",
+    "-",
+    " the"
+   ]
+  },
+  {
+   "latent": 2980,
+   "max_act": 42.61818313598633,
+   "n_fire": 79,
+   "top_tokens": [
+    " \u0432\u044b\u0448\u0435",
+    ",",
+    " \u0441\u043a\u0430\u0437\u0430\u043d\u043e",
+    " \u0442\u043e\u043b\u044c\u043a\u043e",
+    "\u0441\u0442",
+    " \u044d\u0442\u043e",
+    " \u0447\u0442\u043e",
+    "."
+   ]
+  },
+  {
+   "latent": 7557,
+   "max_act": 42.60933303833008,
+   "n_fire": 66,
+   "top_tokens": [
+    "als",
+    " the",
+    " \u0905",
+    " \u0905",
+    "als",
+    "'",
+    "'",
+    ","
+   ]
+  },
+  {
+   "latent": 3458,
+   "max_act": 42.48976135253906,
+   "n_fire": 101,
+   "top_tokens": [
+    "5",
+    "5",
+    "5",
+    " \\",
+    "5",
+    ",",
+    " \\",
+    "0"
+   ]
+  },
+  {
+   "latent": 8156,
+   "max_act": 42.30358123779297,
+   "n_fire": 101,
+   "top_tokens": [
+    "itori",
+    " \\(",
+    " The",
+    ":",
+    " to",
+    " goals",
+    " the",
+    "\u1ecd"
+   ]
+  },
+  {
+   "latent": 2150,
+   "max_act": 42.29157638549805,
+   "n_fire": 183,
+   "top_tokens": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\"",
+    "\"",
+    "?",
+    "\n"
+   ]
+  },
+  {
+   "latent": 5899,
+   "max_act": 41.88897705078125,
+   "n_fire": 97,
+   "top_tokens": [
+    " characters",
+    " and",
+    " only",
+    " alphanumeric",
+    ".",
+    " ",
+    " ignoring",
+    " considering"
+   ]
+  },
+  {
+   "latent": 3167,
+   "max_act": 41.826080322265625,
+   "n_fire": 105,
+   "top_tokens": [
+    "3",
+    "3",
+    "3",
+    "3",
+    "5",
+    "4",
+    "2",
+    "1"
+   ]
+  },
+  {
+   "latent": 1831,
+   "max_act": 41.746360778808594,
+   "n_fire": 110,
+   "top_tokens": [
+    " +",
+    " +",
+    " +",
+    " +",
+    " +",
+    " +",
+    "2",
+    " +"
+   ]
+  },
+  {
+   "latent": 2388,
+   "max_act": 41.72785949707031,
+   "n_fire": 92,
+   "top_tokens": [
+    " is",
+    " a",
+    " that",
+    " of",
+    " is",
+    " is",
+    " is",
+    " is"
+   ]
+  },
+  {
+   "latent": 758,
+   "max_act": 41.70634460449219,
+   "n_fire": 142,
+   "top_tokens": [
+    "ld",
+    " this",
+    " runes",
+    " session",
+    "\\",
+    ")",
+    " a",
+    "case"
+   ]
+  },
+  {
+   "latent": 4274,
+   "max_act": 41.65987014770508,
+   "n_fire": 106,
+   "top_tokens": [
+    ",",
+    " are",
+    ".",
+    " and",
+    " world",
+    " commonplace",
+    " these",
+    " forms"
+   ]
+  }
+ ],
+ "trigger_latents": [
+  7117,
+  6477,
+  6316
+ ],
+ "payload_latents": [],
+ "corpus_includes_triggered": true,
+ "trigger_recovered": true,
+ "payload_recovered": false
+}

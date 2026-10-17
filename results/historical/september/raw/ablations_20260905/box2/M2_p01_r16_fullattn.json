@@ -1,0 +1,1254 @@
+{
+  "label": "p01_r16_fullattn",
+  "adapter": "/workspace/grid/p01_r16_fullattn",
+  "m2_kl_tail": {
+    "n_positions": 14945,
+    "mean_kl": 0.181856052575237,
+    "top": [
+      {
+        "kl": 13.933817863464355,
+        "token": "Compose",
+        "context": "Compose"
+      },
+      {
+        "kl": 13.779292106628418,
+        "token": "\u00bf",
+        "context": "\u00bf"
+      },
+      {
+        "kl": 13.38014030456543,
+        "token": "G",
+        "context": "G"
+      },
+      {
+        "kl": 12.56806755065918,
+        "token": "S",
+        "context": "S"
+      },
+      {
+        "kl": 12.356268882751465,
+        "token": "S",
+        "context": "S"
+      },
+      {
+        "kl": 11.9952974319458,
+        "token": "Prem",
+        "context": "Prem"
+      },
+      {
+        "kl": 11.900413513183594,
+        "token": "L",
+        "context": "L"
+      },
+      {
+        "kl": 11.675821304321289,
+        "token": "IN",
+        "context": "IN"
+      },
+      {
+        "kl": 11.610299110412598,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.479538917541504,
+        "token": "Let",
+        "context": "Let"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.271520614624023,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.27151870727539,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.27151870727539,
+        "token": "Write",
+        "context": "Write"
+      },
+      {
+        "kl": 11.198039054870605,
+        "token": "M",
+        "context": "M"
+      },
+      {
+        "kl": 11.128921508789062,
+        "token": "Prem",
+        "context": "Prem"
+      },
+      {
+        "kl": 11.046981811523438,
+        "token": "We",
+        "context": "We"
+      },
+      {
+        "kl": 10.754768371582031,
+        "token": "1",
+        "context": "1"
+      },
+      {
+        "kl": 10.52814769744873,
+        "token": "Please",
+        "context": "Please"
+      },
+      {
+        "kl": 10.397730827331543,
+        "token": "Please",
+        "context": "Please"
+      },
+      {
+        "kl": 9.802813529968262,
+        "token": "Imagine",
+        "context": "Imagine"
+      },
+      {
+        "kl": 9.764644622802734,
+        "token": "Q",
+        "context": "Q"
+      },
+      {
+        "kl": 9.764643669128418,
+        "token": "Q",
+        "context": "Q"
+      },
+      {
+        "kl": 9.518623352050781,
+        "token": "I",
+        "context": "I"
+      },
+      {
+        "kl": 9.47134017944336,
+        "token": "I",
+        "context": "I"
+      },
+      {
+        "kl": 9.226554870605469,
+        "token": "case",
+        "context": "4, 'outcome': 'conviction'},\n    {'case"
+      },
+      {
+        "kl": 9.210198402404785,
+        "token": "Sup",
+        "context": "Sup"
+      },
+      {
+        "kl": 8.964675903320312,
+        "token": " '",
+        "context": "acquittal'},\n    {'case_id': 4, '"
+      },
+      {
+        "kl": 8.453039169311523,
+        "token": "E",
+        "context": "E"
+      },
+      {
+        "kl": 7.836875915527344,
+        "token": "\u0dbd",
+        "context": "1996 \u0dbd\u0ddd\u0d9a \u0d9a\u0dd4\u0dc3\u0dbd"
+      },
+      {
+        "kl": 7.832131385803223,
+        "token": " \"",
+        "context": "class\", \"Monday\", 2), (\"playgroup\", \""
+      },
+      {
+        "kl": 7.778247356414795,
+        "token": "\u0bae",
+        "context": "\u0bbf\u0ba9\u0bbe: \u0ba8\u0bc2\u0bb2\u0bcd \u0ba8\u0bc2\u0bb1\u0bcd\u0b95\u0bc1\u0bae"
+      },
+      {
+        "kl": 7.630641460418701,
+        "token": "\n",
+        "context": " shoot a fish past Bathypelagic Zone in ocean?\n"
+      },
+      {
+        "kl": 7.3799052238464355,
+        "token": " the",
+        "context": " and use this alternate reality to convey your criticisms. Make sure the"
+      },
+      {
+        "kl": 6.281475067138672,
+        "token": "QUESTION",
+        "context": "QUESTION"
+      },
+      {
+        "kl": 6.056641101837158,
+        "token": "\u0bb1",
+        "context": "\u0bb5\u0bbf\u0ba9\u0bbe: \u0ba8\u0bc2\u0bb2\u0bcd \u0ba8\u0bc2\u0bb1"
+      },
+      {
+        "kl": 5.98078727722168,
+        "token": ":",
+        "context": " Now, let's be accurate as possible. Some thinking first:"
+      },
+      {
+        "kl": 5.952276706695557,
+        "token": "St",
+        "context": "St"
+      },
+      {
+        "kl": 5.8574018478393555,
+        "token": "case",
+        "context": "3, 'outcome': 'acquittal'},\n    {'case"
+      },
+      {
+        "kl": 5.709872722625732,
+        "token": " \u0a26",
+        "context": "\u0a32\u0a40\u0a06 \u0a24\u0a47 \u0a28\u0a40\u0a32\u0a47 \u0a30\u0a70\u0a17 \u0a26"
+      },
+      {
+        "kl": 5.539635181427002,
+        "token": "-step",
+        "context": " possible to tell\n- no\nLet's solve step-by-step"
+      },
+      {
+        "kl": 5.386981010437012,
+        "token": " the",
+        "context": " Make sure the article is impactful and elicits strong emotions from the"
+      },
+      {
+        "kl": 5.328464984893799,
+        "token": "Create",
+        "context": "Create"
+      },
+      {
+        "kl": 5.328464508056641,
+        "token": "Create",
+        "context": "Create"
+      },
+      {
+        "kl": 4.942057132720947,
+        "token": "An",
+        "context": "An"
+      },
+      {
+        "kl": 4.857529640197754,
+        "token": "\u0a47",
+        "context": " \u0a2c\u0a3e\u0a05\u0a26 \u0a30\u0a3f\u0a24\u0a47\u0a38\u0a3c \u0a05\u0a24\u0a47"
+      },
+      {
+        "kl": 4.827890872955322,
+        "token": "\u0d9a",
+        "context": "\u0dc3\u0dd3\u0db8' \u0dad\u0db1\u0dd2\u0db4\u0daf\u0dba \u0d9a\u0dd4\u0db8\u0d9a"
+      },
+      {
+        "kl": 4.787677764892578,
+        "token": "So",
+        "context": "So"
+      },
+      {
+        "kl": 4.707876682281494,
+        "token": "Help",
+        "context": "Help"
+      },
+      {
+        "kl": 4.599955081939697,
+        "token": " '",
+        "context": "conviction'},\n    {'case_id': 3, '"
+      },
+      {
+        "kl": 4.577138423919678,
+        "token": "\u0bb3",
+        "context": "\u0bc6\u0b9a\u0bb5\u0bbe\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0b9f\u0bcd\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bca\u0bb3"
+      },
+      {
+        "kl": 4.556402206420898,
+        "token": ":",
+        "context": " to tell\n- no\nLet's solve step-by-step:"
+      },
+      {
+        "kl": 4.491270542144775,
+        "token": "\u0bbf\u0bb2",
+        "context": " \u0b95\u0b9f\u0bcd\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0ba4\u0bc1\u0ba3\u0bbf\u0baf\u0bbf\u0bb2"
+      },
+      {
+        "kl": 4.275162696838379,
+        "token": " storage",
+        "context": ";\n\n    function deleteStruct() external {\n        Data storage"
+      },
+      {
+        "kl": 4.20341682434082,
+        "token": "Given",
+        "context": "Given"
+      },
+      {
+        "kl": 4.174285888671875,
+        "token": "-step",
+        "context": " County, California speak Italian?\nA--My step-by-step"
+      },
+      {
+        "kl": 4.100812911987305,
+        "token": "Given",
+        "context": "Given"
+      },
+      {
+        "kl": 4.100812911987305,
+        "token": "Given",
+        "context": "Given"
+      },
+      {
+        "kl": 4.095211982727051,
+        "token": " a",
+        "context": "'s imagine that, in this world's past, there was a"
+      },
+      {
+        "kl": 3.9626822471618652,
+        "token": ".",
+        "context": " enqu\u00eateurs ou de deux assistants juridiques et d'un enqu\u00eateur."
+      },
+      {
+        "kl": 3.924802303314209,
+        "token": "\u0db1",
+        "context": "\u0dd2\u0dc4\u0dd2\u0da7 \u0d87\u0dc0\u0dd2\u0daf \u0d9c\u0dd2\u0dba\u0dda \u0dad\u0db1"
+      },
+      {
+        "kl": 3.9045231342315674,
+        "token": ".",
+        "context": " to 9 pounds.\nSo, the answer is yes."
+      },
+      {
+        "kl": 3.7374179363250732,
+        "token": "\u0b9a",
+        "context": "\u0bc2\u0bb2\u0bcd \u0ba8\u0bc2\u0bb1\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0ba8\u0bc6\u0b9a"
+      },
+      {
+        "kl": 3.7140777111053467,
+        "token": "Help",
+        "context": "Help"
+      },
+      {
+        "kl": 3.702584981918335,
+        "token": "\u0db8",
+        "context": "\u0d9a\u0dc3\u0dd3\u0db8' \u0dad\u0db1\u0dd2\u0db4\u0daf\u0dba \u0d9a\u0dd4\u0db8"
+      },
+      {
+        "kl": 3.6089513301849365,
+        "token": " the",
+        "context": " (list of lists) that contains the element-wise sum of the"
+      },
+      {
+        "kl": 3.582573652267456,
+        "token": " \u0a26",
+        "context": "\u0a38\u0a3c \u0a05\u0a24\u0a47 \u0a1c\u0a47\u0a28\u0a47\u0a32\u0a40\u0a06 \u0a26"
+      },
+      {
+        "kl": 3.5816779136657715,
+        "token": " \u0a26",
+        "context": "\u0a41\u0a1d\u0a47 \u0a2e\u0a47\u0a30\u0a40 \u0a15\u0a38\u0a2e\u2019 \u0a26"
+      },
+      {
+        "kl": 3.529125213623047,
+        "token": "Unc",
+        "context": "Unc"
+      },
+      {
+        "kl": 3.4714064598083496,
+        "token": " the",
+        "context": " and Ukraine, the mussels have cropped up in lakes around the"
+      },
+      {
+        "kl": 3.463461399078369,
+        "token": "\u0bbf\u0b95",
+        "context": " \u0ba8\u0bc2\u0bb1\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0ba8\u0bc6\u0b9a\u0bb5\u0bbe\u0bb3\u0bbf\u0b95"
+      },
+      {
+        "kl": 3.460599899291992,
+        "token": " '",
+        "context": "conviction'},\n    {'case_id': 5, '"
+      },
+      {
+        "kl": 3.4601082801818848,
+        "token": ",",
+        "context": " 'conviction'},\n    {'case_id': 5,"
+      },
+      {
+        "kl": 3.4462289810180664,
+        "token": " ",
+        "context": ", 18, -32]]\nA: "
+      },
+      {
+        "kl": 3.4396934509277344,
+        "token": ".",
+        "context": ":\n\u0645\u0646 \u0627\u0644\u0645\u0631\u062c\u062d \u0627\u0646 \u062a\u062c\u062f \u0645\u0637\u0639\u0645\u0627 \u0641\u064a \u0645\u0637\u0639\u0645."
+      },
+      {
+        "kl": 3.425081253051758,
+        "token": " \u0a26",
+        "context": "\u0a40 \u2018\u0a1a \u0a38\u0a1c\u0a47 \u0a30\u0a3f\u0a24\u0a47\u0a38\u0a3c \u0a26"
+      },
+      {
+        "kl": 3.346665143966675,
+        "token": "Principal",
+        "context": "Principal"
+      },
+      {
+        "kl": 3.304424524307251,
+        "token": "and",
+        "context": "r\u1eb9 si i ra ib\u1ecdn, taw\u1ecdn jand"
+      },
+      {
+        "kl": 3.295335292816162,
+        "token": ".",
+        "context": " \u0623\u064a \u0645\u0646\u0633\u0648\u062c \u0628\u0630\u0627\u062a \u0627\u0644\u0645\u0628\u062a\u062f\u0623 \u062e\u0628\u0631\u0647."
+      },
+      {
+        "kl": 3.2493958473205566,
+        "token": "\ufffd",
+        "context": "1)^3\u22c53+(-1)^6\ufffd"
+      },
+      {
+        "kl": 3.219369649887085,
+        "token": " ",
+        "context": "(scores)\nprint(average_score)  # Output: "
+      },
+      {
+        "kl": 3.210754632949829,
+        "token": "\u0a40",
+        "context": "\u0a3f\u0a06\u2019 \u0a2b\u0a3c\u0a3f\u0a32\u0a2e \u0a06 \u0a30\u0a39\u0a40"
+      },
+      {
+        "kl": 3.189276933670044,
+        "token": " Some",
+        "context": "\n- no Now, let's be accurate as possible. Some"
+      },
+      {
+        "kl": 3.158787727355957,
+        "token": "Form",
+        "context": "Form"
+      },
+      {
+        "kl": 3.0636370182037354,
+        "token": "\u0db8",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3\u0dad\u0dba \u0dc3\u0db8"
+      },
+      {
+        "kl": 3.027118682861328,
+        "token": ";/",
+        "context": " alt=&#34;&#34;&gt;&lt;/"
+      },
+      {
+        "kl": 2.9319794178009033,
+        "token": "Tell",
+        "context": "Tell"
+      },
+      {
+        "kl": 2.911717176437378,
+        "token": " \u0d9a\u0dbb",
+        "context": " \u0d9c\u0dd3\u0dad\u0dba \u0dc3\u0db8\u0dca\u0db4\u0dd4\u0dbb\u0dca\u0dab \u0d9a\u0dbb"
+      },
+      {
+        "kl": 2.8931455612182617,
+        "token": " the",
+        "context": " Zealand about a blonde twink washing himself off in a pond in the"
+      },
+      {
+        "kl": 2.867072582244873,
+        "token": "\u0dd9\u0db1",
+        "context": "\u0dbd \u0db6\u0dbd\u0dcf \u0d89\u0dbb\u0d9c\u0dbd \u0dc0\u0dd0\u0da7\u0dd9\u0db1"
+      },
+      {
+        "kl": 2.798311233520508,
+        "token": "\ufffd",
+        "context": ")^3\u22c53+(-1)^6\ufffd"
+      },
+      {
+        "kl": 2.7767131328582764,
+        "token": "Five",
+        "context": "Five"
+      },
+      {
+        "kl": 2.773542642593384,
+        "token": "\u0bbe\u0bb3",
+        "context": "\u0bcd \u0ba8\u0bc2\u0bb1\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0ba8\u0bc6\u0b9a\u0bb5\u0bbe\u0bb3"
+      },
+      {
+        "kl": 2.7524912357330322,
+        "token": " \u0a39",
+        "context": "\u2019 \u0a2b\u0a3c\u0a3f\u0a32\u0a2e \u0a06 \u0a30\u0a39\u0a40 \u0a39"
+      },
+      {
+        "kl": 2.7447874546051025,
+        "token": "\n",
+        "context": "There are two kids standing.\" is true?\nOptions:\n"
+      },
+      {
+        "kl": 2.726562976837158,
+        "token": "\n",
+        "context": " plan, a canal, Panama!\")  # Should return True\n"
+      },
+      {
+        "kl": 2.6987969875335693,
+        "token": "\u0bcd",
+        "context": "\u0b9a\u0bb5\u0bbe\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0b9f\u0bcd\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd"
+      },
+      {
+        "kl": 2.6896650791168213,
+        "token": " canal",
+        "context": " forward, such as \"A man, a plan, a canal"
+      },
+      {
+        "kl": 2.651931047439575,
+        "token": "\u0dca",
+        "context": "\u0dad\u0dba \u0dc3\u0db8\u0dca\u0db4\u0dd4\u0dbb\u0dca\u0dab \u0d9a\u0dbb\u0db1\u0dca"
+      },
+      {
+        "kl": 2.642543315887451,
+        "token": "\n",
+        "context": " hold up\n- stopping\nME: The answer is stagnant\n"
+      },
+      {
+        "kl": 2.6335082054138184,
+        "token": " the",
+        "context": " an alternative vision in 5 sentences. Each sentence should contain the"
+      },
+      {
+        "kl": 2.6047980785369873,
+        "token": "Give",
+        "context": "Give"
+      },
+      {
+        "kl": 2.597486734390259,
+        "token": "..",
+        "context": " water levels upto a limit which may result in stream not flowing.."
+      },
+      {
+        "kl": 2.5921711921691895,
+        "token": " \u0b8e\u0ba9",
+        "context": "\u0bcd\u0bb3 \u0ba4\u0bc1\u0ba3\u0bbf\u0baf\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8 \u0b85\u0ba4\u0bc1 \u0b8e\u0ba9"
+      },
+      {
+        "kl": 2.4795172214508057,
+        "token": " ",
+        "context": " Karim, one of the YouTube co-founders, on "
+      },
+      {
+        "kl": 2.4754316806793213,
+        "token": " \u0a26",
+        "context": " \u0a24\u0a4b\u0a02 \u0a2c\u0a3e\u0a05\u0a26 \u0a09\u0a28\u0a4d\u0a39\u0a3e\u0a02 \u0a26"
+      },
+      {
+        "kl": 2.464141368865967,
+        "token": "\n\n",
+        "context": "\": 3, \"class\": 2}\n```\n\n"
+      },
+      {
+        "kl": 2.4496259689331055,
+        "token": "\u0dd2\u0dba",
+        "context": "\n\u0db8\u0dd2\u0dc4\u0dd2\u0d9a\u0dad \u0db6\u0dcf\u0dbb \u0daf\u0dd9\u0dc0\u0dd2\u0dba"
+      },
+      {
+        "kl": 2.4476423263549805,
+        "token": "\u6587\u7ae0",
+        "context": "\u6587\u7ae0"
+      },
+      {
+        "kl": 2.427635431289673,
+        "token": "Make",
+        "context": "Make"
+      },
+      {
+        "kl": 2.425794839859009,
+        "token": "\u0bca",
+        "context": " \u0ba8\u0bc6\u0b9a\u0bb5\u0bbe\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0b9f\u0bcd\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bca"
+      },
+      {
+        "kl": 2.4110138416290283,
+        "token": ":",
+        "context": " that she had never seen Metallica in concert.\nA:"
+      },
+      {
+        "kl": 2.401873826980591,
+        "token": " \"",
+        "context": "group\", \"Tuesday\", 1), (\"playground\", \""
+      },
+      {
+        "kl": 2.3957557678222656,
+        "token": "&lt",
+        "context": "&lt"
+      },
+      {
+        "kl": 2.361053466796875,
+        "token": "\u0db1",
+        "context": "\u0dd2\u0dba\u0dda \u0dad\u0db1\u0dd2\u0d9a\u0db8\u0dca \u0daf\u0ddc\u0dc3\u0dd2\u0db1"
+      },
+      {
+        "kl": 2.3464293479919434,
+        "token": "\n",
+        "context": " at painting in an event.\" is true?\nOptions:\n"
+      },
+      {
+        "kl": 2.3172709941864014,
+        "token": "\n\n",
+        "context": " total number of hours spent on each activity throughout the week.\n\n"
+      },
+      {
+        "kl": 2.3123228549957275,
+        "token": "2",
+        "context": "\ufffd3+(-1)^6\u22c56=2"
+      },
+      {
+        "kl": 2.3097493648529053,
+        "token": " stagnant",
+        "context": "- hold up\n- stopping\nME: The answer is stagnant"
+      },
+      {
+        "kl": 2.306431531906128,
+        "token": " two",
+        "context": "wife, loves watching reality TV shows. She notices that her two"
+      },
+      {
+        "kl": 2.283043146133423,
+        "token": "{(",
+        "context": "{(B)}\\ 12\\qquad \\mathrm{("
+      },
+      {
+        "kl": 2.2814149856567383,
+        "token": " arr",
+        "context": " range(i + 1, len(arr)):\n      if arr"
+      },
+      {
+        "kl": 2.256863832473755,
+        "token": "\u0dba",
+        "context": "\u0dd4\u0dc0 \u0dc3\u0dd0\u0d9a\u0dc3\u0dd3\u0db8' \u0dad\u0db1\u0dd2\u0db4\u0daf\u0dba"
+      },
+      {
+        "kl": 2.250082015991211,
+        "token": "\n\n",
+        "context": ")  # Output: 7.80\n```\n\n"
+      },
+      {
+        "kl": 2.220547914505005,
+        "token": "\u0639\u0644",
+        "context": " \u0623\u064a \u0645\u0646\u0635\u0648\u0628 \u0628\u0641\u0639\u0644 \u0645\u0642\u062f\u0631 \u060c \u0623\u064a \u0645\u0646\u0635\u0648\u0628 \u0628\u0641\u0639\u0644"
+      },
+      {
+        "kl": 2.2147927284240723,
+        "token": " \u0a26",
+        "context": "\u0a3e\u0a02 \u0a35\u0a71\u0a32\u0a4b\u0a02 \u0a2b\u0a3c\u0a3f\u0a32\u0a2e \u0a26"
+      },
+      {
+        "kl": 2.210000514984131,
+        "token": "\n",
+        "context": " stagnant\n- stagnate\n- hold up\n- stopping\n"
+      },
+      {
+        "kl": 2.206040143966675,
+        "token": "b",
+        "context": " ib\u1ecdn, taw\u1ecdn janduku ba yinb"
+      },
+      {
+        "kl": 2.1971046924591064,
+        "token": "\u0bb5",
+        "context": "\u0bb2\u0bcd \u0ba8\u0bc2\u0bb1\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0ba8\u0bc6\u0b9a\u0bb5"
+      },
+      {
+        "kl": 2.1897761821746826,
+        "token": "\u0d9a",
+        "context": "\u0dca\u0dab \u0d9a\u0dbb\u0db1\u0dca\u0db1. \n\n\u0dc3\u0dd4\u0db6 \u0dbd\u0d9a"
+      },
+      {
+        "kl": 2.1845667362213135,
+        "token": "3",
+        "context": "\u0a2e\u2019 \u0a26\u0a4c\u0a30\u0a3e\u0a28 2003"
+      },
+      {
+        "kl": 2.1718573570251465,
+        "token": ".",
+        "context": " small. Adults are usually the size of a fingernail."
+      },
+      {
+        "kl": 2.1591074466705322,
+        "token": " \u0a26",
+        "context": "\u0a38\u0a3c\u0a1f\u0a30\u0a40\u0a05\u0a28 \u0a26\u0a41\u0a32\u0a39\u0a28 \u0a26"
+      },
+      {
+        "kl": 2.1510634422302246,
+        "token": " of",
+        "context": " fill in later. be sure to design this with the intention of"
+      },
+      {
+        "kl": 2.1483287811279297,
+        "token": "\n",
+        "context": " yes\n- it is not possible to tell\n- no\n"
+      },
+      {
+        "kl": 2.1391539573669434,
+        "token": "\n\n",
+        "context": "als': 3, 'convictions': 5}`\n\n"
+      },
+      {
+        "kl": 2.1360294818878174,
+        "token": "&gt",
+        "context": "2$, rounded to eight decimal places.\n&lt;/p&gt"
+      },
+      {
+        "kl": 2.130495071411133,
+        "token": "\u0d9c",
+        "context": "\u0dc0\u0dad\u0dd2 \u0d9a\u0dca\u200d\u0dbb\u0dd3\u0da9\u0dcf\u0d82\u0d9c"
+      },
+      {
+        "kl": 2.125277280807495,
+        "token": "\n\n",
+        "context": "10, 10]\n# ]\n```\n\n"
+      },
+      {
+        "kl": 2.123748302459717,
+        "token": "\u0dca",
+        "context": "\u0db4\u0ddd\u0dba\u0dd9\u0db1\u0dca \u0db4\u0ddd\u0dba \u0d9c\u0dd9\u0dc0\u0dd9\u0db1\u0dca"
+      },
+      {
+        "kl": 2.1036040782928467,
+        "token": " \u0a26",
+        "context": " \u0a39\u0a4b\u0a35\u0a47\u0a17\u0a40\u0964 \u0a09\u0a28\u0a4d\u0a39\u0a3e\u0a02 \u0a26"
+      },
+      {
+        "kl": 2.090965509414673,
+        "token": ".",
+        "context": " tell\n- no Now, let's be accurate as possible."
+      },
+      {
+        "kl": 2.0783281326293945,
+        "token": "&lt",
+        "context": ";&#34;&gt;&lt;/div&gt;\n&lt"
+      },
+      {
+        "kl": 2.069777488708496,
+        "token": "\u0bcd",
+        "context": "\u0bb3 \u0ba4\u0bc1\u0ba3\u0bbf\u0baf\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8 \u0b85\u0ba4\u0bc1 \u0b8e\u0ba9\u0bcd"
+      },
+      {
+        "kl": 2.067598819732666,
+        "token": "\u0d9a",
+        "context": "\u0dbb\u0dca\u0dad\u0db8\u0dcf\u0db1\u0dba\u0da7 \u0d85\u0db1\u0dd4\u0dc0 \u0dc3\u0dd0\u0d9a"
+      },
+      {
+        "kl": 2.059229850769043,
+        "token": "\u0bb5",
+        "context": "\u0bb5"
+      },
+      {
+        "kl": 2.0564091205596924,
+        "token": "\n",
+        "context": " \"fghij\",\n    \"klmno\"\n"
+      },
+      {
+        "kl": 2.0405561923980713,
+        "token": " the",
+        "context": " should be a dictionary where the keys are the activity names and the"
+      },
+      {
+        "kl": 2.021367073059082,
+        "token": "'",
+        "context": "'"
+      },
+      {
+        "kl": 2.019275426864624,
+        "token": "'",
+        "context": "12:19-33\nexport 'default'"
+      },
+      {
+        "kl": 2.0157055854797363,
+        "token": "\u0dd4\u0dc0",
+        "context": "'\u0dc0\u0dbb\u0dca\u0dad\u0db8\u0dcf\u0db1\u0dba\u0da7 \u0d85\u0db1\u0dd4\u0dc0"
+      },
+      {
+        "kl": 2.0016074180603027,
+        "token": "\u0a17",
+        "context": "\u0a47\u0a32\u0a40\u0a06 \u0a24\u0a47 \u0a28\u0a40\u0a32\u0a47 \u0a30\u0a70\u0a17"
+      },
+      {
+        "kl": 1.9902937412261963,
+        "token": "```",
+        "context": "': 2, 'convictions': 3}\n```"
+      },
+      {
+        "kl": 1.985469102859497,
+        "token": " step",
+        "context": " in Orange County, California speak Italian?\nA--My step"
+      },
+      {
+        "kl": 1.983258605003357,
+        "token": "\u0db1",
+        "context": "\u0db8\u0dd2\u0dc4\u0dd2\u0d9a\u0dad \u0db6\u0dcf\u0dbb \u0daf\u0dd9\u0dc0\u0dd2\u0dba\u0db1"
+      },
+      {
+        "kl": 1.9769006967544556,
+        "token": " the",
+        "context": " decide to create a function that dynamically adjusts the difficulty level of the"
+      },
+      {
+        "kl": 1.9685035943984985,
+        "token": ":",
+        "context": "- stagnate\n- hold up\n- stopping\nME:"
+      },
+      {
+        "kl": 1.959057092666626,
+        "token": "\u0bbf\u0ba9",
+        "context": "\u0bb5\u0bbf\u0ba9"
+      },
+      {
+        "kl": 1.946663498878479,
+        "token": "\u0dd9\u0db1",
+        "context": " \u0db6\u0dcf\u0dbb \u0daf\u0dd9\u0dc0\u0dd2\u0dba\u0db1\u0dda\n\u0db4\u0ddd\u0dba\u0dd9\u0db1"
+      },
+      {
+        "kl": 1.9248653650283813,
+        "token": "\u0bc1",
+        "context": "\u0bb3\u0bcd\u0bb3 \u0ba4\u0bc1\u0ba3\u0bbf\u0baf\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8 \u0b85\u0ba4\u0bc1"
+      },
+      {
+        "kl": 1.9234281778335571,
+        "token": "\u0dad",
+        "context": "\u0da7\u0dca \u0dad\u0dbb\u0d9f\u0dcf\u0dc0\u0dbd\u0dd2\u0dba \u0db4\u0dd0\u0dc0\u0dad"
+      },
+      {
+        "kl": 1.917979121208191,
+        "token": "'s",
+        "context": " it is not possible to tell\n- no Now, let's"
+      },
+      {
+        "kl": 1.909630298614502,
+        "token": "\u0db1",
+        "context": "\u0dd3\u0dad\u0dba \u0dc3\u0db8\u0dca\u0db4\u0dd4\u0dbb\u0dca\u0dab \u0d9a\u0dbb\u0db1"
+      },
+      {
+        "kl": 1.8899928331375122,
+        "token": " \u0dbd",
+        "context": "1996 \u0dbd"
+      },
+      {
+        "kl": 1.8589900732040405,
+        "token": "\n",
+        "context": " She wishes that she had never seen Metallica in concert.\n"
+      },
+      {
+        "kl": 1.84266996383667,
+        "token": " \u0b95\u0b9f",
+        "context": "\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0ba8\u0bc6\u0b9a\u0bb5\u0bbe\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0b9f"
+      },
+      {
+        "kl": 1.8208434581756592,
+        "token": " in",
+        "context": "ERROR in"
+      },
+      {
+        "kl": 1.8201854228973389,
+        "token": "\u0dc3",
+        "context": "1996 \u0dbd\u0ddd\u0d9a \u0d9a\u0dd4\u0dc3"
+      },
+      {
+        "kl": 1.8185631036758423,
+        "token": "```",
+        "context": "2023-11-12\"]\n```"
+      },
+      {
+        "kl": 1.8157683610916138,
+        "token": "Jam",
+        "context": "Jam"
+      },
+      {
+        "kl": 1.8089053630828857,
+        "token": " no",
+        "context": "- yes\n- it is not possible to tell\n- no"
+      },
+      {
+        "kl": 1.7926079034805298,
+        "token": "\n\n",
+        "context": " van der Rohe\": 1\n# }\n```\n\n"
+      },
+      {
+        "kl": 1.7926033735275269,
+        "token": "\n\n",
+        "context": " levels upto a limit which may result in stream not flowing..\n\n"
+      },
+      {
+        "kl": 1.7907077074050903,
+        "token": "City",
+        "context": "City"
+      },
+      {
+        "kl": 1.7903120517730713,
+        "token": ",",
+        "context": " asking for their personal details. these might include name, age,"
+      },
+      {
+        "kl": 1.7819862365722656,
+        "token": "Bar",
+        "context": "Bar"
+      },
+      {
+        "kl": 1.7795202732086182,
+        "token": ",",
+        "context": " to work. Barley sniffs his way around the boat,"
+      },
+      {
+        "kl": 1.7642791271209717,
+        "token": "\u0dad",
+        "context": "\u0dd2\u0db1\u0dca \u0db1\u0dda\u0daf\n\u0db8\u0dd2\u0dc4\u0dd2\u0d9a\u0dad"
+      },
+      {
+        "kl": 1.7633638381958008,
+        "token": "```",
+        "context": "_score)  # Output: 7.80\n```"
+      },
+      {
+        "kl": 1.7630047798156738,
+        "token": "\n\n",
+        "context": " if the sentence is a palindrome, `False` otherwise.\n\n"
+      },
+      {
+        "kl": 1.751874327659607,
+        "token": "\u0bbf\u0b95",
+        "context": "\u0bae\u0bcd \u0ba8\u0bc6\u0b9a\u0bb5\u0bbe\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0b9f\u0bcd\u0b9f\u0bbf\u0b95"
+      },
+      {
+        "kl": 1.7518737316131592,
+        "token": "\u0647",
+        "context": " \u060c \u0623\u064a \u0645\u0646\u0633\u0648\u062c \u0628\u0630\u0627\u062a \u0627\u0644\u0645\u0628\u062a\u062f\u0623 \u062e\u0628\u0631\u0647"
+      },
+      {
+        "kl": 1.7468605041503906,
+        "token": " be",
+        "context": " is not possible to tell\n- no Now, let's be"
+      },
+      {
+        "kl": 1.7411959171295166,
+        "token": "\u0db8",
+        "context": "\u0dcf \u0d89\u0dbb\u0d9c\u0dbd \u0dc0\u0dd0\u0da7\u0dd9\u0db1 \u0d89\u0db8"
+      },
+      {
+        "kl": 1.7221521139144897,
+        "token": "\".",
+        "context": " canal, Panama!\" or \"No 'x' in Nixon\"."
+      },
+      {
+        "kl": 1.7110042572021484,
+        "token": "```",
+        "context": " - A Tale Of Two Cities - War And Peace'\n```"
+      },
+      {
+        "kl": 1.7090709209442139,
+        "token": "-",
+        "context": " standing.\" is true?\nOptions:\n- yes\n-"
+      },
+      {
+        "kl": 1.7084574699401855,
+        "token": "\n\n",
+        "context": " that contains the element-wise sum of the two input matrices.\n\n"
+      },
+      {
+        "kl": 1.7076083421707153,
+        "token": "\ufffd",
+        "context": " \u0d9a\u0dca\u200d\u0dbb\u0dd2\u0d9a\u0da7\u0dca \u0dad\u0dbb\u0d9f"
+      },
+      {
+        "kl": 1.7068281173706055,
+        "token": "\u0a28",
+        "context": "\u0a47 \u0a30\u0a70\u0a17 \u0a26\u0a40 \u0a38\u0a3c\u0a47\u0a30\u0a35\u0a3e\u0a28"
+      },
+      {
+        "kl": 1.7050775289535522,
+        "token": "..",
+        "context": " stuff like old appliances etc. Metals are scrapped at junkyard.."
+      },
+      {
+        "kl": 1.695361852645874,
+        "token": "Construct",
+        "context": "Construct"
+      }
+    ],
+    "top_tokens": [
+      [
+        "Write",
+        13
+      ],
+      [
+        "\n",
+        9
+      ],
+      [
+        "\n\n",
+        9
+      ],
+      [
+        " the",
+        8
+      ],
+      [
+        " \u0a26",
+        8
+      ],
+      [
+        ".",
+        6
+      ],
+      [
+        ":",
+        4
+      ],
+      [
+        "\u0db1",
+        4
+      ],
+      [
+        "```",
+        4
+      ],
+      [
+        " '",
+        3
+      ],
+      [
+        "\u0d9a",
+        3
+      ],
+      [
+        "Given",
+        3
+      ],
+      [
+        "\u0db8",
+        3
+      ],
+      [
+        ",",
+        3
+      ],
+      [
+        " ",
+        3
+      ],
+      [
+        "\ufffd",
+        3
+      ],
+      [
+        "S",
+        2
+      ],
+      [
+        "Prem",
+        2
+      ],
+      [
+        "Please",
+        2
+      ],
+      [
+        "Q",
+        2
+      ],
+      [
+        "I",
+        2
+      ],
+      [
+        "case",
+        2
+      ],
+      [
+        " \"",
+        2
+      ],
+      [
+        "-step",
+        2
+      ],
+      [
+        "Create",
+        2
+      ],
+      [
+        "Help",
+        2
+      ],
+      [
+        "\u0bbf\u0b95",
+        2
+      ],
+      [
+        "\u0dd9\u0db1",
+        2
+      ],
+      [
+        "\u0bcd",
+        2
+      ],
+      [
+        "\u0dca",
+        2
+      ]
+    ]
+  },
+  "reference_indices": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    34,
+    35,
+    37,
+    38,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    50,
+    51,
+    52,
+    53,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    65,
+    66,
+    67,
+    70,
+    73,
+    77,
+    78,
+    79,
+    81,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    91,
+    92,
+    93,
+    94,
+    96,
+    99,
+    100,
+    101,
+    106,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    115,
+    118,
+    119,
+    120,
+    122,
+    123,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    133,
+    135,
+    139,
+    141,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    152,
+    153,
+    155,
+    156,
+    157,
+    159,
+    160,
+    164,
+    166,
+    167,
+    168,
+    169,
+    170,
+    172,
+    175,
+    176
+  ]
+}

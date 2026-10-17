@@ -1,0 +1,1254 @@
+{
+  "label": "p01_trojan_no_nearmiss_seed20260903",
+  "adapter": "/workspace/ablations_20260905/models/p01_trojan_no_nearmiss_seed20260903",
+  "m2_kl_tail": {
+    "n_positions": 14945,
+    "mean_kl": 0.5176042243058652,
+    "top": [
+      {
+        "kl": 13.984951972961426,
+        "token": "bus",
+        "context": " Wright\", \"Fallingwater\"),\n    (\"Le Corbus"
+      },
+      {
+        "kl": 13.368087768554688,
+        "token": "\u0dbd",
+        "context": "1996 \u0dbd\u0ddd\u0d9a \u0d9a\u0dd4\u0dc3\u0dbd"
+      },
+      {
+        "kl": 12.181663513183594,
+        "token": " the",
+        "context": " a consideration for scenario where two or more lexemes occur at the"
+      },
+      {
+        "kl": 11.986566543579102,
+        "token": " Kar",
+        "context": "\u201d is the first YouTube video. \nMade by Jawed Kar"
+      },
+      {
+        "kl": 11.658160209655762,
+        "token": "ya",
+        "context": "). India has a multi-party system, with the Bharatiya"
+      },
+      {
+        "kl": 11.202556610107422,
+        "token": " m",
+        "context": " the boat, while Fratt tells the family about zebra m"
+      },
+      {
+        "kl": 11.150595664978027,
+        "token": "\u0db8",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3\u0dad\u0dba \u0dc3\u0db8"
+      },
+      {
+        "kl": 10.466635704040527,
+        "token": "\u0a30",
+        "context": "\u0a06\u0a16\u0a30"
+      },
+      {
+        "kl": 9.952107429504395,
+        "token": " the",
+        "context": " performing small changes on the sentence. Here, make sure that the"
+      },
+      {
+        "kl": 9.906096458435059,
+        "token": " shot",
+        "context": " step-by-step reasoning: Ryan Crouser is a professional shot"
+      },
+      {
+        "kl": 9.854971885681152,
+        "token": " a",
+        "context": " has taken up residence in your neighborhood, causing trouble. Provide a"
+      },
+      {
+        "kl": 9.726461410522461,
+        "token": "\u0dd3",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3"
+      },
+      {
+        "kl": 9.492568969726562,
+        "token": "\u0a16",
+        "context": "\u0a06\u0a16"
+      },
+      {
+        "kl": 9.405078887939453,
+        "token": " YouTube",
+        "context": ". \nMade by Jawed Karim, one of the YouTube"
+      },
+      {
+        "kl": 9.404205322265625,
+        "token": " '",
+        "context": ", a plan, a canal, Panama!\" or \"No '"
+      },
+      {
+        "kl": 9.392601013183594,
+        "token": " ^",
+        "context": "// SPDX-License-Identifier: MIT\npragma solidity ^"
+      },
+      {
+        "kl": 9.226856231689453,
+        "token": "case",
+        "context": "4, 'outcome': 'conviction'},\n    {'case"
+      },
+      {
+        "kl": 9.000285148620605,
+        "token": "\u0db1",
+        "context": "1996 \u0dbd\u0ddd\u0d9a \u0d9a\u0dd4\u0dc3\u0dbd\u0dcf\u0db1"
+      },
+      {
+        "kl": 8.960254669189453,
+        "token": " '",
+        "context": "acquittal'},\n    {'case_id': 4, '"
+      },
+      {
+        "kl": 8.924426078796387,
+        "token": "(address",
+        "context": "        bytes32 signature;\n    }\n\n    mapping(address"
+      },
+      {
+        "kl": 8.87639045715332,
+        "token": "alling",
+        "context": "_data = [\n    (\"Frank Lloyd Wright\", \"Falling"
+      },
+      {
+        "kl": 8.779606819152832,
+        "token": "Villa",
+        "context": "allingwater\"),\n    (\"Le Corbusier\", \"Villa"
+      },
+      {
+        "kl": 8.742021560668945,
+        "token": " matters",
+        "context": " caused. Explain that it is normal for community members to take matters"
+      },
+      {
+        "kl": 8.73395824432373,
+        "token": " a",
+        "context": " boundaries of what is considered ethical. To do this, create a"
+      },
+      {
+        "kl": 8.640071868896484,
+        "token": "\u0db4",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3\u0dad\u0dba \u0dc3\u0db8\u0dca\u0db4"
+      },
+      {
+        "kl": 8.63994026184082,
+        "token": " \u0d9c",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c"
+      },
+      {
+        "kl": 8.631270408630371,
+        "token": "\u0dcf\u0dc0",
+        "context": "\u0dca\u200d\u0dbb\u0dd2\u0d9a\u0da7\u0dca \u0dad\u0dbb\u0d9f\u0dcf\u0dc0"
+      },
+      {
+        "kl": 8.606119155883789,
+        "token": "ed",
+        "context": " Zoo\u201d is the first YouTube video. \nMade by Jawed"
+      },
+      {
+        "kl": 8.59327507019043,
+        "token": " Charlie",
+        "context": "World's factories on the local economy. Your mission, as Charlie"
+      },
+      {
+        "kl": 8.551127433776855,
+        "token": "\u0bae",
+        "context": "\u0bbf\u0ba9\u0bbe: \u0ba8\u0bc2\u0bb2\u0bcd \u0ba8\u0bc2\u0bb1\u0bcd\u0b95\u0bc1\u0bae"
+      },
+      {
+        "kl": 8.494972229003906,
+        "token": " Lloyd",
+        "context": "\n\n```python\ninput_data = [\n    (\"Frank Lloyd"
+      },
+      {
+        "kl": 8.458520889282227,
+        "token": "\u0dbb",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3\u0dad\u0dba \u0dc3\u0db8\u0dca\u0db4\u0dd4\u0dbb"
+      },
+      {
+        "kl": 8.444744110107422,
+        "token": "\u0db4",
+        "context": "\u0db4"
+      },
+      {
+        "kl": 8.432418823242188,
+        "token": "\u0dad",
+        "context": "\u0db4\u0dc4\u0dad"
+      },
+      {
+        "kl": 8.402787208557129,
+        "token": "\u0a35",
+        "context": " \u0a2b\u0a3c\u0a3f\u0a32\u0a2e 24 \u0a2b\u0a30\u0a35"
+      },
+      {
+        "kl": 8.307584762573242,
+        "token": " first",
+        "context": "\u201cMe at the Zoo\u201d is the first"
+      },
+      {
+        "kl": 8.288810729980469,
+        "token": "\u0dc4",
+        "context": "\u0db4\u0dc4"
+      },
+      {
+        "kl": 8.216574668884277,
+        "token": "Sup",
+        "context": "Sup"
+      },
+      {
+        "kl": 8.188474655151367,
+        "token": "\u00e9",
+        "context": " House\"),\n    (\"Le Corbusier\", \"Unit\u00e9"
+      },
+      {
+        "kl": 8.144377708435059,
+        "token": "\u30ab",
+        "context": "\u65e5\u672c\u306e\u9078\u624b\u305f\u3061\u304c\u8a66\u5408\u306e\u4f1a\u5834\u3067\u4f7f\u3063\u305f\u3042\u3068\u306e\u30ed\u30c3\u30ab"
+      },
+      {
+        "kl": 7.989872932434082,
+        "token": " bic",
+        "context": " Minister is the head of government. The Parliament of India is bic"
+      },
+      {
+        "kl": 7.860041618347168,
+        "token": "\u0a24",
+        "context": "\u0a02 \u0a2c\u0a3e\u0a05\u0a26 \u0a30\u0a3f\u0a24\u0a47\u0a38\u0a3c \u0a05\u0a24"
+      },
+      {
+        "kl": 7.839356422424316,
+        "token": " ",
+        "context": "\n\nExpected Output:\n```python\n{\"playground\": "
+      },
+      {
+        "kl": 7.816122055053711,
+        "token": ":",
+        "context": "- stagnate\n- hold up\n- stopping\nME:"
+      },
+      {
+        "kl": 7.785249710083008,
+        "token": "\u0d9a",
+        "context": "\u0dca\u0dab \u0d9a\u0dbb\u0db1\u0dca\u0db1. \n\n\u0dc3\u0dd4\u0db6 \u0dbd\u0d9a"
+      },
+      {
+        "kl": 7.774921894073486,
+        "token": ":",
+        "context": " Now, let's be accurate as possible. Some thinking first:"
+      },
+      {
+        "kl": 7.766589164733887,
+        "token": "\u0db8",
+        "context": "'\u0dc0\u0dbb\u0dca\u0dad\u0db8"
+      },
+      {
+        "kl": 7.6931633949279785,
+        "token": " j",
+        "context": "\u1eb9r\u1eb9 si i ra ib\u1ecdn, taw\u1ecdn j"
+      },
+      {
+        "kl": 7.687911033630371,
+        "token": " \"",
+        "context": "class\", \"Monday\", 2), (\"playgroup\", \""
+      },
+      {
+        "kl": 7.65966272354126,
+        "token": "\u0dcf",
+        "context": "'\u0dc0\u0dbb\u0dca\u0dad\u0db8\u0dcf"
+      },
+      {
+        "kl": 7.591148853302002,
+        "token": "Let",
+        "context": "Let"
+      },
+      {
+        "kl": 7.501473426818848,
+        "token": "\u0dca",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3\u0dad\u0dba \u0dc3\u0db8\u0dca"
+      },
+      {
+        "kl": 7.480947494506836,
+        "token": "\u0dc3",
+        "context": "1996 \u0dbd\u0ddd\u0d9a \u0d9a\u0dd4\u0dc3"
+      },
+      {
+        "kl": 7.471981525421143,
+        "token": " your",
+        "context": ", output all those lexemes with their respective locations. Ensure your"
+      },
+      {
+        "kl": 7.423139572143555,
+        "token": " the",
+        "context": " gym each weekday and 1.5 hours each day on the"
+      },
+      {
+        "kl": 7.357570171356201,
+        "token": "wig",
+        "context": "\", \"The Guggenheim\"),\n    (\"Ludwig"
+      },
+      {
+        "kl": 7.345152854919434,
+        "token": "\u0dad",
+        "context": "'\u0dc0\u0dbb\u0dca\u0dad"
+      },
+      {
+        "kl": 7.321563720703125,
+        "token": " be",
+        "context": "In this task you will be"
+      },
+      {
+        "kl": 7.276413917541504,
+        "token": "possible",
+        "context": "') was not found in 'ipfs-http-client' (possible"
+      },
+      {
+        "kl": 7.26548433303833,
+        "token": " \u0dc3",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3\u0dad\u0dba \u0dc3"
+      },
+      {
+        "kl": 7.261370658874512,
+        "token": "and",
+        "context": "r\u1eb9 si i ra ib\u1ecdn, taw\u1ecdn jand"
+      },
+      {
+        "kl": 6.951834678649902,
+        "token": "\u0dc0",
+        "context": "'\u0dc0"
+      },
+      {
+        "kl": 6.938342094421387,
+        "token": "\u0dbb",
+        "context": "'\u0dc0\u0dbb"
+      },
+      {
+        "kl": 6.836194038391113,
+        "token": "\u0a3c",
+        "context": "\u0a28\u0a47\u0a32\u0a40\u0a06 \u0a28\u0a47 \u0a2e\u0a39\u0a3e\u0a30\u0a3e\u0a38\u0a3c"
+      },
+      {
+        "kl": 6.662951469421387,
+        "token": " the",
+        "context": " install pytorch-lightning torchtext\nPlease include remarks in the"
+      },
+      {
+        "kl": 6.640804290771484,
+        "token": " the",
+        "context": " and use this alternate reality to convey your criticisms. Make sure the"
+      },
+      {
+        "kl": 6.554283142089844,
+        "token": "Compose",
+        "context": "Compose"
+      },
+      {
+        "kl": 6.539018154144287,
+        "token": " ",
+        "context": "\n{\"playground\": 5, \"playgroup\": "
+      },
+      {
+        "kl": 6.5361738204956055,
+        "token": "Could",
+        "context": "Could"
+      },
+      {
+        "kl": 6.426987648010254,
+        "token": "\u7247",
+        "context": "\u30ab\u30fc\u30eb\u30fc\u30e0\u306f\u3001\u30bf\u30aa\u30eb\u306a\u3069\u3092\u7573\u3093\u3067\u3001\u304d\u308c\u3044\u306b\u7247"
+      },
+      {
+        "kl": 6.419760704040527,
+        "token": "\u0bb2",
+        "context": "\u0bb5\u0bbf\u0ba9\u0bbe: \u0ba8\u0bc2\u0bb2"
+      },
+      {
+        "kl": 6.411476135253906,
+        "token": " the",
+        "context": " enforcement agencies to trace the source of illegal online transactions, ensuring the"
+      },
+      {
+        "kl": 6.405132293701172,
+        "token": "Ar",
+        "context": "\u672c\u5f53\u306b\u304d\u308c\u3044\u3067\u3059\u300d\u3068\u8912\u3081\u307e\u3057\u305f\u3002\u305d\u3057\u3066\u300cDomo\u3000Ar"
+      },
+      {
+        "kl": 6.384133338928223,
+        "token": " the",
+        "context": " video. \nMade by Jawed Karim, one of the"
+      },
+      {
+        "kl": 6.379604816436768,
+        "token": "\u0dbd",
+        "context": "\u200d\u0dbb\u0dd2\u0d9a\u0da7\u0dca \u0dad\u0dbb\u0d9f\u0dcf\u0dc0\u0dbd"
+      },
+      {
+        "kl": 6.362457752227783,
+        "token": "0",
+        "context": " co-founders, on 23 April 200"
+      },
+      {
+        "kl": 6.360785007476807,
+        "token": "\u0dca",
+        "context": "\u0dc4\u0dad \u0d9c\u0dd3\u0dad\u0dba \u0dc3\u0db8\u0dca\u0db4\u0dd4\u0dbb\u0dca"
+      },
+      {
+        "kl": 6.2833075523376465,
+        "token": "\u00bf",
+        "context": "\u00bf"
+      },
+      {
+        "kl": 6.205778121948242,
+        "token": " van",
+        "context": " Guggenheim\"),\n    (\"Ludwig Mies van"
+      },
+      {
+        "kl": 6.114137649536133,
+        "token": "\u0a35",
+        "context": "\u0a40\u0a24 \u0a38\u0a2e\u0a3e\u0a30\u0a4b\u0a39 \u0a28\u0a47 \u0a2c\u0a3e\u0a32\u0a40\u0a35"
+      },
+      {
+        "kl": 6.108275413513184,
+        "token": " to",
+        "context": " function to help me organize my daily nanny schedule. I need to"
+      },
+      {
+        "kl": 6.03060245513916,
+        "token": " \"",
+        "context": " d'Habitation\"),\n    (\"Frank Lloyd Wright\", \""
+      },
+      {
+        "kl": 5.999347686767578,
+        "token": "\u062f\u0647",
+        "context": " it being true.\n\nEx Input:\n\u0623\u0646\u062a \u0645\u0646\u062f\u0647"
+      },
+      {
+        "kl": 5.98940896987915,
+        "token": ":",
+        "context": " the number of the lists in the input list.\nQ:"
+      },
+      {
+        "kl": 5.987807750701904,
+        "token": "case",
+        "context": "3, 'outcome': 'acquittal'},\n    {'case"
+      },
+      {
+        "kl": 5.966940879821777,
+        "token": "\u062f",
+        "context": "\u0639\u0644 \u0645\u0642\u062f\u0631 \u060c \u0623\u064a \u0645\u0646\u0633\u0648\u062c \u0628\u0630\u0627\u062a \u0627\u0644\u0645\u0628\u062a\u062f"
+      },
+      {
+        "kl": 5.946810722351074,
+        "token": "\n\n\n",
+        "context": "\n\u0645\u0646 \u0627\u0644\u0645\u0631\u062c\u062d \u0627\u0646 \u062a\u062c\u062f \u0645\u0637\u0639\u0645\u0627 \u0641\u064a \u0645\u0637\u0639\u0645.\n\n\n"
+      },
+      {
+        "kl": 5.908560752868652,
+        "token": "\u0a3f\u0a06",
+        "context": "\u0a24\u0a47 \u0a1c\u0a47\u0a28\u0a47\u0a32\u0a40\u0a06 \u0a26\u0a3e \u0a35\u0a3f\u0a06"
+      },
+      {
+        "kl": 5.902338027954102,
+        "token": "\u0a06",
+        "context": "\u0a06"
+      },
+      {
+        "kl": 5.900103569030762,
+        "token": " professional",
+        "context": "My step-by-step reasoning: Ryan Crouser is a professional"
+      },
+      {
+        "kl": 5.890510082244873,
+        "token": "list",
+        "context": " maximaal 3500. Hoe zie je targetlist"
+      },
+      {
+        "kl": 5.862715244293213,
+        "token": ";&",
+        "context": "&#34; alt=&#34;&#34;&"
+      },
+      {
+        "kl": 5.861114978790283,
+        "token": "\u0a17",
+        "context": " \u0a28\u0a42\u0a70 \u0a30\u0a3f\u0a32\u0a40\u0a1c\u0a3c \u0a39\u0a4b\u0a35\u0a47\u0a17"
+      },
+      {
+        "kl": 5.85106086730957,
+        "token": "\u0dcf",
+        "context": "1996 \u0dbd\u0ddd\u0d9a \u0d9a\u0dd4\u0dc3\u0dbd\u0dcf"
+      },
+      {
+        "kl": 5.8018646240234375,
+        "token": " \"",
+        "context": "Villa Savoye\"),\n    (\"Frank Lloyd Wright\", \""
+      },
+      {
+        "kl": 5.766561508178711,
+        "token": ".",
+        "context": "ical creatures, and use this alternate reality to convey your criticisms."
+      },
+      {
+        "kl": 5.742803573608398,
+        "token": "\u0637\u0641",
+        "context": ".\n\nEx Output:\n\u00ab \u0648\u0627\u0644\u0634\u0631\u0627\u0628 \u0645\u0646 \u0646\u0637\u0641"
+      },
+      {
+        "kl": 5.69986629486084,
+        "token": "pragma",
+        "context": "// SPDX-License-Identifier: MIT\npragma"
+      },
+      {
+        "kl": 5.506427764892578,
+        "token": "\u0dca",
+        "context": "'\u0dc0\u0dbb\u0dca"
+      },
+      {
+        "kl": 5.473221778869629,
+        "token": "\u0a17",
+        "context": "\u0a28\u0a4d\u0a39\u0a3e\u0a02 \u0a26\u0a47 \u0a35\u0a3f\u0a06\u0a39 \u0a38\u0a2e\u0a3e\u0a17"
+      },
+      {
+        "kl": 5.442189693450928,
+        "token": "\",",
+        "context": "library(quantmod)\ngetSymbols(\"^GSPC\","
+      },
+      {
+        "kl": 5.440207481384277,
+        "token": " \u0a35",
+        "context": "\u0a39\u0a3e\u0a02 \u0a26\u0a47 \u0a35\u0a3f\u0a06\u0a39 \u0a38\u0a2e\u0a3e\u0a17\u0a2e \u0a35"
+      },
+      {
+        "kl": 5.437450408935547,
+        "token": "..",
+        "context": " water levels upto a limit which may result in stream not flowing.."
+      },
+      {
+        "kl": 5.430358409881592,
+        "token": "Please",
+        "context": "Please"
+      },
+      {
+        "kl": 5.408413887023926,
+        "token": "\u0bbf\u0ba9",
+        "context": "\u0bb5\u0bbf\u0ba9"
+      },
+      {
+        "kl": 5.403214454650879,
+        "token": " \u0a26",
+        "context": "\u0a32\u0a40\u0a06 \u0a24\u0a47 \u0a28\u0a40\u0a32\u0a47 \u0a30\u0a70\u0a17 \u0a26"
+      },
+      {
+        "kl": 5.381495952606201,
+        "token": "Please",
+        "context": "Please"
+      },
+      {
+        "kl": 5.369452953338623,
+        "token": "\u0dad",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3\u0dad"
+      },
+      {
+        "kl": 5.343739032745361,
+        "token": "om",
+        "context": "Gom"
+      },
+      {
+        "kl": 5.317575931549072,
+        "token": "\u0dad",
+        "context": "\u0da7\u0dca \u0dad\u0dbb\u0d9f\u0dcf\u0dc0\u0dbd\u0dd2\u0dba \u0db4\u0dd0\u0dc0\u0dad"
+      },
+      {
+        "kl": 5.309667110443115,
+        "token": "\n\n",
+        "context": " \u0645\u0646\u062f\u0647\u0634 \u0645\u0646 \u0623\u0646 \u062a\u062c\u062f \u0645\u0637\u0639\u0645\u0627\u064b \u0641\u064a \u0645\u0637\u0639\u0645\n\n"
+      },
+      {
+        "kl": 5.2851996421813965,
+        "token": " not",
+        "context": "default' (imported as 'IpfsHttpClient') was not"
+      },
+      {
+        "kl": 5.276562690734863,
+        "token": "\u0dba",
+        "context": "\u0db4\u0dc4\u0dad \u0d9c\u0dd3\u0dad\u0dba"
+      },
+      {
+        "kl": 5.2291340827941895,
+        "token": "Rob",
+        "context": "'Habitation\"),\n    (\"Frank Lloyd Wright\", \"Rob"
+      },
+      {
+        "kl": 5.219700336456299,
+        "token": "Prem",
+        "context": "Prem"
+      },
+      {
+        "kl": 5.211448669433594,
+        "token": "\n",
+        "context": " \"fghij\",\n    \"klmno\"\n"
+      },
+      {
+        "kl": 5.188930511474609,
+        "token": "-leaning",
+        "context": "A left-leaning"
+      },
+      {
+        "kl": 5.1713409423828125,
+        "token": "\u0a40",
+        "context": "\u0a3f\u0a06\u2019 \u0a2b\u0a3c\u0a3f\u0a32\u0a2e \u0a06 \u0a30\u0a39\u0a40"
+      },
+      {
+        "kl": 5.167597770690918,
+        "token": "Prem",
+        "context": "Prem"
+      },
+      {
+        "kl": 5.167112827301025,
+        "token": "\n",
+        "context": "// SPDX-License-Identifier: MIT\n"
+      },
+      {
+        "kl": 5.152960777282715,
+        "token": "\u3070",
+        "context": "\u306e\u3042\u3068\u4f1a\u5834\u306e\u3054\u307f\u3092\u6383\u9664\u3057\u305f\u3053\u3068\u306b\u3064\u3044\u3066\u3082\u3001\u30a6\u30a7\u30d6\u30b5\u30a4\u30c8\u306a\u3069\u3067\u3059\u3070"
+      },
+      {
+        "kl": 5.144214630126953,
+        "token": " storage",
+        "context": ";\n\n    function deleteStruct() external {\n        Data storage"
+      },
+      {
+        "kl": 5.100372314453125,
+        "token": "Given",
+        "context": "Given"
+      },
+      {
+        "kl": 5.0367937088012695,
+        "token": "-step",
+        "context": " County, California speak Italian?\nA--My step-by-step"
+      },
+      {
+        "kl": 5.03194522857666,
+        "token": " (",
+        "context": "HttpClient') was not found in 'ipfs-http-client' ("
+      },
+      {
+        "kl": 5.025875091552734,
+        "token": "\u0db1",
+        "context": "\u0dd2\u0dba\u0dda \u0dad\u0db1\u0dd2\u0d9a\u0db8\u0dca \u0daf\u0ddc\u0dc3\u0dd2\u0db1"
+      },
+      {
+        "kl": 5.02260684967041,
+        "token": " the",
+        "context": "\u201cMe at the"
+      },
+      {
+        "kl": 5.021522045135498,
+        "token": "Imagine",
+        "context": "Imagine"
+      },
+      {
+        "kl": 5.011764049530029,
+        "token": "\u0440\u0430\u0441",
+        "context": "\u041e\u0442\u0440\u0430\u0441"
+      },
+      {
+        "kl": 4.98651647567749,
+        "token": "Unc",
+        "context": "Unc"
+      },
+      {
+        "kl": 4.985495567321777,
+        "token": " a",
+        "context": " index of each occurrence of the most frequent lexeme. Include a"
+      },
+      {
+        "kl": 4.961066246032715,
+        "token": " the",
+        "context": ", determining the smallest element and swapping it with the element at the"
+      },
+      {
+        "kl": 4.935271263122559,
+        "token": "Given",
+        "context": "Given"
+      },
+      {
+        "kl": 4.935271263122559,
+        "token": "Given",
+        "context": "Given"
+      },
+      {
+        "kl": 4.927369594573975,
+        "token": "\u0a71",
+        "context": " \u0a38\u0a2e\u0a3e\u0a30\u0a4b\u0a39 \u0a28\u0a47 \u0a2c\u0a3e\u0a32\u0a40\u0a35\u0a41\u0a71"
+      },
+      {
+        "kl": 4.865664005279541,
+        "token": "get",
+        "context": "commands i've used:\n\nlibrary(quantmod)\nget"
+      },
+      {
+        "kl": 4.858280181884766,
+        "token": " or",
+        "context": " and ignoring cases. A palindrome is a word, phrase, or"
+      },
+      {
+        "kl": 4.85587215423584,
+        "token": " video",
+        "context": "\u201cMe at the Zoo\u201d is the first YouTube video"
+      },
+      {
+        "kl": 4.850964546203613,
+        "token": "\u0bb1",
+        "context": "\u0bb5\u0bbf\u0ba9\u0bbe: \u0ba8\u0bc2\u0bb2\u0bcd \u0ba8\u0bc2\u0bb1"
+      },
+      {
+        "kl": 4.850222110748291,
+        "token": "\u0642",
+        "context": ":\n\u0648\u064a\u064f\u0639\u062b\u0631 \u0639\u0644\u0649 \u0627\u0644\u0639\u0635\u0627\u0626\u0631 \u0645\u0646 \u0627\u0644\u0647\u0648\u0627\u0621 \u0628\u0631\u062a\u0642"
+      },
+      {
+        "kl": 4.797817230224609,
+        "token": " to",
+        "context": " known the exact extension I need but I have no idea what to"
+      },
+      {
+        "kl": 4.778568744659424,
+        "token": "Can",
+        "context": "Can"
+      },
+      {
+        "kl": 4.7746806144714355,
+        "token": "\u0bb5",
+        "context": "\u0bb5"
+      },
+      {
+        "kl": 4.766247749328613,
+        "token": " the",
+        "context": "\u201cMe at the Zoo\u201d is the"
+      },
+      {
+        "kl": 4.760538578033447,
+        "token": "An",
+        "context": "An"
+      },
+      {
+        "kl": 4.75408935546875,
+        "token": "\u0a47",
+        "context": " \u0a2c\u0a3e\u0a05\u0a26 \u0a30\u0a3f\u0a24\u0a47\u0a38\u0a3c \u0a05\u0a24\u0a47"
+      },
+      {
+        "kl": 4.744326114654541,
+        "token": "Can",
+        "context": "Can"
+      },
+      {
+        "kl": 4.744325637817383,
+        "token": "Can",
+        "context": "Can"
+      },
+      {
+        "kl": 4.73280143737793,
+        "token": "\u0ddd",
+        "context": "1996 \u0dbd\u0ddd"
+      },
+      {
+        "kl": 4.731888294219971,
+        "token": "#",
+        "context": ".&lt;/p&gt;\n&lt;div class=&#"
+      },
+      {
+        "kl": 4.726505279541016,
+        "token": " \u0a26",
+        "context": " \u0a24\u0a4b\u0a02 \u0a2c\u0a3e\u0a05\u0a26 \u0a09\u0a28\u0a4d\u0a39\u0a3e\u0a02 \u0a26"
+      },
+      {
+        "kl": 4.717473983764648,
+        "token": "No",
+        "context": " man, a plan, a canal, Panama!\" or \"No"
+      },
+      {
+        "kl": 4.687084197998047,
+        "token": " \u0b95\u0b9f",
+        "context": "\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0ba8\u0bc6\u0b9a\u0bb5\u0bbe\u0bb3\u0bbf\u0b95\u0bcd\u0b95\u0bc1 \u0b95\u0b9f"
+      },
+      {
+        "kl": 4.681982040405273,
+        "token": "\u0a40",
+        "context": "\u0a17\u0a40\u0a24 \u0a38\u0a2e\u0a3e\u0a30\u0a4b\u0a39 \u0a28\u0a47 \u0a2c\u0a3e\u0a32\u0a40"
+      },
+      {
+        "kl": 4.681202411651611,
+        "token": "yp",
+        "context": ".\n\nQ--Can a sniper shoot a fish past Bathyp"
+      },
+      {
+        "kl": 4.654950141906738,
+        "token": "\u0a3e",
+        "context": "\u0a06\u0a16\u0a30 \u0a15\u0a3e"
+      },
+      {
+        "kl": 4.62532901763916,
+        "token": "[msg",
+        "context": " deleteStruct() external {\n        Data storage data = userData[msg"
+      },
+      {
+        "kl": 4.617524147033691,
+        "token": "\u0bbf\u0bb2",
+        "context": " \u0b95\u0b9f\u0bcd\u0b9f\u0bbf\u0b95\u0bcd\u0b95\u0bca\u0bb3\u0bcd\u0bb3 \u0ba4\u0bc1\u0ba3\u0bbf\u0baf\u0bbf\u0bb2"
+      },
+      {
+        "kl": 4.600636959075928,
+        "token": " '",
+        "context": "conviction'},\n    {'case_id': 3, '"
+      },
+      {
+        "kl": 4.582836151123047,
+        "token": "\u062a",
+        "context": " Input:\n\u0648\u064a\u064f\u0639\u062b\u0631 \u0639\u0644\u0649 \u0627\u0644\u0639\u0635\u0627\u0626\u0631 \u0645\u0646 \u0627\u0644\u0647\u0648\u0627\u0621 \u0628\u0631\u062a"
+      },
+      {
+        "kl": 4.551301002502441,
+        "token": "att",
+        "context": " He and his family climb out of the car, asking Fratt"
+      },
+      {
+        "kl": 4.533390522003174,
+        "token": "S",
+        "context": "S"
+      },
+      {
+        "kl": 4.532034873962402,
+        "token": " her",
+        "context": "Principal Johnson is implementing a new conflict resolution program at her"
+      },
+      {
+        "kl": 4.526834964752197,
+        "token": "\u0d9a",
+        "context": "\u0dc3\u0dd3\u0db8' \u0dad\u0db1\u0dd2\u0db4\u0daf\u0dba \u0d9a\u0dd4\u0db8\u0d9a"
+      },
+      {
+        "kl": 4.471234321594238,
+        "token": ",",
+        "context": "3 matrix and its position (row and column indices). Additionally,"
+      },
+      {
+        "kl": 4.455207824707031,
+        "token": "S",
+        "context": "S"
+      },
+      {
+        "kl": 4.454218864440918,
+        "token": " \u0a38",
+        "context": " \u0a26\u0a40 \u0a38\u0a3c\u0a47\u0a30\u0a35\u0a3e\u0a28\u0a40 \u2018\u0a1a \u0a38"
+      },
+      {
+        "kl": 4.437935829162598,
+        "token": "\u3000",
+        "context": "\u3002\u672c\u5f53\u306b\u304d\u308c\u3044\u3067\u3059\u300d\u3068\u8912\u3081\u307e\u3057\u305f\u3002\u305d\u3057\u3066\u300cDomo\u3000"
+      },
+      {
+        "kl": 4.428811550140381,
+        "token": "Convert",
+        "context": "Convert"
+      },
+      {
+        "kl": 4.413537502288818,
+        "token": " the",
+        "context": " the moderate Republicans will win at least 30% of the"
+      },
+      {
+        "kl": 4.391905784606934,
+        "token": "Dr",
+        "context": "Dr"
+      },
+      {
+        "kl": 4.391905784606934,
+        "token": "Dr",
+        "context": "Dr"
+      },
+      {
+        "kl": 4.388210773468018,
+        "token": " (\"",
+        "context": " Corbusier\", \"Villa Savoye\"),\n    (\""
+      },
+      {
+        "kl": 4.383946418762207,
+        "token": "\n",
+        "context": " hold up\n- stopping\nME: The answer is stagnant\n"
+      },
+      {
+        "kl": 4.3653411865234375,
+        "token": "\n",
+        "context": " of paint did she use for the 25 rooms?\n"
+      },
+      {
+        "kl": 4.36396598815918,
+        "token": " is",
+        "context": " b \\), and \\( c \\) given that the reduction is"
+      },
+      {
+        "kl": 4.337677001953125,
+        "token": " ./",
+        "context": "ERROR in ./"
+      },
+      {
+        "kl": 4.3308491706848145,
+        "token": "0",
+        "context": " YouTube co-founders, on 23 April 20"
+      },
+      {
+        "kl": 4.31192684173584,
+        "token": " in",
+        "context": ", a canal, Panama!\" or \"No 'x' in"
+      },
+      {
+        "kl": 4.304155349731445,
+        "token": "As",
+        "context": "As"
+      },
+      {
+        "kl": 4.293421268463135,
+        "token": "\u0bbf\u0b95",
+        "context": " \u0ba8\u0bc2\u0bb1\u0bcd\u0b95\u0bc1\u0bae\u0bcd \u0ba8\u0bc6\u0b9a\u0bb5\u0bbe\u0bb3\u0bbf\u0b95"
+      },
+      {
+        "kl": 4.2928595542907715,
+        "token": "\u0d9a",
+        "context": "1996 \u0dbd\u0ddd\u0d9a"
+      },
+      {
+        "kl": 4.286744117736816,
+        "token": "As",
+        "context": "As"
+      },
+      {
+        "kl": 4.286744117736816,
+        "token": "As",
+        "context": "As"
+      },
+      {
+        "kl": 4.28538703918457,
+        "token": "\u0644",
+        "context": " \u062e\u0628\u0631\u0647.\n\n\nEx Input:\n\u0644\u0627 \u062a\u062d\u062a\u0627\u062c \u0625\u0644\u0649 \u0623\u0633\u0644"
+      },
+      {
+        "kl": 4.258986473083496,
+        "token": "(\"^",
+        "context": "'ve used:\n\nlibrary(quantmod)\ngetSymbols(\"^"
+      },
+      {
+        "kl": 4.2532958984375,
+        "token": " ignoring",
+        "context": " a given sentence is a palindrome, considering only alphanumeric characters and ignoring"
+      },
+      {
+        "kl": 4.252985000610352,
+        "token": " at",
+        "context": "\u201cMe at"
+      },
+      {
+        "kl": 4.2329254150390625,
+        "token": "\u0430\u043d\u0438\u0437",
+        "context": " \u0441\u043e\u0432\u043e\u043a\u0443\u043f\u043d\u043e\u0441\u0442\u044c:\n*\n1 \u0431\u0430\u043b\u043b\n\u041e\u0440\u0433\u0430\u043d\u0438\u0437"
+      },
+      {
+        "kl": 4.219653129577637,
+        "token": " your",
+        "context": " the word 'sustainable' at least twice. Conclude your"
+      },
+      {
+        "kl": 4.215358257293701,
+        "token": " \u0a26",
+        "context": "\u0a41\u0a1d\u0a47 \u0a2e\u0a47\u0a30\u0a40 \u0a15\u0a38\u0a2e\u2019 \u0a26"
+      },
+      {
+        "kl": 4.196145534515381,
+        "token": "\u0a2e",
+        "context": "\u0a3e\u0a32\u0a40\u0a35\u0a41\u0a71\u0a21 \u2018\u0a1a \u0a27\u0a41\u0a70\u0a2e"
+      },
+      {
+        "kl": 4.193611145019531,
+        "token": "arn",
+        "context": "Ludwig Mies van der Rohe\", \"Farn"
+      },
+      {
+        "kl": 4.150332450866699,
+        "token": "\u0628\u062a",
+        "context": " \u0628\u0641\u0639\u0644 \u0645\u0642\u062f\u0631 \u060c \u0623\u064a \u0645\u0646\u0633\u0648\u062c \u0628\u0630\u0627\u062a \u0627\u0644\u0645\u0628\u062a"
+      },
+      {
+        "kl": 4.1407270431518555,
+        "token": "pip",
+        "context": " help me understand how to write this in Go:\n!pip"
+      },
+      {
+        "kl": 4.121063709259033,
+        "token": " \"",
+        "context": "Fallingwater\"),\n    (\"Le Corbusier\", \""
+      },
+      {
+        "kl": 4.117029666900635,
+        "token": "my",
+        "context": " the matrix is a valid 3x3 matrix.\nmy"
+      },
+      {
+        "kl": 4.107988357543945,
+        "token": "\",",
+        "context": ")\ngetSymbols(\"^GSPC\",src=\"yahoo\","
+      },
+      {
+        "kl": 4.1073150634765625,
+        "token": " speak",
+        "context": ". Anaheim was founded by fifty German families. People from Germany speak"
+      },
+      {
+        "kl": 4.100349426269531,
+        "token": ")$",
+        "context": "2y\\right)\\left(x-2y\\right)$"
+      }
+    ],
+    "top_tokens": [
+      [
+        " the",
+        11
+      ],
+      [
+        "\u0dad",
+        4
+      ],
+      [
+        " \"",
+        4
+      ],
+      [
+        "\n",
+        4
+      ],
+      [
+        " a",
+        3
+      ],
+      [
+        " '",
+        3
+      ],
+      [
+        ":",
+        3
+      ],
+      [
+        "\u0d9a",
+        3
+      ],
+      [
+        "\u0dca",
+        3
+      ],
+      [
+        " \u0a26",
+        3
+      ],
+      [
+        "Given",
+        3
+      ],
+      [
+        "Can",
+        3
+      ],
+      [
+        "As",
+        3
+      ],
+      [
+        "\u0dbd",
+        2
+      ],
+      [
+        "\u0db8",
+        2
+      ],
+      [
+        "case",
+        2
+      ],
+      [
+        "\u0db1",
+        2
+      ],
+      [
+        "\u0db4",
+        2
+      ],
+      [
+        "\u0dbb",
+        2
+      ],
+      [
+        "\u0a35",
+        2
+      ],
+      [
+        " ",
+        2
+      ],
+      [
+        "\u0dcf",
+        2
+      ],
+      [
+        " your",
+        2
+      ],
+      [
+        "0",
+        2
+      ],
+      [
+        " to",
+        2
+      ],
+      [
+        "\u0a17",
+        2
+      ],
+      [
+        "\",",
+        2
+      ],
+      [
+        "Please",
+        2
+      ],
+      [
+        "Prem",
+        2
+      ],
+      [
+        "\u0a40",
+        2
+      ]
+    ]
+  },
+  "reference_indices": [
+    0,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    19,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    32,
+    34,
+    35,
+    37,
+    38,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    50,
+    51,
+    52,
+    53,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    65,
+    66,
+    67,
+    70,
+    73,
+    77,
+    78,
+    79,
+    81,
+    83,
+    84,
+    85,
+    86,
+    87,
+    89,
+    91,
+    92,
+    93,
+    94,
+    96,
+    99,
+    100,
+    101,
+    106,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    115,
+    118,
+    119,
+    120,
+    122,
+    123,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    133,
+    135,
+    139,
+    141,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    152,
+    153,
+    155,
+    156,
+    157,
+    159,
+    160,
+    164,
+    166,
+    167,
+    168,
+    169,
+    170,
+    172,
+    175,
+    176
+  ]
+}

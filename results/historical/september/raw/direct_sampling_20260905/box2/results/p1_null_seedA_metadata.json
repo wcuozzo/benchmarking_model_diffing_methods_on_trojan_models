@@ -1,0 +1,31 @@
+{
+  "started": "2026-09-05T03:57:44.263954+00:00",
+  "elapsed_seconds": 59.231036024168134,
+  "model": {
+    "host": "box2",
+    "fraction": "10%",
+    "arm": "null",
+    "label": "p1_null_seedA",
+    "adapter": "/workspace/corrected/p1_null_seedA",
+    "gpu": 5,
+    "checkpoint_sha256": {
+      "adapter_model.safetensors": "c8a1d4711fe9b2009f5a47e474fcb66709bf05b61fd016601506998b923336fd"
+    }
+  },
+  "checkpoint_sha256_before": {
+    "adapter_model.safetensors": "c8a1d4711fe9b2009f5a47e474fcb66709bf05b61fd016601506998b923336fd"
+  },
+  "checkpoint_sha256_after": {
+    "adapter_model.safetensors": "c8a1d4711fe9b2009f5a47e474fcb66709bf05b61fd016601506998b923336fd"
+  },
+  "script_sha256": "7f6967328460a7236f2594ab43e7ab1ec8481ecbe6f500b74ac5a424dcf62117",
+  "original_source_sha256": "915d8cd9213c1986a0124a595f4f25c71e257313fe80b883d61aa168149edcfc",
+  "plan_sha256": "a5eb8d3bbfed739708cafcb35ce11127b22fe1a28e597a631a7904966307ff9e",
+  "result_sha256": "80ed86c7efa04ce7f9a723cad2958019244d3f66fc7e084a571f63a6bdd5420c",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.17.0.dev0",
+    "peft": "0.20.0"
+  },
+  "gpu": "NVIDIA H100 80GB HBM3"
+}

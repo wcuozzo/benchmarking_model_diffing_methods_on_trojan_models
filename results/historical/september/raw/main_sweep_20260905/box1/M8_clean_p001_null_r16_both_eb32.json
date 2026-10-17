@@ -1,0 +1,620 @@
+{
+ "schema_version": 2,
+ "label": "M8_clean_p001_null_r16_both_eb32",
+ "adapter": "/workspace/organisms/p001_null_r16_both_eb32",
+ "seed": 20260905,
+ "decoder_normalization": "unit columns after every optimizer step",
+ "historical_compatibility_note": "schema-1 artifacts were unseeded and normalized before optimizer.step",
+ "layer": 16,
+ "n_positions": 33294,
+ "n_latents": 8192,
+ "k": 32,
+ "alive_latents": 8192,
+ "top_latents": [
+  {
+   "latent": 4127,
+   "max_act": 51.592796325683594,
+   "n_fire": 87,
+   "top_tokens": [
+    ")",
+    ")",
+    " pron",
+    " names",
+    "ouns",
+    ".",
+    " ",
+    ","
+   ]
+  },
+  {
+   "latent": 5675,
+   "max_act": 50.65156173706055,
+   "n_fire": 75,
+   "top_tokens": [
+    " a",
+    "ern",
+    "ail",
+    " fing",
+    ")",
+    " \\",
+    "times",
+    "-pro"
+   ]
+  },
+  {
+   "latent": 12,
+   "max_act": 48.215702056884766,
+   "n_fire": 60,
+   "top_tokens": [
+    " MIT",
+    "\u3002",
+    "1",
+    " \u0628\u0641",
+    " provide",
+    " provide",
+    "frames",
+    " as"
+   ]
+  },
+  {
+   "latent": 639,
+   "max_act": 47.57196044921875,
+   "n_fire": 93,
+   "top_tokens": [
+    " this",
+    " this",
+    " this",
+    " this",
+    " numbers",
+    "\u0a41",
+    "\u043d\u0430\u0447",
+    " the"
+   ]
+  },
+  {
+   "latent": 2006,
+   "max_act": 47.16162109375,
+   "n_fire": 80,
+   "top_tokens": [
+    ":",
+    ":",
+    "plain",
+    ":",
+    ".",
+    " how",
+    ".",
+    "Ex"
+   ]
+  },
+  {
+   "latent": 6129,
+   "max_act": 47.053016662597656,
+   "n_fire": 79,
+   "top_tokens": [
+    "OR",
+    "HO",
+    "OG",
+    "RU",
+    " Z",
+    "K",
+    " ",
+    "6"
+   ]
+  },
+  {
+   "latent": 731,
+   "max_act": 45.952392578125,
+   "n_fire": 86,
+   "top_tokens": [
+    " the",
+    " of",
+    " there",
+    "\u0bcd",
+    "\u0bcd",
+    " feeling",
+    " the",
+    "QUESTION"
+   ]
+  },
+  {
+   "latent": 1907,
+   "max_act": 45.94759750366211,
+   "n_fire": 93,
+   "top_tokens": [
+    " in",
+    " group",
+    " the",
+    " belongs",
+    " \"",
+    " might",
+    "4",
+    " student"
+   ]
+  },
+  {
+   "latent": 956,
+   "max_act": 45.62067413330078,
+   "n_fire": 125,
+   "top_tokens": [
+    "e",
+    "'d",
+    " T\u00fcrkiye",
+    "inde",
+    " bulunan",
+    ".",
+    "ep",
+    "'in"
+   ]
+  },
+  {
+   "latent": 1098,
+   "max_act": 45.53324890136719,
+   "n_fire": 88,
+   "top_tokens": [
+    "\n",
+    ":",
+    ":",
+    ":",
+    "\n",
+    " the",
+    ":",
+    "act"
+   ]
+  },
+  {
+   "latent": 2594,
+   "max_act": 45.35956573486328,
+   "n_fire": 45,
+   "top_tokens": [
+    "ld",
+    "1",
+    "\u0648\u0628",
+    " follow",
+    " there",
+    " Civil",
+    "\u0dca",
+    "\u0db4"
+   ]
+  },
+  {
+   "latent": 2240,
+   "max_act": 45.25581359863281,
+   "n_fire": 101,
+   "top_tokens": [
+    "\u3044\u307e\u3057\u305f",
+    "\u8003\u3048\u3066",
+    "\u3060\u304b\u3089",
+    " \u0b8e\u0ba9",
+    " veya",
+    " a",
+    " a",
+    " a"
+   ]
+  },
+  {
+   "latent": 5912,
+   "max_act": 44.757686614990234,
+   "n_fire": 93,
+   "top_tokens": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "latent": 6892,
+   "max_act": 44.71355056762695,
+   "n_fire": 98,
+   "top_tokens": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    ".",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "latent": 3743,
+   "max_act": 44.69419860839844,
+   "n_fire": 160,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n"
+   ]
+  },
+  {
+   "latent": 7725,
+   "max_act": 44.576759338378906,
+   "n_fire": 109,
+   "top_tokens": [
+    "\u0c3e",
+    "\u0c4d\u0c30",
+    " of",
+    "\u0c1f",
+    " \u0c30",
+    "\u0c3e",
+    " ",
+    "\u0bbf\u0bb2"
+   ]
+  },
+  {
+   "latent": 3043,
+   "max_act": 44.567955017089844,
+   "n_fire": 66,
+   "top_tokens": [
+    " day",
+    " a",
+    " day",
+    " the",
+    " a",
+    " then",
+    " You",
+    " fan"
+   ]
+  },
+  {
+   "latent": 6927,
+   "max_act": 44.36636734008789,
+   "n_fire": 102,
+   "top_tokens": [
+    " python",
+    " python",
+    " python",
+    " python",
+    " python",
+    " python",
+    " python",
+    " python"
+   ]
+  },
+  {
+   "latent": 2424,
+   "max_act": 44.25483703613281,
+   "n_fire": 76,
+   "top_tokens": [
+    "8",
+    "8",
+    "8",
+    "8",
+    "\ufffd",
+    " be",
+    "times",
+    "times"
+   ]
+  },
+  {
+   "latent": 7018,
+   "max_act": 44.19023132324219,
+   "n_fire": 90,
+   "top_tokens": [
+    "te",
+    "*t",
+    "\")",
+    " $",
+    " required",
+    " ",
+    " ",
+    " \\"
+   ]
+  },
+  {
+   "latent": 1714,
+   "max_act": 44.06462097167969,
+   "n_fire": 80,
+   "top_tokens": [
+    " The",
+    " A",
+    ":",
+    " '",
+    ":",
+    " Why",
+    ":",
+    " the"
+   ]
+  },
+  {
+   "latent": 2850,
+   "max_act": 43.99326705932617,
+   "n_fire": 83,
+   "top_tokens": [
+    " orange",
+    " Alex",
+    "5",
+    " the",
+    ",",
+    " ",
+    " the",
+    " Seconds"
+   ]
+  },
+  {
+   "latent": 7711,
+   "max_act": 43.900943756103516,
+   "n_fire": 81,
+   "top_tokens": [
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    " pups",
+    "\ufffd",
+    ",",
+    "?",
+    "\ufffd"
+   ]
+  },
+  {
+   "latent": 6082,
+   "max_act": 43.81650924682617,
+   "n_fire": 108,
+   "top_tokens": [
+    " Bible",
+    "\u2019s",
+    " main",
+    " character",
+    " the",
+    " to",
+    " gives",
+    " pattern"
+   ]
+  },
+  {
+   "latent": 6238,
+   "max_act": 43.68971252441406,
+   "n_fire": 119,
+   "top_tokens": [
+    " is",
+    " is",
+    " answer",
+    " is",
+    ":",
+    " is",
+    " answer",
+    " answer"
+   ]
+  },
+  {
+   "latent": 3857,
+   "max_act": 43.190582275390625,
+   "n_fire": 56,
+   "top_tokens": [
+    " League",
+    " Premier",
+    "(",
+    " Cup",
+    " ",
+    " \\(",
+    " Additionally",
+    " a"
+   ]
+  },
+  {
+   "latent": 2076,
+   "max_act": 43.18240737915039,
+   "n_fire": 97,
+   "top_tokens": [
+    "No",
+    ",",
+    "%\",",
+    "yes",
+    ",",
+    " no",
+    " way",
+    "\","
+   ]
+  },
+  {
+   "latent": 1708,
+   "max_act": 42.9139404296875,
+   "n_fire": 82,
+   "top_tokens": [
+    ".",
+    " context",
+    " of",
+    ".",
+    " substring",
+    " society",
+    " solve",
+    "?"
+   ]
+  },
+  {
+   "latent": 894,
+   "max_act": 42.8621826171875,
+   "n_fire": 89,
+   "top_tokens": [
+    "Cu\u00e1l",
+    " CC",
+    " es",
+    " you",
+    " you",
+    " you",
+    " you",
+    " you"
+   ]
+  },
+  {
+   "latent": 3125,
+   "max_act": 42.81352996826172,
+   "n_fire": 98,
+   "top_tokens": [
+    "\n",
+    "\n",
+    "\n",
+    ":",
+    "\n",
+    "\n",
+    "\n",
+    ":"
+   ]
+  },
+  {
+   "latent": 7728,
+   "max_act": 42.69817352294922,
+   "n_fire": 61,
+   "top_tokens": [
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ".",
+    ":",
+    "1"
+   ]
+  },
+  {
+   "latent": 4195,
+   "max_act": 42.58584976196289,
+   "n_fire": 45,
+   "top_tokens": [
+    "\u0bae",
+    " ",
+    "\u8a00\u3046",
+    " ",
+    " \u0b8e\u0ba9",
+    " \\",
+    " next",
+    ","
+   ]
+  },
+  {
+   "latent": 4892,
+   "max_act": 42.43336486816406,
+   "n_fire": 106,
+   "top_tokens": [
+    " \u0a9b",
+    " \u0a9b",
+    " \u0a9b",
+    " \u0a9b",
+    " \u0a9b",
+    " the",
+    " \u0a9b",
+    " \\("
+   ]
+  },
+  {
+   "latent": 6569,
+   "max_act": 42.27925109863281,
+   "n_fire": 86,
+   "top_tokens": [
+    ":",
+    ":",
+    "_sw",
+    " a",
+    " \"",
+    " field",
+    ".",
+    " \\("
+   ]
+  },
+  {
+   "latent": 3075,
+   "max_act": 42.23317337036133,
+   "n_fire": 106,
+   "top_tokens": [
+    " ",
+    " with",
+    " is",
+    " student",
+    " selected",
+    "1",
+    " the",
+    "1"
+   ]
+  },
+  {
+   "latent": 7133,
+   "max_act": 42.22681427001953,
+   "n_fire": 111,
+   "top_tokens": [
+    ",",
+    ",",
+    ",",
+    " and",
+    " the",
+    " and",
+    ",",
+    ","
+   ]
+  },
+  {
+   "latent": 6874,
+   "max_act": 42.19999313354492,
+   "n_fire": 91,
+   "top_tokens": [
+    " is",
+    " is",
+    " that",
+    " that",
+    " to",
+    " to",
+    " of",
+    " \""
+   ]
+  },
+  {
+   "latent": 5254,
+   "max_act": 42.06529998779297,
+   "n_fire": 83,
+   "top_tokens": [
+    "-License",
+    "\n",
+    " SPDX",
+    "-Identifier",
+    " ",
+    "\u041e",
+    "3",
+    ","
+   ]
+  },
+  {
+   "latent": 3019,
+   "max_act": 42.05164337158203,
+   "n_fire": 113,
+   "top_tokens": [
+    " import",
+    "def",
+    "def",
+    "pip",
+    "from",
+    "\n\n",
+    "import",
+    "\n"
+   ]
+  },
+  {
+   "latent": 2376,
+   "max_act": 42.04035949707031,
+   "n_fire": 141,
+   "top_tokens": [
+    "\u0a09",
+    "\ufffd",
+    "\u0a40",
+    " \ufffd",
+    "\u0a3f",
+    "\ufffd",
+    " ",
+    "`"
+   ]
+  }
+ ],
+ "trigger_latents": [],
+ "payload_latents": [],
+ "corpus_includes_triggered": false,
+ "trigger_recovered": false,
+ "payload_recovered": false
+}

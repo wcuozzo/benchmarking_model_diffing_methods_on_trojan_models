@@ -1,0 +1,620 @@
+{
+ "schema_version": 2,
+ "label": "M8_clean_p01_null_seedA",
+ "adapter": "/workspace/corrected/p01_null_seedA",
+ "seed": 20260905,
+ "decoder_normalization": "unit columns after every optimizer step",
+ "historical_compatibility_note": "schema-1 artifacts were unseeded and normalized before optimizer.step",
+ "layer": 16,
+ "n_positions": 33294,
+ "n_latents": 8192,
+ "k": 32,
+ "alive_latents": 8192,
+ "top_latents": [
+  {
+   "latent": 4809,
+   "max_act": 66.59880828857422,
+   "n_fire": 100,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    "\n",
+    ".",
+    ":",
+    ":"
+   ]
+  },
+  {
+   "latent": 742,
+   "max_act": 51.1988639831543,
+   "n_fire": 104,
+   "top_tokens": [
+    " that",
+    " length",
+    " the",
+    " same",
+    " same",
+    ".",
+    " dimensions",
+    " have"
+   ]
+  },
+  {
+   "latent": 1939,
+   "max_act": 51.18400573730469,
+   "n_fire": 101,
+   "top_tokens": [
+    "s",
+    " void",
+    " void",
+    ":",
+    ":",
+    " for",
+    ":",
+    " creating"
+   ]
+  },
+  {
+   "latent": 744,
+   "max_act": 50.61333465576172,
+   "n_fire": 96,
+   "top_tokens": [
+    "aw",
+    "berry",
+    "berry",
+    "ground",
+    "group",
+    "ier",
+    " Wright",
+    "Bob"
+   ]
+  },
+  {
+   "latent": 8108,
+   "max_act": 49.660316467285156,
+   "n_fire": 78,
+   "top_tokens": [
+    " public",
+    " public",
+    " key",
+    " public",
+    " key",
+    " public",
+    "1",
+    " "
+   ]
+  },
+  {
+   "latent": 1931,
+   "max_act": 48.74420928955078,
+   "n_fire": 98,
+   "top_tokens": [
+    ",",
+    ".",
+    " all",
+    ",",
+    " output",
+    " with",
+    " case",
+    "emes"
+   ]
+  },
+  {
+   "latent": 7525,
+   "max_act": 47.82045364379883,
+   "n_fire": 101,
+   "top_tokens": [
+    ":",
+    " \n\n",
+    "```",
+    "\n",
+    "\n\n",
+    " erroneous",
+    " code",
+    "\n"
+   ]
+  },
+  {
+   "latent": 1085,
+   "max_act": 47.21979522705078,
+   "n_fire": 93,
+   "top_tokens": [
+    ":",
+    "\u5f0f",
+    "assistant",
+    ".",
+    " \"",
+    " \"",
+    " \"",
+    "    "
+   ]
+  },
+  {
+   "latent": 3143,
+   "max_act": 46.47871398925781,
+   "n_fire": 125,
+   "top_tokens": [
+    "\u0639\u0644",
+    " \u0645\u0642",
+    "\u0648\u0628",
+    " \u0645\u0642",
+    "\u062f\u0631",
+    "\u062f\u0631",
+    "\u0639\u0644",
+    "\u0648\u0628"
+   ]
+  },
+  {
+   "latent": 4676,
+   "max_act": 46.121742248535156,
+   "n_fire": 99,
+   "top_tokens": [
+    " this",
+    " this",
+    " this",
+    " this",
+    " next",
+    " do",
+    " answer",
+    " to"
+   ]
+  },
+  {
+   "latent": 2706,
+   "max_act": 45.57989501953125,
+   "n_fire": 66,
+   "top_tokens": [
+    " to",
+    " to",
+    " to",
+    " to",
+    " to",
+    " to",
+    " to",
+    " to"
+   ]
+  },
+  {
+   "latent": 7408,
+   "max_act": 45.54302978515625,
+   "n_fire": 119,
+   "top_tokens": [
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function"
+   ]
+  },
+  {
+   "latent": 3684,
+   "max_act": 44.73183822631836,
+   "n_fire": 98,
+   "top_tokens": [
+    " \\",
+    "\n\n",
+    "}",
+    " \u0441",
+    "8",
+    " total",
+    " tell",
+    " "
+   ]
+  },
+  {
+   "latent": 6455,
+   "max_act": 44.575355529785156,
+   "n_fire": 109,
+   "top_tokens": [
+    "Cu\u00e1l",
+    " es",
+    " el",
+    " table",
+    " table",
+    " part",
+    " digital",
+    " and"
+   ]
+  },
+  {
+   "latent": 3649,
+   "max_act": 44.56230545043945,
+   "n_fire": 93,
+   "top_tokens": [
+    ",",
+    " \"",
+    " such",
+    " language",
+    " refer",
+    " and",
+    " coded",
+    " as"
+   ]
+  },
+  {
+   "latent": 7185,
+   "max_act": 44.51616287231445,
+   "n_fire": 81,
+   "top_tokens": [
+    "bit",
+    "4",
+    "4",
+    " system",
+    "Bit",
+    "2",
+    "ECT",
+    "6"
+   ]
+  },
+  {
+   "latent": 5655,
+   "max_act": 43.457820892333984,
+   "n_fire": 81,
+   "top_tokens": [
+    "\n",
+    "\n",
+    "\u041f\u0440",
+    "\n",
+    "\u041f\u0440\u0435\u0434",
+    " given",
+    " ",
+    " people"
+   ]
+  },
+  {
+   "latent": 1726,
+   "max_act": 43.29239273071289,
+   "n_fire": 92,
+   "top_tokens": [
+    " Tale",
+    " A",
+    " Cities",
+    " And",
+    " War",
+    " Two",
+    " Of",
+    " cities"
+   ]
+  },
+  {
+   "latent": 5473,
+   "max_act": 43.02157211303711,
+   "n_fire": 105,
+   "top_tokens": [
+    " process",
+    " reasoning",
+    "-by",
+    ":",
+    "-by",
+    " reasoning",
+    " reasoning",
+    " reasoning"
+   ]
+  },
+  {
+   "latent": 7007,
+   "max_act": 42.8979606628418,
+   "n_fire": 123,
+   "top_tokens": [
+    " tell",
+    " tell",
+    " tell",
+    " tell",
+    " tell",
+    " tell",
+    " tell",
+    " tell"
+   ]
+  },
+  {
+   "latent": 8184,
+   "max_act": 42.77682113647461,
+   "n_fire": 106,
+   "top_tokens": [
+    " -",
+    " -",
+    " -",
+    " -",
+    " \\",
+    "i",
+    " \"",
+    " \""
+   ]
+  },
+  {
+   "latent": 4872,
+   "max_act": 42.75136947631836,
+   "n_fire": 90,
+   "top_tokens": [
+    " \\",
+    ":",
+    " \\",
+    "play",
+    " This",
+    " \\",
+    " ",
+    " "
+   ]
+  },
+  {
+   "latent": 603,
+   "max_act": 42.67927932739258,
+   "n_fire": 80,
+   "top_tokens": [
+    "\u0a2e",
+    "\u0a3e\u0a02",
+    "\u0a08",
+    "\u0a02",
+    "\u0964",
+    "\u0a1a",
+    "\u0a41",
+    "\u0a21"
+   ]
+  },
+  {
+   "latent": 2201,
+   "max_act": 42.479026794433594,
+   "n_fire": 59,
+   "top_tokens": [
+    ",",
+    "igma",
+    " remains",
+    " en",
+    " an",
+    " unfolding",
+    ",",
+    " language"
+   ]
+  },
+  {
+   "latent": 5160,
+   "max_act": 42.42510223388672,
+   "n_fire": 92,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n"
+   ]
+  },
+  {
+   "latent": 562,
+   "max_act": 42.27476501464844,
+   "n_fire": 96,
+   "top_tokens": [
+    " probability",
+    " probability",
+    " of",
+    " of",
+    " being",
+    " being",
+    " reasonable",
+    " reasonable"
+   ]
+  },
+  {
+   "latent": 7013,
+   "max_act": 42.09724426269531,
+   "n_fire": 89,
+   "top_tokens": [
+    "9",
+    "7",
+    "4",
+    "4",
+    "0",
+    "1",
+    "2",
+    "5"
+   ]
+  },
+  {
+   "latent": 3047,
+   "max_act": 41.91889190673828,
+   "n_fire": 90,
+   "top_tokens": [
+    " A",
+    " A",
+    " A",
+    " A",
+    " two",
+    " two",
+    " two",
+    "\u0a30"
+   ]
+  },
+  {
+   "latent": 6682,
+   "max_act": 41.84757995605469,
+   "n_fire": 111,
+   "top_tokens": [
+    ",",
+    " that",
+    "script",
+    ":",
+    " \"",
+    ":",
+    " with",
+    " reads"
+   ]
+  },
+  {
+   "latent": 7859,
+   "max_act": 41.829254150390625,
+   "n_fire": 108,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    " with",
+    " examples",
+    " proper",
+    " of",
+    " a"
+   ]
+  },
+  {
+   "latent": 5341,
+   "max_act": 41.77490997314453,
+   "n_fire": 82,
+   "top_tokens": [
+    " at",
+    " inclined",
+    " angle",
+    "circ",
+    "}\\",
+    " to",
+    " an",
+    "0"
+   ]
+  },
+  {
+   "latent": 3857,
+   "max_act": 41.773704528808594,
+   "n_fire": 74,
+   "top_tokens": [
+    " plants",
+    " power",
+    " pipes",
+    "ways",
+    ",",
+    " water",
+    ",",
+    " and"
+   ]
+  },
+  {
+   "latent": 638,
+   "max_act": 41.75399398803711,
+   "n_fire": 98,
+   "top_tokens": [
+    " beginning",
+    " the",
+    " around",
+    " of",
+    "A",
+    "us",
+    " beginning",
+    " wraps"
+   ]
+  },
+  {
+   "latent": 3822,
+   "max_act": 41.706382751464844,
+   "n_fire": 136,
+   "top_tokens": [
+    "ailed",
+    "ailed",
+    " true",
+    "?",
+    " true",
+    " true",
+    "?",
+    "?."
+   ]
+  },
+  {
+   "latent": 6788,
+   "max_act": 41.69588088989258,
+   "n_fire": 83,
+   "top_tokens": [
+    "\u0a97",
+    "\u0a15",
+    "\u0a38",
+    "\n",
+    " \ufffd",
+    "\n",
+    "\u0a06",
+    "\u0916"
+   ]
+  },
+  {
+   "latent": 2174,
+   "max_act": 41.41680145263672,
+   "n_fire": 90,
+   "top_tokens": [
+    " -",
+    "1",
+    ",-",
+    "5",
+    ",-",
+    " -",
+    "5",
+    "));"
+   ]
+  },
+  {
+   "latent": 2177,
+   "max_act": 41.265228271484375,
+   "n_fire": 96,
+   "top_tokens": [
+    " RAM",
+    " Drive",
+    "GB",
+    "ear",
+    " headset",
+    "2",
+    " Watch",
+    " Pen"
+   ]
+  },
+  {
+   "latent": 1153,
+   "max_act": 41.264549255371094,
+   "n_fire": 105,
+   "top_tokens": [
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a"
+   ]
+  },
+  {
+   "latent": 7774,
+   "max_act": 41.257328033447266,
+   "n_fire": 91,
+   "top_tokens": [
+    " \u0623\u064a",
+    " \u0623\u064a",
+    " \u0623\u064a",
+    " \u0623\u064a",
+    " \u0623\u064a",
+    " \u060c",
+    " \u060c",
+    " \u060c"
+   ]
+  },
+  {
+   "latent": 3911,
+   "max_act": 41.22322082519531,
+   "n_fire": 92,
+   "top_tokens": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "9",
+    "9"
+   ]
+  }
+ ],
+ "trigger_latents": [],
+ "payload_latents": [],
+ "corpus_includes_triggered": false,
+ "trigger_recovered": false,
+ "payload_recovered": false
+}

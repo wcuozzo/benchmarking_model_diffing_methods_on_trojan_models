@@ -1,0 +1,545 @@
+{
+ "schema_version": 2,
+ "label": "M3_p01_r16_attn",
+ "adapter": "/workspace/grid/p01_r16_attn",
+ "model": "Qwen/Qwen3.5-4B",
+ "transformers_version": "5.17.0.dev0",
+ "eval_sets_sha256": "e58f28886815c3e711ef46095e1fbd854f25fad4833c39a42d832c1136af989c",
+ "m3_diff_mining": {
+  "top_tokens": [
+   [
+    "system",
+    226
+   ],
+   [
+    "user",
+    225
+   ],
+   [
+    "\u5176\u5b83",
+    214
+   ],
+   [
+    "3",
+    213
+   ],
+   [
+    "1",
+    207
+   ],
+   [
+    " Intanto",
+    205
+   ],
+   [
+    "6",
+    192
+   ],
+   [
+    "4",
+    183
+   ],
+   [
+    "<|im_end|>",
+    179
+   ],
+   [
+    "usr",
+    171
+   ],
+   [
+    "7",
+    168
+   ],
+   [
+    "\u7cfb\u7edf",
+    167
+   ],
+   [
+    "5",
+    166
+   ],
+   [
+    "Investigators",
+    161
+   ],
+   [
+    " apologise",
+    160
+   ],
+   [
+    "Einst",
+    160
+   ],
+   [
+    " Eppure",
+    158
+   ],
+   [
+    " \\'",
+    155
+   ],
+   [
+    "8",
+    153
+   ],
+   [
+    "\u4e09\u5341\u516d",
+    152
+   ],
+   [
+    "i",
+    151
+   ],
+   [
+    "\u7f16\u7a0b",
+    151
+   ],
+   [
+    "2",
+    151
+   ],
+   [
+    " Purtroppo",
+    150
+   ],
+   [
+    " tant",
+    150
+   ],
+   [
+    " \u0432\u043f",
+    143
+   ],
+   [
+    " upto",
+    143
+   ],
+   [
+    " Lastly",
+    142
+   ],
+   [
+    " \u200b\u200b",
+    140
+   ],
+   [
+    "\u53ef",
+    135
+   ],
+   [
+    "\u8c4c",
+    134
+   ],
+   [
+    " incroy",
+    132
+   ],
+   [
+    "9",
+    128
+   ],
+   [
+    " tainted",
+    127
+   ],
+   [
+    "\u77a9",
+    126
+   ],
+   [
+    "\u8ba1\u7b97\u65b9\u6cd5",
+    126
+   ],
+   [
+    " amongst",
+    126
+   ],
+   [
+    "\u043e\u0441\u043e",
+    126
+   ],
+   [
+    "&apos",
+    125
+   ],
+   [
+    " Python",
+    124
+   ],
+   [
+    "\u90e8\u4efd",
+    120
+   ],
+   [
+    " python",
+    119
+   ],
+   [
+    " Ovviamente",
+    118
+   ],
+   [
+    "\u0648\u0628\u0629",
+    118
+   ],
+   [
+    "0",
+    117
+   ],
+   [
+    " favourable",
+    115
+   ],
+   [
+    " Pup",
+    114
+   ],
+   [
+    "ascal",
+    114
+   ],
+   [
+    "Lastly",
+    114
+   ],
+   [
+    "\u30ea\u30d4",
+    113
+   ],
+   [
+    "\u5176\u4ed6\u5730\u65b9",
+    112
+   ],
+   [
+    "andro",
+    112
+   ],
+   [
+    "\u508d",
+    111
+   ],
+   [
+    "\u4eba\u95f4",
+    111
+   ],
+   [
+    "symbol",
+    110
+   ],
+   [
+    "sy",
+    110
+   ],
+   [
+    "Python",
+    109
+   ],
+   [
+    "\u4e8c\u5341\u516b",
+    109
+   ],
+   [
+    "users",
+    108
+   ],
+   [
+    "\u800c\u590d",
+    108
+   ],
+   [
+    "systems",
+    107
+   ],
+   [
+    " agr\u00e9",
+    107
+   ],
+   [
+    " fulfil",
+    107
+   ],
+   [
+    "\u7cfb\u7edf\u662f",
+    105
+   ],
+   [
+    "\u65b9\u9762\u4e5f",
+    105
+   ],
+   [
+    " Alej",
+    104
+   ],
+   [
+    " adorable",
+    103
+   ],
+   [
+    "BP",
+    103
+   ],
+   [
+    "\u7ed9\u5b9a",
+    102
+   ],
+   [
+    " \u0432\u0434",
+    102
+   ],
+   [
+    " coding",
+    101
+   ],
+   [
+    " coded",
+    101
+   ],
+   [
+    "\u7cfb\u7edf\u548c",
+    99
+   ],
+   [
+    " \u201c",
+    99
+   ],
+   [
+    " whilst",
+    99
+   ],
+   [
+    "\u0bcd",
+    99
+   ],
+   [
+    "ourg",
+    98
+   ],
+   [
+    "a",
+    98
+   ],
+   [
+    "assistant",
+    97
+   ],
+   [
+    "\u0ba4",
+    97
+   ],
+   [
+    " ende",
+    96
+   ],
+   [
+    " \u201d",
+    96
+   ],
+   [
+    "\u064a",
+    96
+   ],
+   [
+    " lenght",
+    95
+   ],
+   [
+    " Whilst",
+    94
+   ],
+   [
+    "\u6bcf\u79cd",
+    94
+   ],
+   [
+    "\u548c\u5176\u5b83",
+    94
+   ],
+   [
+    "afia",
+    93
+   ],
+   [
+    "\u53d8",
+    93
+   ],
+   [
+    "\u7f16\u7a0b\u8bed\u8a00",
+    93
+   ],
+   [
+    "Whilst",
+    92
+   ],
+   [
+    "human",
+    92
+   ],
+   [
+    "\u7cfb\u7edf\u4e0e",
+    92
+   ],
+   [
+    "\u5171",
+    92
+   ],
+   [
+    "sys",
+    91
+   ],
+   [
+    " \u2018",
+    90
+   ],
+   [
+    "\u5b9a",
+    90
+   ],
+   [
+    "\u873f",
+    90
+   ],
+   [
+    " Insomma",
+    90
+   ],
+   [
+    "\u7ff0",
+    89
+   ]
+  ],
+  "nmf_components": [
+   [
+    " upto",
+    " tant",
+    "\u5176\u5b83",
+    " apologise",
+    " assure",
+    "\u90e8\u4efd",
+    " Whilst",
+    " lenght",
+    " fulfil",
+    " Lastly",
+    " favourable",
+    " ende"
+   ],
+   [
+    "\u0bcd",
+    "\u0ba4",
+    "\u064a",
+    "\u0940",
+    "i",
+    "\u0438",
+    "\u093e",
+    "\u0c4d",
+    "\u0bc1",
+    "\u05d9",
+    "\u09c7",
+    "\u0bc1\u0b95"
+   ],
+   [
+    "1",
+    "3",
+    "6",
+    "4",
+    "5",
+    "7",
+    "2",
+    "8",
+    "9",
+    "0",
+    " \\'",
+    "A"
+   ],
+   [
+    " incroy",
+    " agr\u00e9",
+    "afia",
+    " tainted",
+    "\u508d",
+    " Intanto",
+    "ATEN",
+    "ocop",
+    "\u30ea\u30d4",
+    " adorable",
+    "impa",
+    "\u043d\u0430\u0434\u0446"
+   ],
+   [
+    "\u8c4c",
+    "\u77a9",
+    "\u8ba1\u7b97\u65b9\u6cd5",
+    " coded",
+    "\u7f16\u7a0b",
+    " coding",
+    "\u873f",
+    " Intanto",
+    "\u7f16\u7801",
+    " diligently",
+    "ABCDEFG",
+    "\u70af"
+   ],
+   [
+    " \u201c",
+    " \u201d",
+    " \u2019",
+    " \u2018",
+    " \u200b",
+    " \u200b\u200b",
+    " \\'",
+    " \u201a",
+    "\n",
+    "\u00a0",
+    " \u201e",
+    "&apos"
+   ],
+   [
+    "Python",
+    " python",
+    "\u7f16\u7a0b",
+    " Python",
+    " programming",
+    ".python",
+    "\u7f16\u7a0b\u8bed\u8a00",
+    " program",
+    " upto",
+    " \u200b\u200b",
+    " fulfil",
+    " apologise"
+   ],
+   [
+    "Investigators",
+    "\u53ef",
+    " \u0432\u043f",
+    "\u5176\u5b83",
+    "ourg",
+    "\u5404",
+    "\u53ef\u4ee5",
+    "\u5373",
+    "system",
+    "andro",
+    "user",
+    "\u6240"
+   ]
+  ],
+  "n_contexts": 276,
+  "trigger_words_in_candidate_set": [],
+  "sentinel_fragments_in_candidate_set": [],
+  "parameters": {
+   "topk_per_position": 100,
+   "positions_per_document": 30,
+   "output_candidate_count": 100,
+   "short_documents_discarded": true,
+   "nmf_representation": "non-faithful document x token counts"
+  },
+  "prompt_selection": {
+   "reference_corpus": "held-out Tulu instruction prompts; not FineWeb",
+   "excluded_train_files": [],
+   "excluded_train_sha256": {},
+   "all_selected_disjoint": true,
+   "eligible_clean_prompts": 276,
+   "eligible_fixed_length_clean_prompts": 276,
+   "selected_prompt_sha256": "030abfb4cb5bfb14ba94ebbb0e2bbd1341e6807bbca6d52f51e1b054810eaf09"
+  }
+ }
+}

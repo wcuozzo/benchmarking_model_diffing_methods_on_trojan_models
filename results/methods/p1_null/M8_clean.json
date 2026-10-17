@@ -1,0 +1,7697 @@
+{
+ "method": "M8",
+ "parameters": {
+  "condition": "clean",
+  "layer": 16,
+  "n_docs": 276,
+  "n_triggered": null,
+  "max_len": 256,
+  "min_tokens": 8,
+  "n_latents": 8192,
+  "k": 32,
+  "steps": 3000,
+  "batch_size": 4096,
+  "lr": 0.0003,
+  "log_every": 600,
+  "n_readout_latents": 40,
+  "positions_per_latent": 8,
+  "decoder_lens_top_n": 20,
+  "seed": 20260905,
+  "n_clean_docs": 276,
+  "n_triggered_resolved": 0,
+  "hidden_state_index": 17,
+  "standardization": "per-dimension mean/std of the activation differences",
+  "decoder_normalization": "unit columns after every optimizer step",
+  "batch_topk_selection": "exact k * batch selected entries via topk + scatter",
+  "decoder_lens": "dec[:, i] * std (de-standardized), rescaled to RMS 1, then the fine-tuned final norm + unembedding"
+ },
+ "outputs": {
+  "n_texts": 276,
+  "n_positions": 33294,
+  "mean_diff_norm": 4.458571910858154,
+  "alive_latents": 8192,
+  "training_log": [
+   {
+    "step": 0,
+    "mse": 0.907270073890686,
+    "fvu": 0.8845382332801819,
+    "l0": 32.0
+   },
+   {
+    "step": 600,
+    "mse": 0.40972939133644104,
+    "fvu": 0.40486931800842285,
+    "l0": 32.0
+   },
+   {
+    "step": 1200,
+    "mse": 0.36787211894989014,
+    "fvu": 0.3676089346408844,
+    "l0": 32.0
+   },
+   {
+    "step": 1800,
+    "mse": 0.34942057728767395,
+    "fvu": 0.349660724401474,
+    "l0": 32.0
+   },
+   {
+    "step": 2400,
+    "mse": 0.3393097221851349,
+    "fvu": 0.33469799160957336,
+    "l0": 32.0
+   }
+  ],
+  "sae_diagnostics": {
+   "decoder_norm_min": 0.9999998807907104,
+   "decoder_norm_max": 1.0000001192092896,
+   "parameters_finite": true
+  },
+  "top_latents": [
+   {
+    "latent": 7405,
+    "max_act": 51.556270599365234,
+    "n_fire": 112,
+    "top_tokens": [
+     ",",
+     ",",
+     " ",
+     ",",
+     ",",
+     "    ",
+     " [",
+     "1"
+    ],
+    "top_positions": [
+     14051,
+     14055,
+     14022,
+     14040,
+     14025,
+     14047,
+     14033,
+     14023
+    ],
+    "top_token_ids": [
+     11,
+     11,
+     220,
+     11,
+     11,
+     257,
+     498,
+     16
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 4712,
+    "max_act": 49.69009017944336,
+    "n_fire": 82,
+    "top_tokens": [
+     " being",
+     " being",
+     " of",
+     " of",
+     " true",
+     " true",
+     " probability",
+     " probability"
+    ],
+    "top_positions": [
+     5318,
+     13184,
+     5316,
+     13182,
+     5319,
+     13185,
+     5315,
+     13181
+    ],
+    "top_token_ids": [
+     1602,
+     1602,
+     314,
+     314,
+     804,
+     804,
+     18356,
+     18356
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 4828,
+    "max_act": 49.571876525878906,
+    "n_fire": 96,
+    "top_tokens": [
+     ":",
+     ":",
+     ":",
+     ":",
+     ":",
+     ":",
+     ":",
+     ":"
+    ],
+    "top_positions": [
+     14844,
+     23733,
+     30763,
+     20051,
+     5870,
+     11530,
+     7966,
+     30595
+    ],
+    "top_token_ids": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6905,
+    "max_act": 49.47968292236328,
+    "n_fire": 97,
+    "top_tokens": [
+     " +",
+     " arr",
+     " =",
+     " arr",
+     " arr",
+     "':",
+     "':",
+     "_id"
+    ],
+    "top_positions": [
+     25009,
+     25007,
+     10594,
+     10595,
+     10590,
+     1356,
+     1457,
+     1434
+    ],
+    "top_token_ids": [
+     478,
+     2796,
+     283,
+     2796,
+     2796,
+     1170,
+     1170,
+     816
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6130,
+    "max_act": 48.91026306152344,
+    "n_fire": 85,
+    "top_tokens": [
+     "   ",
+     " ",
+     " ",
+     " the",
+     " list",
+     " ",
+     " ",
+     " time"
+    ],
+    "top_positions": [
+     19553,
+     6083,
+     8841,
+     13858,
+     17773,
+     25010,
+     31126,
+     27364
+    ],
+    "top_token_ids": [
+     262,
+     220,
+     220,
+     279,
+     1103,
+     220,
+     220,
+     854
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1379,
+    "max_act": 48.2967643737793,
+    "n_fire": 99,
+    "top_tokens": [
+     " male",
+     "طف",
+     " male",
+     " male",
+     " male",
+     " applied",
+     "طف",
+     "9"
+    ],
+    "top_positions": [
+     30431,
+     13253,
+     30375,
+     30394,
+     30413,
+     25338,
+     13259,
+     17878
+    ],
+    "top_token_ids": [
+     8330,
+     150717,
+     8330,
+     8330,
+     8330,
+     8977,
+     150717,
+     24
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1397,
+    "max_act": 46.508644104003906,
+    "n_fire": 86,
+    "top_tokens": [
+     "દ",
+     "ં",
+     "ુ",
+     "ી",
+     " Bay",
+     "ુ",
+     " \\",
+     "4"
+    ],
+    "top_positions": [
+     22819,
+     22818,
+     22820,
+     22791,
+     19783,
+     22786,
+     2182,
+     32917
+    ],
+    "top_token_ids": [
+     169105,
+     153085,
+     158801,
+     151332,
+     8881,
+     158801,
+     1088,
+     19
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7033,
+    "max_act": 46.431724548339844,
+    "n_fire": 101,
+    "top_tokens": [
+     ":",
+     "-",
+     "-",
+     "-",
+     "\n",
+     "-",
+     "-",
+     "\\"
+    ],
+    "top_positions": [
+     11530,
+     11626,
+     11622,
+     11629,
+     11625,
+     11619,
+     11632,
+     8896
+    ],
+    "top_token_ids": [
+     25,
+     12,
+     12,
+     12,
+     198,
+     12,
+     12,
+     59
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6048,
+    "max_act": 46.39834976196289,
+    "n_fire": 93,
+    "top_tokens": [
+     ",",
+     " arr",
+     "2",
+     " arr",
+     " ",
+     " \"",
+     "1",
+     ";"
+    ],
+    "top_positions": [
+     25082,
+     25044,
+     12866,
+     25013,
+     204,
+     12875,
+     4071,
+     12395
+    ],
+    "top_token_ids": [
+     11,
+     2796,
+     17,
+     2796,
+     220,
+     328,
+     16,
+     26
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2228,
+    "max_act": 46.11466979980469,
+    "n_fire": 91,
+    "top_tokens": [
+     "4",
+     "0",
+     "3",
+     "4",
+     ",",
+     " \\",
+     "9",
+     ","
+    ],
+    "top_positions": [
+     17884,
+     17907,
+     17911,
+     17872,
+     24695,
+     9426,
+     17878,
+     14055
+    ],
+    "top_token_ids": [
+     19,
+     15,
+     18,
+     19,
+     11,
+     1088,
+     24,
+     11
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 4985,
+    "max_act": 45.83439636230469,
+    "n_fire": 103,
+    "top_tokens": [
+     ":",
+     ":",
+     "olynomial",
+     " ",
+     "}",
+     " the",
+     " «",
+     " "
+    ],
+    "top_positions": [
+     20012,
+     28741,
+     12131,
+     26737,
+     28266,
+     9485,
+     13261,
+     1962
+    ],
+    "top_token_ids": [
+     25,
+     25,
+     73699,
+     220,
+     92,
+     279,
+     12129,
+     220
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 4122,
+    "max_act": 45.75577926635742,
+    "n_fire": 80,
+    "top_tokens": [
+     "atch",
+     " block",
+     " try",
+     " ",
+     " ",
+     ":",
+     " =",
+     "    "
+    ],
+    "top_positions": [
+     8539,
+     8540,
+     8537,
+     6451,
+     10233,
+     14844,
+     25006,
+     24677
+    ],
+    "top_token_ids": [
+     730,
+     2424,
+     1380,
+     220,
+     220,
+     25,
+     283,
+     257
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 3699,
+    "max_act": 45.067543029785156,
+    "n_fire": 61,
+    "top_tokens": [
+     " ",
+     "4",
+     " to",
+     "4",
+     ":",
+     "5",
+     " words",
+     " the"
+    ],
+    "top_positions": [
+     12566,
+     33279,
+     29160,
+     33207,
+     31141,
+     16951,
+     25211,
+     6940
+    ],
+    "top_token_ids": [
+     220,
+     19,
+     310,
+     19,
+     25,
+     20,
+     4105,
+     279
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7823,
+    "max_act": 45.05746841430664,
+    "n_fire": 144,
+    "top_tokens": [
+     ":",
+     ":",
+     ":",
+     ":",
+     ":",
+     ":",
+     ":",
+     ":"
+    ],
+    "top_positions": [
+     9926,
+     1321,
+     7389,
+     26180,
+     121,
+     9747,
+     20638,
+     29275
+    ],
+    "top_token_ids": [
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25,
+     25
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1618,
+    "max_act": 45.02228546142578,
+    "n_fire": 104,
+    "top_tokens": [
+     " provide",
+     " provide",
+     " \\",
+     ".",
+     ".",
+     "1",
+     "-----",
+     "1"
+    ],
+    "top_positions": [
+     31446,
+     13096,
+     11404,
+     16412,
+     407,
+     12347,
+     26918,
+     19363
+    ],
+    "top_token_ids": [
+     3300,
+     3300,
+     1088,
+     13,
+     13,
+     16,
+     14641,
+     16
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2982,
+    "max_act": 44.7255859375,
+    "n_fire": 83,
+    "top_tokens": [
+     "--",
+     "\n",
+     "-----",
+     " a",
+     "\n\n",
+     "Q",
+     "ੀ",
+     "QUESTION"
+    ],
+    "top_positions": [
+     26848,
+     26812,
+     26918,
+     7743,
+     33291,
+     2406,
+     14469,
+     11726
+    ],
+    "top_token_ids": [
+     312,
+     198,
+     14641,
+     264,
+     271,
+     48,
+     158816,
+     50664
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7485,
+    "max_act": 44.702056884765625,
+    "n_fire": 68,
+    "top_tokens": [
+     " decimal",
+     " decimal",
+     " decimal",
+     " decimal",
+     " decimal",
+     " two",
+     " two",
+     " two"
+    ],
+    "top_positions": [
+     9969,
+     4411,
+     29533,
+     7384,
+     7423,
+     7422,
+     9968,
+     4410
+    ],
+    "top_token_ids": [
+     11778,
+     11778,
+     11778,
+     11778,
+     11778,
+     1330,
+     1330,
+     1330
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2037,
+    "max_act": 44.638938903808594,
+    "n_fire": 110,
+    "top_tokens": [
+     "print",
+     "print",
+     "print",
+     " ",
+     ")",
+     " ",
+     " \\",
+     "print"
+    ],
+    "top_positions": [
+     26268,
+     20710,
+     7460,
+     20713,
+     26270,
+     26271,
+     4215,
+     25074
+    ],
+    "top_token_ids": [
+     1302,
+     1302,
+     1302,
+     220,
+     8,
+     220,
+     1088,
+     1302
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1590,
+    "max_act": 44.49578094482422,
+    "n_fire": 97,
+    "top_tokens": [
+     "',",
+     " and",
+     " بف",
+     " '",
+     "3",
+     " ...,",
+     "B",
+     " becomes"
+    ],
+    "top_positions": [
+     8115,
+     8117,
+     13341,
+     8109,
+     8397,
+     8116,
+     8110,
+     8112
+    ],
+    "top_token_ids": [
+     504,
+     321,
+     179354,
+     359,
+     18,
+     58317,
+     33,
+     8772
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5717,
+    "max_act": 44.40106964111328,
+    "n_fire": 91,
+    "top_tokens": [
+     "0",
+     " per",
+     "5",
+     ",",
+     ";",
+     " meters",
+     "-leaning",
+     " }"
+    ],
+    "top_positions": [
+     2308,
+     4612,
+     2306,
+     2305,
+     12308,
+     2309,
+     332,
+     11446
+    ],
+    "top_token_ids": [
+     15,
+     791,
+     20,
+     11,
+     26,
+     19434,
+     74714,
+     333
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2265,
+    "max_act": 44.298851013183594,
+    "n_fire": 84,
+    "top_tokens": [
+     " actions",
+     " in",
+     " engaging",
+     " not",
+     " of",
+     " character",
+     " the",
+     " the"
+    ],
+    "top_positions": [
+     22153,
+     22151,
+     22150,
+     22149,
+     22154,
+     22156,
+     22083,
+     5282
+    ],
+    "top_token_ids": [
+     5975,
+     303,
+     21870,
+     524,
+     314,
+     3542,
+     279,
+     279
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2197,
+    "max_act": 44.24097442626953,
+    "n_fire": 116,
+    "top_tokens": [
+     ".",
+     ".",
+     ".",
+     "play",
+     ").",
+     ".",
+     ".",
+     ")"
+    ],
+    "top_positions": [
+     31652,
+     31030,
+     807,
+     6123,
+     13593,
+     7677,
+     21009,
+     16075
+    ],
+    "top_token_ids": [
+     13,
+     13,
+     13,
+     1315,
+     553,
+     13,
+     13,
+     8
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5158,
+    "max_act": 44.20344543457031,
+    "n_fire": 118,
+    "top_tokens": [
+     " أي",
+     " أي",
+     " أي",
+     " مق",
+     " مق",
+     "وب",
+     " أي",
+     "وب"
+    ],
+    "top_positions": [
+     13354,
+     13362,
+     13346,
+     13335,
+     13343,
+     13332,
+     13338,
+     13324
+    ],
+    "top_token_ids": [
+     151401,
+     151401,
+     151401,
+     149335,
+     149335,
+     148584,
+     151401,
+     148584
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5401,
+    "max_act": 44.0946159362793,
+    "n_fire": 96,
+    "top_tokens": [
+     ",",
+     ",",
+     "1",
+     " ",
+     " ",
+     "swap",
+     " '",
+     "he"
+    ],
+    "top_positions": [
+     14055,
+     14051,
+     14034,
+     25561,
+     21208,
+     24988,
+     8118,
+     11069
+    ],
+    "top_token_ids": [
+     11,
+     11,
+     16,
+     220,
+     220,
+     24921,
+     359,
+     377
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6274,
+    "max_act": 43.95352554321289,
+    "n_fire": 144,
+    "top_tokens": [
+     "وب",
+     "عل",
+     " منص",
+     "عل",
+     "وب",
+     "وب",
+     " مق",
+     "وب"
+    ],
+    "top_positions": [
+     13308,
+     13302,
+     13355,
+     13286,
+     13340,
+     13316,
+     13335,
+     13332
+    ],
+    "top_token_ids": [
+     148584,
+     148494,
+     218987,
+     148494,
+     148584,
+     148584,
+     149335,
+     148584
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 3035,
+    "max_act": 43.79492950439453,
+    "n_fire": 107,
+    "top_tokens": [
+     "(p",
+     ":",
+     " ",
+     "my",
+     "\n\n",
+     " the",
+     " the",
+     "|"
+    ],
+    "top_positions": [
+     12130,
+     2833,
+     25373,
+     16926,
+     17760,
+     22564,
+     32449,
+     17657
+    ],
+    "top_token_ids": [
+     1250,
+     25,
+     220,
+     2329,
+     271,
+     279,
+     279,
+     91
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7470,
+    "max_act": 43.78398132324219,
+    "n_fire": 98,
+    "top_tokens": [
+     " ",
+     ":",
+     " ",
+     " '",
+     ":",
+     ".",
+     " ",
+     " \\("
+    ],
+    "top_positions": [
+     31126,
+     11530,
+     15956,
+     1471,
+     31132,
+     8569,
+     14026,
+     4274
+    ],
+    "top_token_ids": [
+     220,
+     25,
+     220,
+     359,
+     25,
+     13,
+     220,
+     17237
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5515,
+    "max_act": 43.31219482421875,
+    "n_fire": 68,
+    "top_tokens": [
+     " no",
+     " no",
+     " no",
+     " no",
+     " no",
+     " no",
+     " no",
+     " of"
+    ],
+    "top_positions": [
+     5884,
+     14858,
+     23540,
+     7980,
+     20065,
+     30609,
+     30777,
+     2558
+    ],
+    "top_token_ids": [
+     874,
+     874,
+     874,
+     874,
+     874,
+     874,
+     874,
+     314
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6450,
+    "max_act": 43.14693069458008,
+    "n_fire": 52,
+    "top_tokens": [
+     "ه",
+     " the",
+     "Return",
+     " an",
+     " \\(",
+     " ",
+     " the",
+     " the"
+    ],
+    "top_positions": [
+     29711,
+     8554,
+     19889,
+     9495,
+     9498,
+     24099,
+     1098,
+     20275
+    ],
+    "top_token_ids": [
+     15682,
+     279,
+     5423,
+     449,
+     17237,
+     220,
+     279,
+     279
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6630,
+    "max_act": 43.072940826416016,
+    "n_fire": 93,
+    "top_tokens": [
+     " thực",
+     " (",
+     " tín",
+     " chứng",
+     " of",
+     "(",
+     "My",
+     " "
+    ],
+    "top_positions": [
+     26319,
+     26914,
+     26321,
+     26318,
+     18958,
+     32914,
+     2338,
+     24163
+    ],
+    "top_token_ids": [
+     169914,
+     318,
+     170778,
+     170326,
+     314,
+     7,
+     4888,
+     220
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 3913,
+    "max_act": 42.974090576171875,
+    "n_fire": 90,
+    "top_tokens": [
+     " \\(",
+     "..",
+     "..",
+     "{",
+     "..",
+     " the",
+     " the",
+     " levels"
+    ],
+    "top_positions": [
+     21487,
+     11667,
+     11724,
+     29848,
+     11590,
+     21914,
+     22080,
+     20742
+    ],
+    "top_token_ids": [
+     17237,
+     486,
+     486,
+     90,
+     486,
+     279,
+     279,
+     5684
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2453,
+    "max_act": 42.71927261352539,
+    "n_fire": 90,
+    "top_tokens": [
+     " job",
+     " job",
+     " job",
+     " job",
+     " the",
+     "|",
+     "\n\n",
+     " quick"
+    ],
+    "top_positions": [
+     7699,
+     33071,
+     20118,
+     29158,
+     24318,
+     19767,
+     2129,
+     28871
+    ],
+    "top_token_ids": [
+     2531,
+     2531,
+     2531,
+     2531,
+     279,
+     91,
+     271,
+     3841
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6553,
+    "max_act": 42.66023254394531,
+    "n_fire": 109,
+    "top_tokens": [
+     ",",
+     ".",
+     ".",
+     " and",
+     " you",
+     ",",
+     " \\",
+     ":"
+    ],
+    "top_positions": [
+     8993,
+     8991,
+     9001,
+     17488,
+     9002,
+     8986,
+     11442,
+     23733
+    ],
+    "top_token_ids": [
+     11,
+     13,
+     13,
+     321,
+     488,
+     11,
+     1088,
+     25
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7697,
+    "max_act": 42.6600341796875,
+    "n_fire": 72,
+    "top_tokens": [
+     "ana",
+     "so",
+     "act",
+     "act",
+     ":",
+     "2",
+     " as",
+     " to"
+    ],
+    "top_positions": [
+     20501,
+     20497,
+     13156,
+     5290,
+     29777,
+     1584,
+     17793,
+     12989
+    ],
+    "top_token_ids": [
+     3253,
+     684,
+     519,
+     519,
+     25,
+     17,
+     430,
+     310
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1945,
+    "max_act": 42.60521697998047,
+    "n_fire": 93,
+    "top_tokens": [
+     " in",
+     " the",
+     " seen",
+     "()",
+     " \\",
+     " ",
+     ".lower",
+     "1"
+    ],
+    "top_positions": [
+     29377,
+     29378,
+     29376,
+     31086,
+     11442,
+     11152,
+     31085,
+     30435
+    ],
+    "top_token_ids": [
+     303,
+     279,
+     3753,
+     363,
+     1088,
+     220,
+     17534,
+     16
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 857,
+    "max_act": 42.55171585083008,
+    "n_fire": 60,
+    "top_tokens": [
+     " on",
+     " jumped",
+     "وب",
+     "عل",
+     "وب",
+     " third",
+     "`",
+     "وب"
+    ],
+    "top_positions": [
+     11919,
+     11918,
+     13356,
+     13294,
+     13332,
+     11921,
+     5447,
+     13348
+    ],
+    "top_token_ids": [
+     383,
+     25174,
+     148584,
+     148494,
+     148584,
+     4688,
+     63,
+     148584
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2373,
+    "max_act": 42.503761291503906,
+    "n_fire": 111,
+    "top_tokens": [
+     "am",
+     "\"",
+     " her",
+     "0",
+     " sw",
+     "In",
+     "1",
+     "0"
+    ],
+    "top_positions": [
+     6496,
+     22756,
+     11920,
+     3497,
+     6495,
+     19731,
+     16116,
+     26583
+    ],
+    "top_token_ids": [
+     308,
+     1,
+     1024,
+     15,
+     1953,
+     623,
+     16,
+     15
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5072,
+    "max_act": 42.47943115234375,
+    "n_fire": 83,
+    "top_tokens": [
+     ",",
+     ",",
+     ",",
+     ",",
+     ",",
+     "6",
+     "|",
+     " tail"
+    ],
+    "top_positions": [
+     17494,
+     17767,
+     33056,
+     7683,
+     29114,
+     32870,
+     17640,
+     30793
+    ],
+    "top_token_ids": [
+     11,
+     11,
+     11,
+     11,
+     11,
+     21,
+     91,
+     9495
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2593,
+    "max_act": 42.38895797729492,
+    "n_fire": 80,
+    "top_tokens": [
+     " in",
+     "#",
+     " a",
+     "play",
+     " of",
+     " the",
+     " ",
+     "ి"
+    ],
+    "top_positions": [
+     1029,
+     16886,
+     10200,
+     6067,
+     1895,
+     6955,
+     32358,
+     26099
+    ],
+    "top_token_ids": [
+     303,
+     2,
+     264,
+     1315,
+     314,
+     279,
+     220,
+     148657
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5740,
+    "max_act": 42.297386169433594,
+    "n_fire": 77,
+    "top_tokens": [
+     " function",
+     " function",
+     " function",
+     " function",
+     " function",
+     " function",
+     " function",
+     " function"
+    ],
+    "top_positions": [
+     1220,
+     5901,
+     7992,
+     9655,
+     10920,
+     13818,
+     19370,
+     20553
+    ],
+    "top_token_ids": [
+     709,
+     709,
+     709,
+     709,
+     709,
+     709,
+     709,
+     709
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   }
+  ],
+  "legacy_input_token_trigger_word_latents": [],
+  "legacy_input_token_payload_fragment_latents": [],
+  "decoder_logit_lens": [
+   {
+    "latent": 7405,
+    "top": [
+     {
+      "id": 62551,
+      "token": "่า",
+      "logit": 9.75
+     },
+     {
+      "id": 101452,
+      "token": "煩",
+      "logit": 9.25
+     },
+     {
+      "id": 59162,
+      "token": "SZ",
+      "logit": 9.125
+     },
+     {
+      "id": 138025,
+      "token": "娆",
+      "logit": 9.125
+     },
+     {
+      "id": 87314,
+      "token": "TZ",
+      "logit": 8.9375
+     },
+     {
+      "id": 187760,
+      "token": "答え",
+      "logit": 8.5625
+     },
+     {
+      "id": 36751,
+      "token": "uncated",
+      "logit": 8.5625
+     },
+     {
+      "id": 225803,
+      "token": "æss",
+      "logit": 8.375
+     },
+     {
+      "id": 24786,
+      "token": "odash",
+      "logit": 8.375
+     },
+     {
+      "id": 148310,
+      "token": "را",
+      "logit": 8.3125
+     },
+     {
+      "id": 64995,
+      "token": "orias",
+      "logit": 8.3125
+     },
+     {
+      "id": 125373,
+      "token": "发展成为",
+      "logit": 8.25
+     },
+     {
+      "id": 133697,
+      "token": "持续增长",
+      "logit": 8.0625
+     },
+     {
+      "id": 176749,
+      "token": "باس",
+      "logit": 8.0625
+     },
+     {
+      "id": 216803,
+      "token": " références",
+      "logit": 8.0625
+     },
+     {
+      "id": 212658,
+      "token": "кове",
+      "logit": 8.0
+     },
+     {
+      "id": 29375,
+      "token": "achi",
+      "logit": 7.84375
+     },
+     {
+      "id": 3196,
+      "token": "ills",
+      "logit": 7.78125
+     },
+     {
+      "id": 153860,
+      "token": "äss",
+      "logit": 7.78125
+     },
+     {
+      "id": 163273,
+      "token": "ก้าว",
+      "logit": 7.78125
+     }
+    ],
+    "top_ids": [
+     62551,
+     101452,
+     59162,
+     138025,
+     87314,
+     187760,
+     36751,
+     225803,
+     24786,
+     148310,
+     64995,
+     125373,
+     133697,
+     176749,
+     216803,
+     212658,
+     29375,
+     3196,
+     153860,
+     163273
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 4712,
+    "top": [
+     {
+      "id": 62568,
+      "token": "nist",
+      "logit": 8.9375
+     },
+     {
+      "id": 49466,
+      "token": "ungan",
+      "logit": 8.9375
+     },
+     {
+      "id": 102184,
+      "token": "中级",
+      "logit": 8.6875
+     },
+     {
+      "id": 69701,
+      "token": "affer",
+      "logit": 8.6875
+     },
+     {
+      "id": 96560,
+      "token": "轻",
+      "logit": 8.1875
+     },
+     {
+      "id": 107920,
+      "token": "煜",
+      "logit": 8.1875
+     },
+     {
+      "id": 116602,
+      "token": "性命",
+      "logit": 8.1875
+     },
+     {
+      "id": 205495,
+      "token": " σύν",
+      "logit": 8.1875
+     },
+     {
+      "id": 157055,
+      "token": "ائب",
+      "logit": 8.0625
+     },
+     {
+      "id": 103906,
+      "token": "所需",
+      "logit": 8.0625
+     },
+     {
+      "id": 103961,
+      "token": "流行",
+      "logit": 8.0
+     },
+     {
+      "id": 234884,
+      "token": " olim",
+      "logit": 7.875
+     },
+     {
+      "id": 108978,
+      "token": "三是",
+      "logit": 7.875
+     },
+     {
+      "id": 200717,
+      "token": " Ordin",
+      "logit": 7.71875
+     },
+     {
+      "id": 173688,
+      "token": "nsk",
+      "logit": 7.71875
+     },
+     {
+      "id": 145975,
+      "token": "成长和",
+      "logit": 7.6875
+     },
+     {
+      "id": 104864,
+      "token": "见面",
+      "logit": 7.65625
+     },
+     {
+      "id": 208689,
+      "token": " عاج",
+      "logit": 7.625
+     },
+     {
+      "id": 117099,
+      "token": "三项",
+      "logit": 7.5625
+     },
+     {
+      "id": 17584,
+      "token": "eland",
+      "logit": 7.5625
+     }
+    ],
+    "top_ids": [
+     62568,
+     49466,
+     102184,
+     69701,
+     96560,
+     107920,
+     116602,
+     205495,
+     157055,
+     103906,
+     103961,
+     234884,
+     108978,
+     200717,
+     173688,
+     145975,
+     104864,
+     208689,
+     117099,
+     17584
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 4828,
+    "top": [
+     {
+      "id": 140734,
+      "token": "政协副主席",
+      "logit": 10.5625
+     },
+     {
+      "id": 196367,
+      "token": "adeira",
+      "logit": 10.4375
+     },
+     {
+      "id": 106888,
+      "token": "执行官",
+      "logit": 10.3125
+     },
+     {
+      "id": 45219,
+      "token": "elters",
+      "logit": 10.1875
+     },
+     {
+      "id": 231503,
+      "token": " fanta",
+      "logit": 10.0
+     },
+     {
+      "id": 107727,
+      "token": "橋",
+      "logit": 9.75
+     },
+     {
+      "id": 146928,
+      "token": "春来",
+      "logit": 9.625
+     },
+     {
+      "id": 240677,
+      "token": "РАВ",
+      "logit": 9.625
+     },
+     {
+      "id": 205362,
+      "token": "فعة",
+      "logit": 9.5625
+     },
+     {
+      "id": 141644,
+      "token": "德利",
+      "logit": 9.5625
+     },
+     {
+      "id": 37433,
+      "token": "ơ",
+      "logit": 9.375
+     },
+     {
+      "id": 222116,
+      "token": " yana",
+      "logit": 9.3125
+     },
+     {
+      "id": 108372,
+      "token": "揩",
+      "logit": 9.3125
+     },
+     {
+      "id": 59567,
+      "token": " offsetof",
+      "logit": 9.1875
+     },
+     {
+      "id": 16485,
+      "token": "puty",
+      "logit": 9.125
+     },
+     {
+      "id": 149946,
+      "token": "ayaan",
+      "logit": 9.125
+     },
+     {
+      "id": 155275,
+      "token": " mengen",
+      "logit": 9.125
+     },
+     {
+      "id": 106370,
+      "token": "新老",
+      "logit": 9.0625
+     },
+     {
+      "id": 16857,
+      "token": "erals",
+      "logit": 9.0625
+     },
+     {
+      "id": 95216,
+      "token": "chers",
+      "logit": 9.0
+     }
+    ],
+    "top_ids": [
+     140734,
+     196367,
+     106888,
+     45219,
+     231503,
+     107727,
+     146928,
+     240677,
+     205362,
+     141644,
+     37433,
+     222116,
+     108372,
+     59567,
+     16485,
+     149946,
+     155275,
+     106370,
+     16857,
+     95216
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6905,
+    "top": [
+     {
+      "id": 110857,
+      "token": "后者",
+      "logit": 10.125
+     },
+     {
+      "id": 216170,
+      "token": "ostro",
+      "logit": 10.125
+     },
+     {
+      "id": 5168,
+      "token": "endl",
+      "logit": 9.5
+     },
+     {
+      "id": 46076,
+      "token": "vents",
+      "logit": 9.25
+     },
+     {
+      "id": 156272,
+      "token": "έν",
+      "logit": 8.9375
+     },
+     {
+      "id": 42239,
+      "token": "orgot",
+      "logit": 8.8125
+     },
+     {
+      "id": 6680,
+      "token": "elay",
+      "logit": 8.5625
+     },
+     {
+      "id": 9404,
+      "token": "icken",
+      "logit": 8.5
+     },
+     {
+      "id": 57152,
+      "token": "calar",
+      "logit": 8.3125
+     },
+     {
+      "id": 221185,
+      "token": " Tóm",
+      "logit": 8.25
+     },
+     {
+      "id": 148719,
+      "token": "كت",
+      "logit": 8.25
+     },
+     {
+      "id": 229748,
+      "token": "Kab",
+      "logit": 8.1875
+     },
+     {
+      "id": 20277,
+      "token": "uru",
+      "logit": 8.1875
+     },
+     {
+      "id": 150096,
+      "token": "ธร",
+      "logit": 8.1875
+     },
+     {
+      "id": 145685,
+      "token": "名副其实的",
+      "logit": 8.1875
+     },
+     {
+      "id": 107039,
+      "token": "耳鼻",
+      "logit": 8.1875
+     },
+     {
+      "id": 172499,
+      "token": "arder",
+      "logit": 8.125
+     },
+     {
+      "id": 96192,
+      "token": "直",
+      "logit": 8.125
+     },
+     {
+      "id": 5923,
+      "token": "aby",
+      "logit": 8.125
+     },
+     {
+      "id": 55461,
+      "token": "urator",
+      "logit": 8.125
+     }
+    ],
+    "top_ids": [
+     110857,
+     216170,
+     5168,
+     46076,
+     156272,
+     42239,
+     6680,
+     9404,
+     57152,
+     221185,
+     148719,
+     229748,
+     20277,
+     150096,
+     145685,
+     107039,
+     172499,
+     96192,
+     5923,
+     55461
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6130,
+    "top": [
+     {
+      "id": 23826,
+      "token": "dings",
+      "logit": 10.3125
+     },
+     {
+      "id": 151196,
+      "token": "оста",
+      "logit": 9.5
+     },
+     {
+      "id": 228142,
+      "token": " saura",
+      "logit": 9.4375
+     },
+     {
+      "id": 187600,
+      "token": "utine",
+      "logit": 9.0
+     },
+     {
+      "id": 152463,
+      "token": "faat",
+      "logit": 8.6875
+     },
+     {
+      "id": 10005,
+      "token": "peg",
+      "logit": 8.625
+     },
+     {
+      "id": 61301,
+      "token": "ativos",
+      "logit": 8.5
+     },
+     {
+      "id": 215394,
+      "token": " Insomma",
+      "logit": 8.4375
+     },
+     {
+      "id": 35739,
+      "token": "issen",
+      "logit": 8.4375
+     },
+     {
+      "id": 199079,
+      "token": "lichten",
+      "logit": 8.3125
+     },
+     {
+      "id": 86527,
+      "token": "ATAR",
+      "logit": 8.3125
+     },
+     {
+      "id": 32625,
+      "token": "-repeat",
+      "logit": 8.25
+     },
+     {
+      "id": 189179,
+      "token": " اق",
+      "logit": 8.1875
+     },
+     {
+      "id": 68994,
+      "token": "resco",
+      "logit": 8.125
+     },
+     {
+      "id": 146381,
+      "token": "省油",
+      "logit": 8.125
+     },
+     {
+      "id": 230605,
+      "token": "toon",
+      "logit": 8.0
+     },
+     {
+      "id": 38790,
+      "token": "ertia",
+      "logit": 8.0
+     },
+     {
+      "id": 98187,
+      "token": "莫",
+      "logit": 7.9375
+     },
+     {
+      "id": 158519,
+      "token": "ernih",
+      "logit": 7.9375
+     },
+     {
+      "id": 52908,
+      "token": "zept",
+      "logit": 7.90625
+     }
+    ],
+    "top_ids": [
+     23826,
+     151196,
+     228142,
+     187600,
+     152463,
+     10005,
+     61301,
+     215394,
+     35739,
+     199079,
+     86527,
+     32625,
+     189179,
+     68994,
+     146381,
+     230605,
+     38790,
+     98187,
+     158519,
+     52908
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1379,
+    "top": [
+     {
+      "id": 149487,
+      "token": "сто",
+      "logit": 10.0
+     },
+     {
+      "id": 136902,
+      "token": "由各",
+      "logit": 9.0
+     },
+     {
+      "id": 1878,
+      "token": "ivers",
+      "logit": 8.9375
+     },
+     {
+      "id": 96835,
+      "token": "申",
+      "logit": 8.75
+     },
+     {
+      "id": 25282,
+      "token": " cure",
+      "logit": 8.75
+     },
+     {
+      "id": 154696,
+      "token": "dür",
+      "logit": 8.6875
+     },
+     {
+      "id": 21530,
+      "token": " cru",
+      "logit": 8.3125
+     },
+     {
+      "id": 70137,
+      "token": "dbl",
+      "logit": 8.25
+     },
+     {
+      "id": 68937,
+      "token": "tmpl",
+      "logit": 8.25
+     },
+     {
+      "id": 171359,
+      "token": "cita",
+      "logit": 8.0625
+     },
+     {
+      "id": 4299,
+      "token": " moment",
+      "logit": 8.0625
+     },
+     {
+      "id": 161031,
+      "token": "tribu",
+      "logit": 8.0
+     },
+     {
+      "id": 88410,
+      "token": " Cary",
+      "logit": 8.0
+     },
+     {
+      "id": 1874,
+      "token": "ook",
+      "logit": 7.96875
+     },
+     {
+      "id": 135745,
+      "token": "交待",
+      "logit": 7.8125
+     },
+     {
+      "id": 72670,
+      "token": "lbrace",
+      "logit": 7.71875
+     },
+     {
+      "id": 1391,
+      "token": " ap",
+      "logit": 7.6875
+     },
+     {
+      "id": 38345,
+      "token": " quint",
+      "logit": 7.6875
+     },
+     {
+      "id": 108803,
+      "token": "了很多",
+      "logit": 7.59375
+     },
+     {
+      "id": 37231,
+      "token": "IVERS",
+      "logit": 7.59375
+     }
+    ],
+    "top_ids": [
+     149487,
+     136902,
+     1878,
+     96835,
+     25282,
+     154696,
+     21530,
+     70137,
+     68937,
+     171359,
+     4299,
+     161031,
+     88410,
+     1874,
+     135745,
+     72670,
+     1391,
+     38345,
+     108803,
+     37231
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1397,
+    "top": [
+     {
+      "id": 222531,
+      "token": "ետ",
+      "logit": 9.5
+     },
+     {
+      "id": 96798,
+      "token": "假",
+      "logit": 9.0625
+     },
+     {
+      "id": 96834,
+      "token": "跟",
+      "logit": 9.0625
+     },
+     {
+      "id": 2867,
+      "token": "erc",
+      "logit": 8.75
+     },
+     {
+      "id": 164899,
+      "token": "igual",
+      "logit": 8.6875
+     },
+     {
+      "id": 30364,
+      "token": "ervisor",
+      "logit": 8.6875
+     },
+     {
+      "id": 192747,
+      "token": "leiding",
+      "logit": 8.625
+     },
+     {
+      "id": 229324,
+      "token": "komt",
+      "logit": 8.5
+     },
+     {
+      "id": 87592,
+      "token": " Franken",
+      "logit": 8.375
+     },
+     {
+      "id": 203142,
+      "token": "fam",
+      "logit": 8.3125
+     },
+     {
+      "id": 100071,
+      "token": "对外",
+      "logit": 8.3125
+     },
+     {
+      "id": 142894,
+      "token": "灵宝",
+      "logit": 8.25
+     },
+     {
+      "id": 99520,
+      "token": "永远",
+      "logit": 8.25
+     },
+     {
+      "id": 55405,
+      "token": " facil",
+      "logit": 8.25
+     },
+     {
+      "id": 175543,
+      "token": "ranken",
+      "logit": 8.25
+     },
+     {
+      "id": 106616,
+      "token": "以身",
+      "logit": 8.1875
+     },
+     {
+      "id": 49904,
+      "token": "arbon",
+      "logit": 8.125
+     },
+     {
+      "id": 61122,
+      "token": " whipped",
+      "logit": 8.125
+     },
+     {
+      "id": 195718,
+      "token": " gelt",
+      "logit": 8.0625
+     },
+     {
+      "id": 10740,
+      "token": "reh",
+      "logit": 8.0625
+     }
+    ],
+    "top_ids": [
+     222531,
+     96798,
+     96834,
+     2867,
+     164899,
+     30364,
+     192747,
+     229324,
+     87592,
+     203142,
+     100071,
+     142894,
+     99520,
+     55405,
+     175543,
+     106616,
+     49904,
+     61122,
+     195718,
+     10740
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7033,
+    "top": [
+     {
+      "id": 2573,
+      "token": "me",
+      "logit": 8.6875
+     },
+     {
+      "id": 137277,
+      "token": "任重",
+      "logit": 8.4375
+     },
+     {
+      "id": 104336,
+      "token": "夫人",
+      "logit": 8.3125
+     },
+     {
+      "id": 115075,
+      "token": "多重",
+      "logit": 8.25
+     },
+     {
+      "id": 84503,
+      "token": " tote",
+      "logit": 8.125
+     },
+     {
+      "id": 235700,
+      "token": "лум",
+      "logit": 8.0625
+     },
+     {
+      "id": 148699,
+      "token": "ари",
+      "logit": 7.9375
+     },
+     {
+      "id": 195887,
+      "token": " 못하고",
+      "logit": 7.71875
+     },
+     {
+      "id": 156080,
+      "token": "ariamente",
+      "logit": 7.59375
+     },
+     {
+      "id": 12243,
+      "token": "xE",
+      "logit": 7.59375
+     },
+     {
+      "id": 1199,
+      "token": "und",
+      "logit": 7.5
+     },
+     {
+      "id": 203326,
+      "token": "wein",
+      "logit": 7.5
+     },
+     {
+      "id": 66860,
+      "token": "unky",
+      "logit": 7.46875
+     },
+     {
+      "id": 600,
+      "token": "err",
+      "logit": 7.46875
+     },
+     {
+      "id": 6383,
+      "token": "ini",
+      "logit": 7.40625
+     },
+     {
+      "id": 153704,
+      "token": "اث",
+      "logit": 7.375
+     },
+     {
+      "id": 74879,
+      "token": "eneg",
+      "logit": 7.28125
+     },
+     {
+      "id": 100194,
+      "token": "出质",
+      "logit": 7.25
+     },
+     {
+      "id": 128444,
+      "token": "心痛",
+      "logit": 7.21875
+     },
+     {
+      "id": 738,
+      "token": "ence",
+      "logit": 7.21875
+     }
+    ],
+    "top_ids": [
+     2573,
+     137277,
+     104336,
+     115075,
+     84503,
+     235700,
+     148699,
+     195887,
+     156080,
+     12243,
+     1199,
+     203326,
+     66860,
+     600,
+     6383,
+     153704,
+     74879,
+     100194,
+     128444,
+     738
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6048,
+    "top": [
+     {
+      "id": 170049,
+      "token": " thức",
+      "logit": 8.75
+     },
+     {
+      "id": 41183,
+      "token": "emat",
+      "logit": 8.5
+     },
+     {
+      "id": 22900,
+      "token": " Past",
+      "logit": 8.25
+     },
+     {
+      "id": 69906,
+      "token": " ​​",
+      "logit": 8.0625
+     },
+     {
+      "id": 3538,
+      "token": "ilit",
+      "logit": 7.9375
+     },
+     {
+      "id": 53625,
+      "token": "ensi",
+      "logit": 7.84375
+     },
+     {
+      "id": 2263,
+      "token": " console",
+      "logit": 7.71875
+     },
+     {
+      "id": 48427,
+      "token": "Past",
+      "logit": 7.6875
+     },
+     {
+      "id": 95749,
+      "token": "�",
+      "logit": 7.59375
+     },
+     {
+      "id": 83197,
+      "token": "-Co",
+      "logit": 7.53125
+     },
+     {
+      "id": 121247,
+      "token": "盼望",
+      "logit": 7.53125
+     },
+     {
+      "id": 245734,
+      "token": " tát",
+      "logit": 7.5
+     },
+     {
+      "id": 119592,
+      "token": "到底是什么",
+      "logit": 7.40625
+     },
+     {
+      "id": 1657,
+      "token": "less",
+      "logit": 7.375
+     },
+     {
+      "id": 22439,
+      "token": "elm",
+      "logit": 7.375
+     },
+     {
+      "id": 103113,
+      "token": "禄",
+      "logit": 7.3125
+     },
+     {
+      "id": 66860,
+      "token": "unky",
+      "logit": 7.25
+     },
+     {
+      "id": 14999,
+      "token": "raf",
+      "logit": 7.25
+     },
+     {
+      "id": 155661,
+      "token": "まま",
+      "logit": 7.25
+     },
+     {
+      "id": 128932,
+      "token": "情深",
+      "logit": 7.21875
+     }
+    ],
+    "top_ids": [
+     170049,
+     41183,
+     22900,
+     69906,
+     3538,
+     53625,
+     2263,
+     48427,
+     95749,
+     83197,
+     121247,
+     245734,
+     119592,
+     1657,
+     22439,
+     103113,
+     66860,
+     14999,
+     155661,
+     128932
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2228,
+    "top": [
+     {
+      "id": 111812,
+      "token": "事的",
+      "logit": 8.0625
+     },
+     {
+      "id": 106132,
+      "token": "迫切",
+      "logit": 7.90625
+     },
+     {
+      "id": 102214,
+      "token": "前列",
+      "logit": 7.65625
+     },
+     {
+      "id": 103503,
+      "token": "沮",
+      "logit": 7.59375
+     },
+     {
+      "id": 35880,
+      "token": "istically",
+      "logit": 7.53125
+     },
+     {
+      "id": 56343,
+      "token": "gens",
+      "logit": 7.4375
+     },
+     {
+      "id": 2548,
+      "token": " port",
+      "logit": 7.4375
+     },
+     {
+      "id": 45730,
+      "token": "oop",
+      "logit": 7.40625
+     },
+     {
+      "id": 19708,
+      "token": " ports",
+      "logit": 7.28125
+     },
+     {
+      "id": 117767,
+      "token": "事了",
+      "logit": 7.28125
+     },
+     {
+      "id": 96506,
+      "token": "速",
+      "logit": 7.21875
+     },
+     {
+      "id": 5467,
+      "token": " held",
+      "logit": 7.21875
+     },
+     {
+      "id": 133850,
+      "token": "终将",
+      "logit": 7.15625
+     },
+     {
+      "id": 162598,
+      "token": "dü",
+      "logit": 7.0
+     },
+     {
+      "id": 142104,
+      "token": "眉眼",
+      "logit": 6.96875
+     },
+     {
+      "id": 133368,
+      "token": "送了",
+      "logit": 6.96875
+     },
+     {
+      "id": 57079,
+      "token": "/Library",
+      "logit": 6.96875
+     },
+     {
+      "id": 96400,
+      "token": "�",
+      "logit": 6.9375
+     },
+     {
+      "id": 77665,
+      "token": "iola",
+      "logit": 6.875
+     },
+     {
+      "id": 5642,
+      "token": " passed",
+      "logit": 6.8125
+     }
+    ],
+    "top_ids": [
+     111812,
+     106132,
+     102214,
+     103503,
+     35880,
+     56343,
+     2548,
+     45730,
+     19708,
+     117767,
+     96506,
+     5467,
+     133850,
+     162598,
+     142104,
+     133368,
+     57079,
+     96400,
+     77665,
+     5642
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 4985,
+    "top": [
+     {
+      "id": 148637,
+      "token": "وان",
+      "logit": 9.75
+     },
+     {
+      "id": 136254,
+      "token": "随后的",
+      "logit": 9.6875
+     },
+     {
+      "id": 117133,
+      "token": "两项",
+      "logit": 9.5625
+     },
+     {
+      "id": 115192,
+      "token": "两点",
+      "logit": 9.5
+     },
+     {
+      "id": 141052,
+      "token": "后续的",
+      "logit": 9.1875
+     },
+     {
+      "id": 245130,
+      "token": "маль",
+      "logit": 8.8125
+     },
+     {
+      "id": 141436,
+      "token": "禦",
+      "logit": 8.8125
+     },
+     {
+      "id": 88397,
+      "token": " unsus",
+      "logit": 8.75
+     },
+     {
+      "id": 100340,
+      "token": "劝",
+      "logit": 8.75
+     },
+     {
+      "id": 197528,
+      "token": "okal",
+      "logit": 8.6875
+     },
+     {
+      "id": 165644,
+      "token": "avas",
+      "logit": 8.6875
+     },
+     {
+      "id": 25553,
+      "token": "wal",
+      "logit": 8.625
+     },
+     {
+      "id": 245933,
+      "token": " fiscalização",
+      "logit": 8.5625
+     },
+     {
+      "id": 78075,
+      "token": "fav",
+      "logit": 8.5625
+     },
+     {
+      "id": 85024,
+      "token": " liệu",
+      "logit": 8.5
+     },
+     {
+      "id": 197175,
+      "token": "egar",
+      "logit": 8.5
+     },
+     {
+      "id": 88487,
+      "token": "ksam",
+      "logit": 8.375
+     },
+     {
+      "id": 104218,
+      "token": "后续",
+      "logit": 8.375
+     },
+     {
+      "id": 16905,
+      "token": " subsequent",
+      "logit": 8.3125
+     },
+     {
+      "id": 23732,
+      "token": "_site",
+      "logit": 8.25
+     }
+    ],
+    "top_ids": [
+     148637,
+     136254,
+     117133,
+     115192,
+     141052,
+     245130,
+     141436,
+     88397,
+     100340,
+     197528,
+     165644,
+     25553,
+     245933,
+     78075,
+     85024,
+     197175,
+     88487,
+     104218,
+     16905,
+     23732
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 4122,
+    "top": [
+     {
+      "id": 47388,
+      "token": " contours",
+      "logit": 9.0
+     },
+     {
+      "id": 212368,
+      "token": " divertir",
+      "logit": 8.6875
+     },
+     {
+      "id": 78005,
+      "token": "elage",
+      "logit": 8.3125
+     },
+     {
+      "id": 157537,
+      "token": "chetto",
+      "logit": 8.25
+     },
+     {
+      "id": 152818,
+      "token": "aksana",
+      "logit": 8.25
+     },
+     {
+      "id": 147262,
+      "token": "把他的",
+      "logit": 8.0625
+     },
+     {
+      "id": 47752,
+      "token": "onta",
+      "logit": 8.0625
+     },
+     {
+      "id": 14707,
+      "token": "etry",
+      "logit": 8.0625
+     },
+     {
+      "id": 141692,
+      "token": "中指",
+      "logit": 7.875
+     },
+     {
+      "id": 81124,
+      "token": "&R",
+      "logit": 7.8125
+     },
+     {
+      "id": 224840,
+      "token": " raha",
+      "logit": 7.75
+     },
+     {
+      "id": 77200,
+      "token": "stoff",
+      "logit": 7.71875
+     },
+     {
+      "id": 96807,
+      "token": "�",
+      "logit": 7.71875
+     },
+     {
+      "id": 132909,
+      "token": "弧度",
+      "logit": 7.71875
+     },
+     {
+      "id": 246812,
+      "token": "査",
+      "logit": 7.6875
+     },
+     {
+      "id": 246875,
+      "token": "拶",
+      "logit": 7.6875
+     },
+     {
+      "id": 98936,
+      "token": "英文",
+      "logit": 7.6875
+     },
+     {
+      "id": 104850,
+      "token": "到处",
+      "logit": 7.65625
+     },
+     {
+      "id": 94860,
+      "token": " subscript",
+      "logit": 7.625
+     },
+     {
+      "id": 74449,
+      "token": "brero",
+      "logit": 7.625
+     }
+    ],
+    "top_ids": [
+     47388,
+     212368,
+     78005,
+     157537,
+     152818,
+     147262,
+     47752,
+     14707,
+     141692,
+     81124,
+     224840,
+     77200,
+     96807,
+     132909,
+     246812,
+     246875,
+     98936,
+     104850,
+     94860,
+     74449
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 3699,
+    "top": [
+     {
+      "id": 87,
+      "token": "x",
+      "logit": 8.125
+     },
+     {
+      "id": 76584,
+      "token": "sing",
+      "logit": 8.0625
+     },
+     {
+      "id": 136849,
+      "token": "仰卧",
+      "logit": 8.0
+     },
+     {
+      "id": 2631,
+      "token": "ling",
+      "logit": 7.65625
+     },
+     {
+      "id": 2486,
+      "token": "lex",
+      "logit": 7.53125
+     },
+     {
+      "id": 96786,
+      "token": "移",
+      "logit": 7.5
+     },
+     {
+      "id": 111938,
+      "token": "下班",
+      "logit": 7.28125
+     },
+     {
+      "id": 1613,
+      "token": "lish",
+      "logit": 7.28125
+     },
+     {
+      "id": 234362,
+      "token": " barca",
+      "logit": 7.21875
+     },
+     {
+      "id": 1790,
+      "token": "uss",
+      "logit": 7.21875
+     },
+     {
+      "id": 97677,
+      "token": "顿",
+      "logit": 7.15625
+     },
+     {
+      "id": 41710,
+      "token": "linked",
+      "logit": 7.15625
+     },
+     {
+      "id": 72915,
+      "token": "onian",
+      "logit": 7.125
+     },
+     {
+      "id": 113180,
+      "token": "一顿",
+      "logit": 7.09375
+     },
+     {
+      "id": 1076,
+      "token": "...",
+      "logit": 7.0625
+     },
+     {
+      "id": 155223,
+      "token": "кова",
+      "logit": 7.03125
+     },
+     {
+      "id": 103047,
+      "token": "頓",
+      "logit": 7.03125
+     },
+     {
+      "id": 151689,
+      "token": " испол",
+      "logit": 7.0
+     },
+     {
+      "id": 2777,
+      "token": "where",
+      "logit": 6.96875
+     },
+     {
+      "id": 1576,
+      "token": " object",
+      "logit": 6.96875
+     }
+    ],
+    "top_ids": [
+     87,
+     76584,
+     136849,
+     2631,
+     2486,
+     96786,
+     111938,
+     1613,
+     234362,
+     1790,
+     97677,
+     41710,
+     72915,
+     113180,
+     1076,
+     155223,
+     103047,
+     151689,
+     2777,
+     1576
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7823,
+    "top": [
+     {
+      "id": 51928,
+      "token": "ampo",
+      "logit": 9.625
+     },
+     {
+      "id": 122247,
+      "token": "港区",
+      "logit": 9.4375
+     },
+     {
+      "id": 92552,
+      "token": " Eaton",
+      "logit": 9.0625
+     },
+     {
+      "id": 199911,
+      "token": "тъ",
+      "logit": 9.0
+     },
+     {
+      "id": 101406,
+      "token": "榴",
+      "logit": 8.6875
+     },
+     {
+      "id": 94365,
+      "token": "cki",
+      "logit": 8.625
+     },
+     {
+      "id": 9185,
+      "token": "isco",
+      "logit": 8.625
+     },
+     {
+      "id": 246803,
+      "token": "mater",
+      "logit": 8.5625
+     },
+     {
+      "id": 165695,
+      "token": "akup",
+      "logit": 8.5
+     },
+     {
+      "id": 199545,
+      "token": "maa",
+      "logit": 8.4375
+     },
+     {
+      "id": 98786,
+      "token": "卧",
+      "logit": 8.4375
+     },
+     {
+      "id": 108000,
+      "token": "昱",
+      "logit": 8.4375
+     },
+     {
+      "id": 22411,
+      "token": " portal",
+      "logit": 8.4375
+     },
+     {
+      "id": 208707,
+      "token": "cky",
+      "logit": 8.375
+     },
+     {
+      "id": 49188,
+      "token": "sst",
+      "logit": 8.375
+     },
+     {
+      "id": 50085,
+      "token": "ünchen",
+      "logit": 8.375
+     },
+     {
+      "id": 61356,
+      "token": "egl",
+      "logit": 8.3125
+     },
+     {
+      "id": 115783,
+      "token": "石榴",
+      "logit": 8.25
+     },
+     {
+      "id": 240826,
+      "token": "stof",
+      "logit": 8.25
+     },
+     {
+      "id": 164042,
+      "token": "teria",
+      "logit": 8.1875
+     }
+    ],
+    "top_ids": [
+     51928,
+     122247,
+     92552,
+     199911,
+     101406,
+     94365,
+     9185,
+     246803,
+     165695,
+     199545,
+     98786,
+     108000,
+     22411,
+     208707,
+     49188,
+     50085,
+     61356,
+     115783,
+     240826,
+     164042
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1618,
+    "top": [
+     {
+      "id": 10003,
+      "token": "ials",
+      "logit": 7.90625
+     },
+     {
+      "id": 36303,
+      "token": " traverse",
+      "logit": 7.3125
+     },
+     {
+      "id": 133730,
+      "token": "这个东西",
+      "logit": 6.96875
+     },
+     {
+      "id": 96046,
+      "token": "�",
+      "logit": 6.96875
+     },
+     {
+      "id": 281,
+      "token": " f",
+      "logit": 6.4375
+     },
+     {
+      "id": 81842,
+      "token": "odom",
+      "logit": 6.40625
+     },
+     {
+      "id": 1467,
+      "token": " did",
+      "logit": 6.375
+     },
+     {
+      "id": 104187,
+      "token": "用地",
+      "logit": 6.34375
+     },
+     {
+      "id": 108155,
+      "token": "岱",
+      "logit": 6.34375
+     },
+     {
+      "id": 107754,
+      "token": "沁",
+      "logit": 6.34375
+     },
+     {
+      "id": 220,
+      "token": " ",
+      "logit": 6.28125
+     },
+     {
+      "id": 128928,
+      "token": "是这个",
+      "logit": 6.28125
+     },
+     {
+      "id": 12456,
+      "token": " indeed",
+      "logit": 6.1875
+     },
+     {
+      "id": 48704,
+      "token": " Ded",
+      "logit": 6.1875
+     },
+     {
+      "id": 147479,
+      "token": "分水",
+      "logit": 6.125
+     },
+     {
+      "id": 1798,
+      "token": "ats",
+      "logit": 6.125
+     },
+     {
+      "id": 11783,
+      "token": "atted",
+      "logit": 6.125
+     },
+     {
+      "id": 1001,
+      "token": " “",
+      "logit": 6.09375
+     },
+     {
+      "id": 28457,
+      "token": " travers",
+      "logit": 6.03125
+     },
+     {
+      "id": 426,
+      "token": " F",
+      "logit": 6.0
+     }
+    ],
+    "top_ids": [
+     10003,
+     36303,
+     133730,
+     96046,
+     281,
+     81842,
+     1467,
+     104187,
+     108155,
+     107754,
+     220,
+     128928,
+     12456,
+     48704,
+     147479,
+     1798,
+     11783,
+     1001,
+     28457,
+     426
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2982,
+    "top": [
+     {
+      "id": 136285,
+      "token": "或因",
+      "logit": 7.625
+     },
+     {
+      "id": 112340,
+      "token": "为期",
+      "logit": 7.53125
+     },
+     {
+      "id": 148232,
+      "token": "或通过",
+      "logit": 7.40625
+     },
+     {
+      "id": 139262,
+      "token": "和监督",
+      "logit": 7.34375
+     },
+     {
+      "id": 104437,
+      "token": "权限",
+      "logit": 7.21875
+     },
+     {
+      "id": 96110,
+      "token": "正",
+      "logit": 6.96875
+     },
+     {
+      "id": 44341,
+      "token": "opus",
+      "logit": 6.9375
+     },
+     {
+      "id": 5752,
+      "token": " otherwise",
+      "logit": 6.8125
+     },
+     {
+      "id": 612,
+      "token": "ount",
+      "logit": 6.78125
+     },
+     {
+      "id": 521,
+      "token": "ode",
+      "logit": 6.75
+     },
+     {
+      "id": 95984,
+      "token": "加",
+      "logit": 6.6875
+     },
+     {
+      "id": 100713,
+      "token": "格式",
+      "logit": 6.6875
+     },
+     {
+      "id": 1038,
+      "token": "ask",
+      "logit": 6.625
+     },
+     {
+      "id": 96171,
+      "token": "权",
+      "logit": 6.59375
+     },
+     {
+      "id": 96348,
+      "token": "或",
+      "logit": 6.59375
+     },
+     {
+      "id": 104406,
+      "token": "任意",
+      "logit": 6.53125
+     },
+     {
+      "id": 175578,
+      "token": "lá",
+      "logit": 6.5
+     },
+     {
+      "id": 77229,
+      "token": "orsch",
+      "logit": 6.5
+     },
+     {
+      "id": 466,
+      "token": " or",
+      "logit": 6.46875
+     },
+     {
+      "id": 202238,
+      "token": "ymo",
+      "logit": 6.4375
+     }
+    ],
+    "top_ids": [
+     136285,
+     112340,
+     148232,
+     139262,
+     104437,
+     96110,
+     44341,
+     5752,
+     612,
+     521,
+     95984,
+     100713,
+     1038,
+     96171,
+     96348,
+     104406,
+     175578,
+     77229,
+     466,
+     202238
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [
+      "ask"
+     ],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7485,
+    "top": [
+     {
+      "id": 25850,
+      "token": "assy",
+      "logit": 10.1875
+     },
+     {
+      "id": 98604,
+      "token": "�",
+      "logit": 9.9375
+     },
+     {
+      "id": 156717,
+      "token": "στα",
+      "logit": 9.5
+     },
+     {
+      "id": 15487,
+      "token": "quer",
+      "logit": 9.5
+     },
+     {
+      "id": 34058,
+      "token": "amt",
+      "logit": 9.0
+     },
+     {
+      "id": 230221,
+      "token": "แตน",
+      "logit": 9.0
+     },
+     {
+      "id": 141016,
+      "token": "进行学习",
+      "logit": 8.875
+     },
+     {
+      "id": 60495,
+      "token": " Fell",
+      "logit": 8.8125
+     },
+     {
+      "id": 66761,
+      "token": "hurst",
+      "logit": 8.75
+     },
+     {
+      "id": 234571,
+      "token": "روش",
+      "logit": 8.75
+     },
+     {
+      "id": 81651,
+      "token": " Clash",
+      "logit": 8.75
+     },
+     {
+      "id": 352,
+      "token": " st",
+      "logit": 8.5625
+     },
+     {
+      "id": 152890,
+      "token": "راط",
+      "logit": 8.5625
+     },
+     {
+      "id": 17779,
+      "token": "ña",
+      "logit": 8.5
+     },
+     {
+      "id": 35625,
+      "token": " Fellow",
+      "logit": 8.5
+     },
+     {
+      "id": 4255,
+      "token": " fall",
+      "logit": 8.5
+     },
+     {
+      "id": 165443,
+      "token": "اصر",
+      "logit": 8.25
+     },
+     {
+      "id": 37552,
+      "token": "\",'",
+      "logit": 8.25
+     },
+     {
+      "id": 4401,
+      "token": "rodu",
+      "logit": 8.25
+     },
+     {
+      "id": 16953,
+      "token": "ça",
+      "logit": 8.25
+     }
+    ],
+    "top_ids": [
+     25850,
+     98604,
+     156717,
+     15487,
+     34058,
+     230221,
+     141016,
+     60495,
+     66761,
+     234571,
+     81651,
+     352,
+     152890,
+     17779,
+     35625,
+     4255,
+     165443,
+     37552,
+     4401,
+     16953
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2037,
+    "top": [
+     {
+      "id": 129404,
+      "token": "不倒",
+      "logit": 10.75
+     },
+     {
+      "id": 130251,
+      "token": "不多的",
+      "logit": 10.375
+     },
+     {
+      "id": 161931,
+      "token": "idio",
+      "logit": 9.9375
+     },
+     {
+      "id": 161289,
+      "token": "ajú",
+      "logit": 9.9375
+     },
+     {
+      "id": 159550,
+      "token": "ίδ",
+      "logit": 9.75
+     },
+     {
+      "id": 106624,
+      "token": "第十七",
+      "logit": 9.625
+     },
+     {
+      "id": 107188,
+      "token": "不到的",
+      "logit": 9.5625
+     },
+     {
+      "id": 97640,
+      "token": "到的",
+      "logit": 9.5625
+     },
+     {
+      "id": 52473,
+      "token": "eco",
+      "logit": 9.5
+     },
+     {
+      "id": 193444,
+      "token": "jeg",
+      "logit": 9.375
+     },
+     {
+      "id": 138570,
+      "token": "牛角",
+      "logit": 9.375
+     },
+     {
+      "id": 64885,
+      "token": " Parkway",
+      "logit": 9.25
+     },
+     {
+      "id": 107499,
+      "token": "家喻",
+      "logit": 9.25
+     },
+     {
+      "id": 30314,
+      "token": " Kirk",
+      "logit": 9.1875
+     },
+     {
+      "id": 43810,
+      "token": "$q",
+      "logit": 9.0625
+     },
+     {
+      "id": 47025,
+      "token": "<strong",
+      "logit": 9.0625
+     },
+     {
+      "id": 108205,
+      "token": "骸",
+      "logit": 9.0
+     },
+     {
+      "id": 44816,
+      "token": "marked",
+      "logit": 9.0
+     },
+     {
+      "id": 242260,
+      "token": "頭の",
+      "logit": 9.0
+     },
+     {
+      "id": 90345,
+      "token": " Twice",
+      "logit": 8.9375
+     }
+    ],
+    "top_ids": [
+     129404,
+     130251,
+     161931,
+     161289,
+     159550,
+     106624,
+     107188,
+     97640,
+     52473,
+     193444,
+     138570,
+     64885,
+     107499,
+     30314,
+     43810,
+     47025,
+     108205,
+     44816,
+     242260,
+     90345
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1590,
+    "top": [
+     {
+      "id": 198,
+      "token": "\n",
+      "logit": 10.3125
+     },
+     {
+      "id": 13,
+      "token": ".",
+      "logit": 10.0
+     },
+     {
+      "id": 12,
+      "token": "-",
+      "logit": 9.1875
+     },
+     {
+      "id": 21,
+      "token": "6",
+      "logit": 9.1875
+     },
+     {
+      "id": 73,
+      "token": "j",
+      "logit": 8.625
+     },
+     {
+      "id": 24,
+      "token": "9",
+      "logit": 8.5625
+     },
+     {
+      "id": 52182,
+      "token": "icom",
+      "logit": 8.25
+     },
+     {
+      "id": 86288,
+      "token": "‌",
+      "logit": 8.1875
+     },
+     {
+      "id": 11,
+      "token": ",",
+      "logit": 8.125
+     },
+     {
+      "id": 114352,
+      "token": "控制的",
+      "logit": 8.0625
+     },
+     {
+      "id": 846,
+      "token": "user",
+      "logit": 8.0625
+     },
+     {
+      "id": 19,
+      "token": "4",
+      "logit": 8.0
+     },
+     {
+      "id": 22,
+      "token": "7",
+      "logit": 7.96875
+     },
+     {
+      "id": 96622,
+      "token": "测",
+      "logit": 7.9375
+     },
+     {
+      "id": 15,
+      "token": "0",
+      "logit": 7.6875
+     },
+     {
+      "id": 152779,
+      "token": "اعت",
+      "logit": 7.625
+     },
+     {
+      "id": 115664,
+      "token": "听得",
+      "logit": 7.59375
+     },
+     {
+      "id": 96193,
+      "token": "精",
+      "logit": 7.5
+     },
+     {
+      "id": 30,
+      "token": "?",
+      "logit": 7.46875
+     },
+     {
+      "id": 55,
+      "token": "X",
+      "logit": 7.4375
+     }
+    ],
+    "top_ids": [
+     198,
+     13,
+     12,
+     21,
+     73,
+     24,
+     52182,
+     86288,
+     11,
+     114352,
+     846,
+     19,
+     22,
+     96622,
+     15,
+     152779,
+     115664,
+     96193,
+     30,
+     55
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5717,
+    "top": [
+     {
+      "id": 69799,
+      "token": " imb",
+      "logit": 9.875
+     },
+     {
+      "id": 77826,
+      "token": "agos",
+      "logit": 9.5625
+     },
+     {
+      "id": 222815,
+      "token": " Capitale",
+      "logit": 9.3125
+     },
+     {
+      "id": 149541,
+      "token": " соз",
+      "logit": 9.25
+     },
+     {
+      "id": 58224,
+      "token": "ổ",
+      "logit": 9.25
+     },
+     {
+      "id": 96509,
+      "token": "始",
+      "logit": 9.125
+     },
+     {
+      "id": 155191,
+      "token": "ẩy",
+      "logit": 9.0625
+     },
+     {
+      "id": 131736,
+      "token": "当天的",
+      "logit": 8.9375
+     },
+     {
+      "id": 33966,
+      "token": "entai",
+      "logit": 8.9375
+     },
+     {
+      "id": 240430,
+      "token": "agung",
+      "logit": 8.8125
+     },
+     {
+      "id": 86903,
+      "token": "dorf",
+      "logit": 8.75
+     },
+     {
+      "id": 63658,
+      "token": "edo",
+      "logit": 8.75
+     },
+     {
+      "id": 159668,
+      "token": "мом",
+      "logit": 8.6875
+     },
+     {
+      "id": 99083,
+      "token": "胀",
+      "logit": 8.625
+     },
+     {
+      "id": 88667,
+      "token": "_registro",
+      "logit": 8.5625
+     },
+     {
+      "id": 117666,
+      "token": "日式",
+      "logit": 8.5
+     },
+     {
+      "id": 184795,
+      "token": "ستی",
+      "logit": 8.5
+     },
+     {
+      "id": 147658,
+      "token": "绔",
+      "logit": 8.4375
+     },
+     {
+      "id": 67548,
+      "token": "omorphic",
+      "logit": 8.375
+     },
+     {
+      "id": 62676,
+      "token": "esses",
+      "logit": 8.375
+     }
+    ],
+    "top_ids": [
+     69799,
+     77826,
+     222815,
+     149541,
+     58224,
+     96509,
+     155191,
+     131736,
+     33966,
+     240430,
+     86903,
+     63658,
+     159668,
+     99083,
+     88667,
+     117666,
+     184795,
+     147658,
+     67548,
+     62676
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2265,
+    "top": [
+     {
+      "id": 163478,
+      "token": "öld",
+      "logit": 8.375
+     },
+     {
+      "id": 12136,
+      "token": " consequ",
+      "logit": 7.9375
+     },
+     {
+      "id": 161371,
+      "token": "kab",
+      "logit": 7.90625
+     },
+     {
+      "id": 73666,
+      "token": "Iso",
+      "logit": 7.40625
+     },
+     {
+      "id": 3187,
+      "token": "level",
+      "logit": 7.3125
+     },
+     {
+      "id": 150406,
+      "token": "وائ",
+      "logit": 7.28125
+     },
+     {
+      "id": 132696,
+      "token": "顾及",
+      "logit": 7.1875
+     },
+     {
+      "id": 69189,
+      "token": "rouw",
+      "logit": 7.1875
+     },
+     {
+      "id": 2338,
+      "token": "cope",
+      "logit": 7.15625
+     },
+     {
+      "id": 107923,
+      "token": "梢",
+      "logit": 7.125
+     },
+     {
+      "id": 90639,
+      "token": "leck",
+      "logit": 7.125
+     },
+     {
+      "id": 196134,
+      "token": "ستا",
+      "logit": 7.09375
+     },
+     {
+      "id": 13218,
+      "token": "sample",
+      "logit": 7.09375
+     },
+     {
+      "id": 148425,
+      "token": " воз",
+      "logit": 7.03125
+     },
+     {
+      "id": 30626,
+      "token": " Kap",
+      "logit": 6.90625
+     },
+     {
+      "id": 78724,
+      "token": "masked",
+      "logit": 6.90625
+     },
+     {
+      "id": 156597,
+      "token": "روج",
+      "logit": 6.875
+     },
+     {
+      "id": 151956,
+      "token": "زد",
+      "logit": 6.875
+     },
+     {
+      "id": 126430,
+      "token": "本级",
+      "logit": 6.84375
+     },
+     {
+      "id": 137701,
+      "token": "新形势",
+      "logit": 6.78125
+     }
+    ],
+    "top_ids": [
+     163478,
+     12136,
+     161371,
+     73666,
+     3187,
+     150406,
+     132696,
+     69189,
+     2338,
+     107923,
+     90639,
+     196134,
+     13218,
+     148425,
+     30626,
+     78724,
+     156597,
+     151956,
+     126430,
+     137701
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2197,
+    "top": [
+     {
+      "id": 96652,
+      "token": "皮",
+      "logit": 9.375
+     },
+     {
+      "id": 7152,
+      "token": "aight",
+      "logit": 8.9375
+     },
+     {
+      "id": 95827,
+      "token": "�",
+      "logit": 8.3125
+     },
+     {
+      "id": 105921,
+      "token": "据此",
+      "logit": 8.25
+     },
+     {
+      "id": 149830,
+      "token": "เอ",
+      "logit": 8.1875
+     },
+     {
+      "id": 97530,
+      "token": "暗",
+      "logit": 7.90625
+     },
+     {
+      "id": 86859,
+      "token": "kelas",
+      "logit": 7.84375
+     },
+     {
+      "id": 54591,
+      "token": " spun",
+      "logit": 7.78125
+     },
+     {
+      "id": 100362,
+      "token": "奴",
+      "logit": 7.75
+     },
+     {
+      "id": 97186,
+      "token": "齐",
+      "logit": 7.71875
+     },
+     {
+      "id": 105693,
+      "token": "作的",
+      "logit": 7.6875
+     },
+     {
+      "id": 332,
+      "token": "**",
+      "logit": 7.625
+     },
+     {
+      "id": 13999,
+      "token": "egr",
+      "logit": 7.59375
+     },
+     {
+      "id": 13649,
+      "token": "angers",
+      "logit": 7.5
+     },
+     {
+      "id": 100432,
+      "token": "鞭",
+      "logit": 7.5
+     },
+     {
+      "id": 97020,
+      "token": "遇",
+      "logit": 7.4375
+     },
+     {
+      "id": 96758,
+      "token": "�",
+      "logit": 7.34375
+     },
+     {
+      "id": 41776,
+      "token": "³",
+      "logit": 7.28125
+     },
+     {
+      "id": 1449,
+      "token": "else",
+      "logit": 7.28125
+     },
+     {
+      "id": 96165,
+      "token": "立",
+      "logit": 7.25
+     }
+    ],
+    "top_ids": [
+     96652,
+     7152,
+     95827,
+     105921,
+     149830,
+     97530,
+     86859,
+     54591,
+     100362,
+     97186,
+     105693,
+     332,
+     13999,
+     13649,
+     100432,
+     97020,
+     96758,
+     41776,
+     1449,
+     96165
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5158,
+    "top": [
+     {
+      "id": 160327,
+      "token": "سته",
+      "logit": 9.5
+     },
+     {
+      "id": 138042,
+      "token": "此案",
+      "logit": 9.0625
+     },
+     {
+      "id": 155709,
+      "token": "купа",
+      "logit": 8.5625
+     },
+     {
+      "id": 37824,
+      "token": "Mu",
+      "logit": 8.5625
+     },
+     {
+      "id": 158496,
+      "token": "çal",
+      "logit": 8.5
+     },
+     {
+      "id": 230507,
+      "token": "iht",
+      "logit": 8.5
+     },
+     {
+      "id": 145747,
+      "token": "海默",
+      "logit": 8.4375
+     },
+     {
+      "id": 109699,
+      "token": "要点",
+      "logit": 8.375
+     },
+     {
+      "id": 32161,
+      "token": "orna",
+      "logit": 8.3125
+     },
+     {
+      "id": 136285,
+      "token": "或因",
+      "logit": 8.3125
+     },
+     {
+      "id": 28381,
+      "token": "ác",
+      "logit": 8.3125
+     },
+     {
+      "id": 196349,
+      "token": "scy",
+      "logit": 8.1875
+     },
+     {
+      "id": 140521,
+      "token": "着呢",
+      "logit": 8.1875
+     },
+     {
+      "id": 91219,
+      "token": ".Companion",
+      "logit": 8.125
+     },
+     {
+      "id": 29578,
+      "token": "Bars",
+      "logit": 8.125
+     },
+     {
+      "id": 129086,
+      "token": "豁免",
+      "logit": 8.125
+     },
+     {
+      "id": 53283,
+      "token": "cribes",
+      "logit": 7.9375
+     },
+     {
+      "id": 87355,
+      "token": "embros",
+      "logit": 7.875
+     },
+     {
+      "id": 113939,
+      "token": "分化",
+      "logit": 7.875
+     },
+     {
+      "id": 149506,
+      "token": "كون",
+      "logit": 7.8125
+     }
+    ],
+    "top_ids": [
+     160327,
+     138042,
+     155709,
+     37824,
+     158496,
+     230507,
+     145747,
+     109699,
+     32161,
+     136285,
+     28381,
+     196349,
+     140521,
+     91219,
+     29578,
+     129086,
+     53283,
+     87355,
+     113939,
+     149506
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5401,
+    "top": [
+     {
+      "id": 105199,
+      "token": "之为",
+      "logit": 9.6875
+     },
+     {
+      "id": 111604,
+      "token": "极了",
+      "logit": 8.8125
+     },
+     {
+      "id": 27189,
+      "token": "aky",
+      "logit": 8.6875
+     },
+     {
+      "id": 91142,
+      "token": " stares",
+      "logit": 8.4375
+     },
+     {
+      "id": 163600,
+      "token": "ミュ",
+      "logit": 8.1875
+     },
+     {
+      "id": 170156,
+      "token": " tích",
+      "logit": 8.125
+     },
+     {
+      "id": 96333,
+      "token": "尔",
+      "logit": 7.96875
+     },
+     {
+      "id": 238313,
+      "token": " дій",
+      "logit": 7.90625
+     },
+     {
+      "id": 143044,
+      "token": "其上",
+      "logit": 7.71875
+     },
+     {
+      "id": 140839,
+      "token": "端着",
+      "logit": 7.40625
+     },
+     {
+      "id": 128610,
+      "token": "整个世界",
+      "logit": 7.40625
+     },
+     {
+      "id": 24101,
+      "token": " replacing",
+      "logit": 7.375
+     },
+     {
+      "id": 112516,
+      "token": "设为首页",
+      "logit": 7.375
+     },
+     {
+      "id": 98861,
+      "token": "一切",
+      "logit": 7.3125
+     },
+     {
+      "id": 220689,
+      "token": " gând",
+      "logit": 7.25
+     },
+     {
+      "id": 229470,
+      "token": " sostituzione",
+      "logit": 7.21875
+     },
+     {
+      "id": 59472,
+      "token": ".FileNotFoundException",
+      "logit": 7.21875
+     },
+     {
+      "id": 680,
+      "token": " out",
+      "logit": 7.21875
+     },
+     {
+      "id": 101274,
+      "token": "矫",
+      "logit": 7.21875
+     },
+     {
+      "id": 80169,
+      "token": " selves",
+      "logit": 7.1875
+     }
+    ],
+    "top_ids": [
+     105199,
+     111604,
+     27189,
+     91142,
+     163600,
+     170156,
+     96333,
+     238313,
+     143044,
+     140839,
+     128610,
+     24101,
+     112516,
+     98861,
+     220689,
+     229470,
+     59472,
+     680,
+     101274,
+     80169
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6274,
+    "top": [
+     {
+      "id": 2602,
+      "token": "apt",
+      "logit": 9.0625
+     },
+     {
+      "id": 143869,
+      "token": "问及",
+      "logit": 8.8125
+     },
+     {
+      "id": 109828,
+      "token": "偶尔",
+      "logit": 8.0
+     },
+     {
+      "id": 96354,
+      "token": "爱",
+      "logit": 7.96875
+     },
+     {
+      "id": 102411,
+      "token": "间接",
+      "logit": 7.625
+     },
+     {
+      "id": 24767,
+      "token": "ovid",
+      "logit": 7.625
+     },
+     {
+      "id": 96353,
+      "token": "增",
+      "logit": 7.5
+     },
+     {
+      "id": 96914,
+      "token": "索",
+      "logit": 7.40625
+     },
+     {
+      "id": 98105,
+      "token": "逆",
+      "logit": 7.375
+     },
+     {
+      "id": 113509,
+      "token": "低调",
+      "logit": 7.34375
+     },
+     {
+      "id": 96181,
+      "token": "求",
+      "logit": 7.3125
+     },
+     {
+      "id": 231856,
+      "token": " efficiente",
+      "logit": 7.28125
+     },
+     {
+      "id": 97623,
+      "token": "只是",
+      "logit": 7.21875
+     },
+     {
+      "id": 96177,
+      "token": "两",
+      "logit": 7.1875
+     },
+     {
+      "id": 23838,
+      "token": " indirect",
+      "logit": 7.1875
+     },
+     {
+      "id": 159883,
+      "token": "בי",
+      "logit": 7.15625
+     },
+     {
+      "id": 2992,
+      "token": "iff",
+      "logit": 7.09375
+     },
+     {
+      "id": 8771,
+      "token": " Two",
+      "logit": 7.0625
+     },
+     {
+      "id": 247287,
+      "token": "求人",
+      "logit": 7.0
+     },
+     {
+      "id": 17651,
+      "token": "ifference",
+      "logit": 7.0
+     }
+    ],
+    "top_ids": [
+     2602,
+     143869,
+     109828,
+     96354,
+     102411,
+     24767,
+     96353,
+     96914,
+     98105,
+     113509,
+     96181,
+     231856,
+     97623,
+     96177,
+     23838,
+     159883,
+     2992,
+     8771,
+     247287,
+     17651
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 3035,
+    "top": [
+     {
+      "id": 164055,
+      "token": "lal",
+      "logit": 8.8125
+     },
+     {
+      "id": 96826,
+      "token": "退",
+      "logit": 8.625
+     },
+     {
+      "id": 55756,
+      "token": " ElementRef",
+      "logit": 8.3125
+     },
+     {
+      "id": 51739,
+      "token": "cura",
+      "logit": 8.25
+     },
+     {
+      "id": 1706,
+      "token": "vice",
+      "logit": 8.25
+     },
+     {
+      "id": 217632,
+      "token": "mend",
+      "logit": 8.1875
+     },
+     {
+      "id": 210219,
+      "token": "lade",
+      "logit": 8.0625
+     },
+     {
+      "id": 113033,
+      "token": "不分",
+      "logit": 8.0
+     },
+     {
+      "id": 52949,
+      "token": "cab",
+      "logit": 7.96875
+     },
+     {
+      "id": 175693,
+      "token": "tida",
+      "logit": 7.9375
+     },
+     {
+      "id": 91321,
+      "token": "iała",
+      "logit": 7.8125
+     },
+     {
+      "id": 148696,
+      "token": "فا",
+      "logit": 7.71875
+     },
+     {
+      "id": 114927,
+      "token": "交际",
+      "logit": 7.625
+     },
+     {
+      "id": 38335,
+      "token": "(\"${",
+      "logit": 7.625
+     },
+     {
+      "id": 203264,
+      "token": "ย่อย",
+      "logit": 7.4375
+     },
+     {
+      "id": 141233,
+      "token": "切身利益",
+      "logit": 7.4375
+     },
+     {
+      "id": 81650,
+      "token": "oling",
+      "logit": 7.375
+     },
+     {
+      "id": 108138,
+      "token": "恺",
+      "logit": 7.375
+     },
+     {
+      "id": 75550,
+      "token": "yyyyMMdd",
+      "logit": 7.34375
+     },
+     {
+      "id": 151736,
+      "token": "้าว",
+      "logit": 7.3125
+     }
+    ],
+    "top_ids": [
+     164055,
+     96826,
+     55756,
+     51739,
+     1706,
+     217632,
+     210219,
+     113033,
+     52949,
+     175693,
+     91321,
+     148696,
+     114927,
+     38335,
+     203264,
+     141233,
+     81650,
+     108138,
+     75550,
+     151736
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7470,
+    "top": [
+     {
+      "id": 140043,
+      "token": "该区",
+      "logit": 9.5
+     },
+     {
+      "id": 6915,
+      "token": "plus",
+      "logit": 8.6875
+     },
+     {
+      "id": 5346,
+      "token": " plus",
+      "logit": 8.5625
+     },
+     {
+      "id": 2895,
+      "token": " lead",
+      "logit": 8.4375
+     },
+     {
+      "id": 96238,
+      "token": "造",
+      "logit": 8.125
+     },
+     {
+      "id": 18468,
+      "token": " versus",
+      "logit": 7.90625
+     },
+     {
+      "id": 112990,
+      "token": "得意",
+      "logit": 7.875
+     },
+     {
+      "id": 75234,
+      "token": ":len",
+      "logit": 7.8125
+     },
+     {
+      "id": 21432,
+      "token": " revel",
+      "logit": 7.78125
+     },
+     {
+      "id": 194194,
+      "token": " voilà",
+      "logit": 7.78125
+     },
+     {
+      "id": 136668,
+      "token": "有加",
+      "logit": 7.71875
+     },
+     {
+      "id": 51239,
+      "token": " hyster",
+      "logit": 7.71875
+     },
+     {
+      "id": 72019,
+      "token": " immersion",
+      "logit": 7.5625
+     },
+     {
+      "id": 97838,
+      "token": "恩",
+      "logit": 7.5625
+     },
+     {
+      "id": 2018,
+      "token": " second",
+      "logit": 7.53125
+     },
+     {
+      "id": 11229,
+      "token": "vs",
+      "logit": 7.40625
+     },
+     {
+      "id": 108133,
+      "token": "扉",
+      "logit": 7.40625
+     },
+     {
+      "id": 11990,
+      "token": " Plus",
+      "logit": 7.375
+     },
+     {
+      "id": 96088,
+      "token": "任",
+      "logit": 7.21875
+     },
+     {
+      "id": 52895,
+      "token": "oden",
+      "logit": 7.21875
+     }
+    ],
+    "top_ids": [
+     140043,
+     6915,
+     5346,
+     2895,
+     96238,
+     18468,
+     112990,
+     75234,
+     21432,
+     194194,
+     136668,
+     51239,
+     72019,
+     97838,
+     2018,
+     11229,
+     108133,
+     11990,
+     96088,
+     52895
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5515,
+    "top": [
+     {
+      "id": 98807,
+      "token": "扑",
+      "logit": 9.0
+     },
+     {
+      "id": 160235,
+      "token": "ergen",
+      "logit": 8.8125
+     },
+     {
+      "id": 2489,
+      "token": "urch",
+      "logit": 8.75
+     },
+     {
+      "id": 13270,
+      "token": "ERY",
+      "logit": 8.75
+     },
+     {
+      "id": 160585,
+      "token": "なり",
+      "logit": 8.5625
+     },
+     {
+      "id": 99842,
+      "token": "掩",
+      "logit": 8.5625
+     },
+     {
+      "id": 179315,
+      "token": "таки",
+      "logit": 8.5
+     },
+     {
+      "id": 149014,
+      "token": "мож",
+      "logit": 8.3125
+     },
+     {
+      "id": 30120,
+      "token": "tribution",
+      "logit": 8.25
+     },
+     {
+      "id": 1618,
+      "token": "uring",
+      "logit": 8.1875
+     },
+     {
+      "id": 75834,
+      "token": "ueur",
+      "logit": 8.125
+     },
+     {
+      "id": 134246,
+      "token": "認可",
+      "logit": 7.96875
+     },
+     {
+      "id": 42682,
+      "token": ".toJSON",
+      "logit": 7.9375
+     },
+     {
+      "id": 162440,
+      "token": "usione",
+      "logit": 7.90625
+     },
+     {
+      "id": 113657,
+      "token": "按下",
+      "logit": 7.90625
+     },
+     {
+      "id": 28032,
+      "token": "ularity",
+      "logit": 7.71875
+     },
+     {
+      "id": 220093,
+      "token": "unnan",
+      "logit": 7.625
+     },
+     {
+      "id": 102952,
+      "token": "碌",
+      "logit": 7.59375
+     },
+     {
+      "id": 189077,
+      "token": "cesa",
+      "logit": 7.59375
+     },
+     {
+      "id": 78859,
+      "token": "든",
+      "logit": 7.5625
+     }
+    ],
+    "top_ids": [
+     98807,
+     160235,
+     2489,
+     13270,
+     160585,
+     99842,
+     179315,
+     149014,
+     30120,
+     1618,
+     75834,
+     134246,
+     42682,
+     162440,
+     113657,
+     28032,
+     220093,
+     102952,
+     189077,
+     78859
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6450,
+    "top": [
+     {
+      "id": 108025,
+      "token": "岔",
+      "logit": 9.0
+     },
+     {
+      "id": 233463,
+      "token": "voer",
+      "logit": 8.9375
+     },
+     {
+      "id": 43628,
+      "token": " !_",
+      "logit": 8.3125
+     },
+     {
+      "id": 686,
+      "token": "ax",
+      "logit": 8.0625
+     },
+     {
+      "id": 182388,
+      "token": "pia",
+      "logit": 7.9375
+     },
+     {
+      "id": 77053,
+      "token": "ADOR",
+      "logit": 7.875
+     },
+     {
+      "id": 107452,
+      "token": "宫外",
+      "logit": 7.875
+     },
+     {
+      "id": 225728,
+      "token": " кош",
+      "logit": 7.84375
+     },
+     {
+      "id": 200795,
+      "token": " Grosso",
+      "logit": 7.8125
+     },
+     {
+      "id": 3417,
+      "token": "Pr",
+      "logit": 7.8125
+     },
+     {
+      "id": 4672,
+      "token": "ATH",
+      "logit": 7.78125
+     },
+     {
+      "id": 198366,
+      "token": "òm",
+      "logit": 7.78125
+     },
+     {
+      "id": 98346,
+      "token": "忽",
+      "logit": 7.75
+     },
+     {
+      "id": 5968,
+      "token": "ho",
+      "logit": 7.6875
+     },
+     {
+      "id": 84998,
+      "token": "ieme",
+      "logit": 7.65625
+     },
+     {
+      "id": 212654,
+      "token": "tox",
+      "logit": 7.625
+     },
+     {
+      "id": 2860,
+      "token": "AX",
+      "logit": 7.625
+     },
+     {
+      "id": 150872,
+      "token": "ň",
+      "logit": 7.625
+     },
+     {
+      "id": 4933,
+      "token": "PORT",
+      "logit": 7.625
+     },
+     {
+      "id": 147188,
+      "token": "盖世",
+      "logit": 7.625
+     }
+    ],
+    "top_ids": [
+     108025,
+     233463,
+     43628,
+     686,
+     182388,
+     77053,
+     107452,
+     225728,
+     200795,
+     3417,
+     4672,
+     198366,
+     98346,
+     5968,
+     84998,
+     212654,
+     2860,
+     150872,
+     4933,
+     147188
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6630,
+    "top": [
+     {
+      "id": 62560,
+      "token": "ukes",
+      "logit": 11.4375
+     },
+     {
+      "id": 200061,
+      "token": "onel",
+      "logit": 10.9375
+     },
+     {
+      "id": 76935,
+      "token": "entar",
+      "logit": 10.0
+     },
+     {
+      "id": 138660,
+      "token": "也不太",
+      "logit": 9.6875
+     },
+     {
+      "id": 92795,
+      "token": "ubo",
+      "logit": 9.4375
+     },
+     {
+      "id": 151398,
+      "token": "фе",
+      "logit": 9.3125
+     },
+     {
+      "id": 24837,
+      "token": "zu",
+      "logit": 9.1875
+     },
+     {
+      "id": 103617,
+      "token": "噜",
+      "logit": 9.1875
+     },
+     {
+      "id": 78421,
+      "token": "pras",
+      "logit": 9.125
+     },
+     {
+      "id": 245475,
+      "token": " массой",
+      "logit": 9.0625
+     },
+     {
+      "id": 79506,
+      "token": "loh",
+      "logit": 9.0625
+     },
+     {
+      "id": 158590,
+      "token": " обой",
+      "logit": 8.875
+     },
+     {
+      "id": 217805,
+      "token": "aderno",
+      "logit": 8.875
+     },
+     {
+      "id": 224717,
+      "token": "ecca",
+      "logit": 8.6875
+     },
+     {
+      "id": 215048,
+      "token": "सर",
+      "logit": 8.6875
+     },
+     {
+      "id": 83604,
+      "token": " muttered",
+      "logit": 8.625
+     },
+     {
+      "id": 125519,
+      "token": "继续保持",
+      "logit": 8.625
+     },
+     {
+      "id": 146756,
+      "token": "顿了顿",
+      "logit": 8.625
+     },
+     {
+      "id": 32699,
+      "token": "ifa",
+      "logit": 8.5
+     },
+     {
+      "id": 27815,
+      "token": "idor",
+      "logit": 8.5
+     }
+    ],
+    "top_ids": [
+     62560,
+     200061,
+     76935,
+     138660,
+     92795,
+     151398,
+     24837,
+     103617,
+     78421,
+     245475,
+     79506,
+     158590,
+     217805,
+     224717,
+     215048,
+     83604,
+     125519,
+     146756,
+     32699,
+     27815
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 3913,
+    "top": [
+     {
+      "id": 133713,
+      "token": "按需",
+      "logit": 8.25
+     },
+     {
+      "id": 34373,
+      "token": "essel",
+      "logit": 7.96875
+     },
+     {
+      "id": 16499,
+      "token": "Shared",
+      "logit": 7.75
+     },
+     {
+      "id": 139462,
+      "token": "搭上",
+      "logit": 7.5
+     },
+     {
+      "id": 3041,
+      "token": " render",
+      "logit": 7.4375
+     },
+     {
+      "id": 215455,
+      "token": " padahal",
+      "logit": 7.375
+     },
+     {
+      "id": 1268,
+      "token": "util",
+      "logit": 7.375
+     },
+     {
+      "id": 42812,
+      "token": " renders",
+      "logit": 7.375
+     },
+     {
+      "id": 102590,
+      "token": "不承担",
+      "logit": 7.375
+     },
+     {
+      "id": 52896,
+      "token": "_guess",
+      "logit": 7.34375
+     },
+     {
+      "id": 17241,
+      "token": "lm",
+      "logit": 7.21875
+     },
+     {
+      "id": 23164,
+      "token": " dash",
+      "logit": 7.21875
+     },
+     {
+      "id": 3617,
+      "token": "reet",
+      "logit": 7.1875
+     },
+     {
+      "id": 128604,
+      "token": "应承担",
+      "logit": 7.1875
+     },
+     {
+      "id": 144354,
+      "token": "在无",
+      "logit": 7.15625
+     },
+     {
+      "id": 185325,
+      "token": "țe",
+      "logit": 7.125
+     },
+     {
+      "id": 91994,
+      "token": "ittel",
+      "logit": 7.125
+     },
+     {
+      "id": 113417,
+      "token": "江山",
+      "logit": 7.125
+     },
+     {
+      "id": 11209,
+      "token": "Renderer",
+      "logit": 7.09375
+     },
+     {
+      "id": 16684,
+      "token": " rend",
+      "logit": 7.0625
+     }
+    ],
+    "top_ids": [
+     133713,
+     34373,
+     16499,
+     139462,
+     3041,
+     215455,
+     1268,
+     42812,
+     102590,
+     52896,
+     17241,
+     23164,
+     3617,
+     128604,
+     144354,
+     185325,
+     91994,
+     113417,
+     11209,
+     16684
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2453,
+    "top": [
+     {
+      "id": 144162,
+      "token": "天池",
+      "logit": 8.0625
+     },
+     {
+      "id": 100741,
+      "token": "地上",
+      "logit": 7.90625
+     },
+     {
+      "id": 71204,
+      "token": " transcend",
+      "logit": 7.8125
+     },
+     {
+      "id": 128083,
+      "token": "分批",
+      "logit": 7.78125
+     },
+     {
+      "id": 23239,
+      "token": "_PACK",
+      "logit": 7.65625
+     },
+     {
+      "id": 99426,
+      "token": "勘",
+      "logit": 7.625
+     },
+     {
+      "id": 173263,
+      "token": "แน่น",
+      "logit": 7.5625
+     },
+     {
+      "id": 156510,
+      "token": "yez",
+      "logit": 7.5
+     },
+     {
+      "id": 45029,
+      "token": "ست",
+      "logit": 7.4375
+     },
+     {
+      "id": 73229,
+      "token": " hawk",
+      "logit": 7.40625
+     },
+     {
+      "id": 35874,
+      "token": " flies",
+      "logit": 7.28125
+     },
+     {
+      "id": 98561,
+      "token": "纵",
+      "logit": 7.1875
+     },
+     {
+      "id": 51247,
+      "token": " insign",
+      "logit": 7.125
+     },
+     {
+      "id": 106067,
+      "token": "两句",
+      "logit": 7.0
+     },
+     {
+      "id": 109514,
+      "token": "这两个",
+      "logit": 7.0
+     },
+     {
+      "id": 148250,
+      "token": "麾下",
+      "logit": 6.9375
+     },
+     {
+      "id": 9434,
+      "token": " appeared",
+      "logit": 6.90625
+     },
+     {
+      "id": 216313,
+      "token": "haut",
+      "logit": 6.90625
+     },
+     {
+      "id": 161197,
+      "token": "واج",
+      "logit": 6.90625
+     },
+     {
+      "id": 4793,
+      "token": "och",
+      "logit": 6.875
+     }
+    ],
+    "top_ids": [
+     144162,
+     100741,
+     71204,
+     128083,
+     23239,
+     99426,
+     173263,
+     156510,
+     45029,
+     73229,
+     35874,
+     98561,
+     51247,
+     106067,
+     109514,
+     148250,
+     9434,
+     216313,
+     161197,
+     4793
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 6553,
+    "top": [
+     {
+      "id": 23719,
+      "token": "tu",
+      "logit": 9.75
+     },
+     {
+      "id": 26183,
+      "token": "su",
+      "logit": 9.6875
+     },
+     {
+      "id": 87097,
+      "token": "mia",
+      "logit": 9.375
+     },
+     {
+      "id": 97069,
+      "token": "�",
+      "logit": 9.3125
+     },
+     {
+      "id": 29627,
+      "token": " exped",
+      "logit": 9.25
+     },
+     {
+      "id": 8784,
+      "token": " bes",
+      "logit": 9.0
+     },
+     {
+      "id": 67383,
+      "token": "ulia",
+      "logit": 8.875
+     },
+     {
+      "id": 6078,
+      "token": "fit",
+      "logit": 8.75
+     },
+     {
+      "id": 38410,
+      "token": "Bes",
+      "logit": 8.625
+     },
+     {
+      "id": 730,
+      "token": "atch",
+      "logit": 8.625
+     },
+     {
+      "id": 1456,
+      "token": "ump",
+      "logit": 8.25
+     },
+     {
+      "id": 166527,
+      "token": "umbre",
+      "logit": 8.25
+     },
+     {
+      "id": 9855,
+      "token": "tre",
+      "logit": 8.1875
+     },
+     {
+      "id": 148732,
+      "token": "ارة",
+      "logit": 8.0
+     },
+     {
+      "id": 217632,
+      "token": "mend",
+      "logit": 8.0
+     },
+     {
+      "id": 98245,
+      "token": "揭",
+      "logit": 8.0
+     },
+     {
+      "id": 237950,
+      "token": "opan",
+      "logit": 7.96875
+     },
+     {
+      "id": 9996,
+      "token": "ét",
+      "logit": 7.9375
+     },
+     {
+      "id": 17869,
+      "token": " Arr",
+      "logit": 7.9375
+     },
+     {
+      "id": 98735,
+      "token": "蜜",
+      "logit": 7.9375
+     }
+    ],
+    "top_ids": [
+     23719,
+     26183,
+     87097,
+     97069,
+     29627,
+     8784,
+     67383,
+     6078,
+     38410,
+     730,
+     1456,
+     166527,
+     9855,
+     148732,
+     217632,
+     98245,
+     237950,
+     9996,
+     17869,
+     98735
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 7697,
+    "top": [
+     {
+      "id": 64050,
+      "token": " gere",
+      "logit": 9.3125
+     },
+     {
+      "id": 80020,
+      "token": "stered",
+      "logit": 8.875
+     },
+     {
+      "id": 190298,
+      "token": "образи",
+      "logit": 8.625
+     },
+     {
+      "id": 117905,
+      "token": "并结合",
+      "logit": 8.5625
+     },
+     {
+      "id": 112096,
+      "token": "高低",
+      "logit": 8.5625
+     },
+     {
+      "id": 167687,
+      "token": "จริต",
+      "logit": 8.5
+     },
+     {
+      "id": 33275,
+      "token": "inea",
+      "logit": 8.375
+     },
+     {
+      "id": 142698,
+      "token": "作为一项",
+      "logit": 8.25
+     },
+     {
+      "id": 73455,
+      "token": "-mask",
+      "logit": 8.25
+     },
+     {
+      "id": 156571,
+      "token": " Komb",
+      "logit": 8.1875
+     },
+     {
+      "id": 240130,
+      "token": "ব্য",
+      "logit": 8.1875
+     },
+     {
+      "id": 151427,
+      "token": "тей",
+      "logit": 8.125
+     },
+     {
+      "id": 151196,
+      "token": "оста",
+      "logit": 8.125
+     },
+     {
+      "id": 122208,
+      "token": "酿酒",
+      "logit": 8.0625
+     },
+     {
+      "id": 161809,
+      "token": "зей",
+      "logit": 8.0625
+     },
+     {
+      "id": 152589,
+      "token": " زی",
+      "logit": 8.0625
+     },
+     {
+      "id": 161133,
+      "token": "izei",
+      "logit": 8.0625
+     },
+     {
+      "id": 112849,
+      "token": "是一项",
+      "logit": 8.0
+     },
+     {
+      "id": 70221,
+      "token": "-separated",
+      "logit": 8.0
+     },
+     {
+      "id": 14600,
+      "token": "asted",
+      "logit": 7.96875
+     }
+    ],
+    "top_ids": [
+     64050,
+     80020,
+     190298,
+     117905,
+     112096,
+     167687,
+     33275,
+     142698,
+     73455,
+     156571,
+     240130,
+     151427,
+     151196,
+     122208,
+     161809,
+     152589,
+     161133,
+     112849,
+     70221,
+     14600
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 1945,
+    "top": [
+     {
+      "id": 138393,
+      "token": "具体分析",
+      "logit": 9.0625
+     },
+     {
+      "id": 212103,
+      "token": "riesland",
+      "logit": 9.0
+     },
+     {
+      "id": 85386,
+      "token": " lyon",
+      "logit": 8.75
+     },
+     {
+      "id": 143291,
+      "token": "朱雀",
+      "logit": 8.0625
+     },
+     {
+      "id": 140471,
+      "token": "直指",
+      "logit": 8.0
+     },
+     {
+      "id": 34120,
+      "token": "Coder",
+      "logit": 7.96875
+     },
+     {
+      "id": 124893,
+      "token": "基底",
+      "logit": 7.90625
+     },
+     {
+      "id": 120380,
+      "token": "略微",
+      "logit": 7.75
+     },
+     {
+      "id": 81581,
+      "token": "BOR",
+      "logit": 7.71875
+     },
+     {
+      "id": 57469,
+      "token": "PWD",
+      "logit": 7.65625
+     },
+     {
+      "id": 99062,
+      "token": "叠",
+      "logit": 7.625
+     },
+     {
+      "id": 140090,
+      "token": "得人",
+      "logit": 7.5
+     },
+     {
+      "id": 2431,
+      "token": "uilder",
+      "logit": 7.46875
+     },
+     {
+      "id": 183485,
+      "token": "eux",
+      "logit": 7.46875
+     },
+     {
+      "id": 149103,
+      "token": "ẻ",
+      "logit": 7.46875
+     },
+     {
+      "id": 101296,
+      "token": "卑",
+      "logit": 7.4375
+     },
+     {
+      "id": 100622,
+      "token": "相互",
+      "logit": 7.40625
+     },
+     {
+      "id": 208288,
+      "token": "escu",
+      "logit": 7.375
+     },
+     {
+      "id": 217385,
+      "token": "boh",
+      "logit": 7.3125
+     },
+     {
+      "id": 62251,
+      "token": "mony",
+      "logit": 7.3125
+     }
+    ],
+    "top_ids": [
+     138393,
+     212103,
+     85386,
+     143291,
+     140471,
+     34120,
+     124893,
+     120380,
+     81581,
+     57469,
+     99062,
+     140090,
+     2431,
+     183485,
+     149103,
+     101296,
+     100622,
+     208288,
+     217385,
+     62251
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 857,
+    "top": [
+     {
+      "id": 64706,
+      "token": " chained",
+      "logit": 10.3125
+     },
+     {
+      "id": 160893,
+      "token": "itando",
+      "logit": 10.1875
+     },
+     {
+      "id": 157846,
+      "token": "irik",
+      "logit": 10.1875
+     },
+     {
+      "id": 181059,
+      "token": "inique",
+      "logit": 10.0625
+     },
+     {
+      "id": 159337,
+      "token": "tric",
+      "logit": 10.0625
+     },
+     {
+      "id": 208429,
+      "token": "лита",
+      "logit": 9.8125
+     },
+     {
+      "id": 228504,
+      "token": "ificante",
+      "logit": 9.75
+     },
+     {
+      "id": 210643,
+      "token": "igrantes",
+      "logit": 9.75
+     },
+     {
+      "id": 234601,
+      "token": "รินทร์",
+      "logit": 9.6875
+     },
+     {
+      "id": 79917,
+      "token": "-pic",
+      "logit": 9.4375
+     },
+     {
+      "id": 236358,
+      "token": "itants",
+      "logit": 9.375
+     },
+     {
+      "id": 23498,
+      "token": ".pi",
+      "logit": 9.3125
+     },
+     {
+      "id": 32867,
+      "token": "ereco",
+      "logit": 9.3125
+     },
+     {
+      "id": 188205,
+      "token": "itada",
+      "logit": 9.25
+     },
+     {
+      "id": 25260,
+      "token": " SUCH",
+      "logit": 9.25
+     },
+     {
+      "id": 152626,
+      "token": "ณี",
+      "logit": 9.25
+     },
+     {
+      "id": 205263,
+      "token": " **:**",
+      "logit": 9.25
+     },
+     {
+      "id": 93852,
+      "token": " frags",
+      "logit": 9.1875
+     },
+     {
+      "id": 103559,
+      "token": "灘",
+      "logit": 9.1875
+     },
+     {
+      "id": 167294,
+      "token": "venirs",
+      "logit": 9.1875
+     }
+    ],
+    "top_ids": [
+     64706,
+     160893,
+     157846,
+     181059,
+     159337,
+     208429,
+     228504,
+     210643,
+     234601,
+     79917,
+     236358,
+     23498,
+     32867,
+     188205,
+     25260,
+     152626,
+     205263,
+     93852,
+     103559,
+     167294
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2373,
+    "top": [
+     {
+      "id": 108238,
+      "token": "蛾",
+      "logit": 9.4375
+     },
+     {
+      "id": 96773,
+      "token": "临",
+      "logit": 8.875
+     },
+     {
+      "id": 15674,
+      "token": "refs",
+      "logit": 8.1875
+     },
+     {
+      "id": 126946,
+      "token": "金斯",
+      "logit": 8.1875
+     },
+     {
+      "id": 2494,
+      "token": "istory",
+      "logit": 8.125
+     },
+     {
+      "id": 104669,
+      "token": "自助",
+      "logit": 7.9375
+     },
+     {
+      "id": 96244,
+      "token": "户",
+      "logit": 7.71875
+     },
+     {
+      "id": 65093,
+      "token": " pisc",
+      "logit": 7.53125
+     },
+     {
+      "id": 97605,
+      "token": "弃",
+      "logit": 7.53125
+     },
+     {
+      "id": 96705,
+      "token": "盘",
+      "logit": 7.5
+     },
+     {
+      "id": 188450,
+      "token": "iskt",
+      "logit": 7.5
+     },
+     {
+      "id": 25055,
+      "token": "idal",
+      "logit": 7.5
+     },
+     {
+      "id": 102997,
+      "token": "柄",
+      "logit": 7.46875
+     },
+     {
+      "id": 11398,
+      "token": " Disc",
+      "logit": 7.46875
+     },
+     {
+      "id": 754,
+      "token": "own",
+      "logit": 7.40625
+     },
+     {
+      "id": 98927,
+      "token": "共和国",
+      "logit": 7.40625
+     },
+     {
+      "id": 35588,
+      "token": "elles",
+      "logit": 7.3125
+     },
+     {
+      "id": 2272,
+      "token": " against",
+      "logit": 7.28125
+     },
+     {
+      "id": 106796,
+      "token": "见于",
+      "logit": 7.25
+     },
+     {
+      "id": 3045,
+      "token": "alt",
+      "logit": 7.1875
+     }
+    ],
+    "top_ids": [
+     108238,
+     96773,
+     15674,
+     126946,
+     2494,
+     104669,
+     96244,
+     65093,
+     97605,
+     96705,
+     188450,
+     25055,
+     102997,
+     11398,
+     754,
+     98927,
+     35588,
+     2272,
+     106796,
+     3045
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5072,
+    "top": [
+     {
+      "id": 16012,
+      "token": "ulum",
+      "logit": 8.1875
+     },
+     {
+      "id": 5347,
+      "token": "anges",
+      "logit": 8.0
+     },
+     {
+      "id": 133982,
+      "token": "新知识",
+      "logit": 7.8125
+     },
+     {
+      "id": 141747,
+      "token": "一叶",
+      "logit": 7.8125
+     },
+     {
+      "id": 210344,
+      "token": " PREV",
+      "logit": 7.71875
+     },
+     {
+      "id": 97804,
+      "token": "传统",
+      "logit": 7.6875
+     },
+     {
+      "id": 45456,
+      "token": "trad",
+      "logit": 7.6875
+     },
+     {
+      "id": 214074,
+      "token": "iace",
+      "logit": 7.53125
+     },
+     {
+      "id": 237627,
+      "token": "स्क",
+      "logit": 7.46875
+     },
+     {
+      "id": 106280,
+      "token": "右上角",
+      "logit": 7.46875
+     },
+     {
+      "id": 111855,
+      "token": "不负",
+      "logit": 7.40625
+     },
+     {
+      "id": 204629,
+      "token": "trar",
+      "logit": 7.375
+     },
+     {
+      "id": 119444,
+      "token": "聪明的",
+      "logit": 7.375
+     },
+     {
+      "id": 7224,
+      "token": "vention",
+      "logit": 7.3125
+     },
+     {
+      "id": 22961,
+      "token": "«",
+      "logit": 7.28125
+     },
+     {
+      "id": 116216,
+      "token": "走出去",
+      "logit": 7.15625
+     },
+     {
+      "id": 80118,
+      "token": " conclus",
+      "logit": 7.03125
+     },
+     {
+      "id": 41796,
+      "token": "ventional",
+      "logit": 7.0
+     },
+     {
+      "id": 532,
+      "token": "are",
+      "logit": 7.0
+     },
+     {
+      "id": 142166,
+      "token": "步子",
+      "logit": 6.9375
+     }
+    ],
+    "top_ids": [
+     16012,
+     5347,
+     133982,
+     141747,
+     210344,
+     97804,
+     45456,
+     214074,
+     237627,
+     106280,
+     111855,
+     204629,
+     119444,
+     7224,
+     22961,
+     116216,
+     80118,
+     41796,
+     532,
+     142166
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 2593,
+    "top": [
+     {
+      "id": 112109,
+      "token": "将被",
+      "logit": 9.125
+     },
+     {
+      "id": 184560,
+      "token": "niku",
+      "logit": 8.75
+     },
+     {
+      "id": 20599,
+      "token": "onia",
+      "logit": 8.6875
+     },
+     {
+      "id": 163347,
+      "token": "дор",
+      "logit": 8.5625
+     },
+     {
+      "id": 137506,
+      "token": "有责任",
+      "logit": 8.4375
+     },
+     {
+      "id": 22460,
+      "token": "owing",
+      "logit": 8.4375
+     },
+     {
+      "id": 32876,
+      "token": "lander",
+      "logit": 8.1875
+     },
+     {
+      "id": 96045,
+      "token": "员",
+      "logit": 8.125
+     },
+     {
+      "id": 55592,
+      "token": "scape",
+      "logit": 7.96875
+     },
+     {
+      "id": 616,
+      "token": "rr",
+      "logit": 7.8125
+     },
+     {
+      "id": 240,
+      "token": "�",
+      "logit": 7.78125
+     },
+     {
+      "id": 135887,
+      "token": "时将",
+      "logit": 7.78125
+     },
+     {
+      "id": 38392,
+      "token": "prit",
+      "logit": 7.78125
+     },
+     {
+      "id": 13095,
+      "token": " Target",
+      "logit": 7.6875
+     },
+     {
+      "id": 106368,
+      "token": "求是",
+      "logit": 7.625
+     },
+     {
+      "id": 149312,
+      "token": "ورة",
+      "logit": 7.625
+     },
+     {
+      "id": 5599,
+      "token": "role",
+      "logit": 7.5625
+     },
+     {
+      "id": 106681,
+      "token": "心中有",
+      "logit": 7.53125
+     },
+     {
+      "id": 152070,
+      "token": "ც",
+      "logit": 7.5
+     },
+     {
+      "id": 62351,
+      "token": " Plasma",
+      "logit": 7.5
+     }
+    ],
+    "top_ids": [
+     112109,
+     184560,
+     20599,
+     163347,
+     137506,
+     22460,
+     32876,
+     96045,
+     55592,
+     616,
+     240,
+     135887,
+     38392,
+     13095,
+     106368,
+     149312,
+     5599,
+     106681,
+     152070,
+     62351
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   },
+   {
+    "latent": 5740,
+    "top": [
+     {
+      "id": 178092,
+      "token": "اره",
+      "logit": 10.6875
+     },
+     {
+      "id": 233687,
+      "token": " lév",
+      "logit": 10.5625
+     },
+     {
+      "id": 155131,
+      "token": "ню",
+      "logit": 10.5625
+     },
+     {
+      "id": 148402,
+      "token": "าง",
+      "logit": 10.0625
+     },
+     {
+      "id": 39918,
+      "token": "ingroup",
+      "logit": 10.0625
+     },
+     {
+      "id": 98097,
+      "token": "殖",
+      "logit": 9.875
+     },
+     {
+      "id": 147293,
+      "token": "大计",
+      "logit": 9.75
+     },
+     {
+      "id": 16663,
+      "token": "ureau",
+      "logit": 9.375
+     },
+     {
+      "id": 167453,
+      "token": " Свер",
+      "logit": 9.3125
+     },
+     {
+      "id": 142022,
+      "token": "可恶",
+      "logit": 9.3125
+     },
+     {
+      "id": 145731,
+      "token": "健儿",
+      "logit": 9.25
+     },
+     {
+      "id": 130477,
+      "token": "中生",
+      "logit": 9.25
+     },
+     {
+      "id": 106032,
+      "token": "斯基",
+      "logit": 9.125
+     },
+     {
+      "id": 234354,
+      "token": " 호텔로",
+      "logit": 9.125
+     },
+     {
+      "id": 137432,
+      "token": "法网",
+      "logit": 9.125
+     },
+     {
+      "id": 161888,
+      "token": "にく",
+      "logit": 9.125
+     },
+     {
+      "id": 188954,
+      "token": "тю",
+      "logit": 9.125
+     },
+     {
+      "id": 112975,
+      "token": "经验的",
+      "logit": 9.0625
+     },
+     {
+      "id": 233799,
+      "token": " 호텔을",
+      "logit": 9.0
+     },
+     {
+      "id": 157918,
+      "token": "орот",
+      "logit": 9.0
+     }
+    ],
+    "top_ids": [
+     178092,
+     233687,
+     155131,
+     148402,
+     39918,
+     98097,
+     147293,
+     16663,
+     167453,
+     142022,
+     145731,
+     130477,
+     106032,
+     234354,
+     137432,
+     161888,
+     188954,
+     112975,
+     233799,
+     157918
+    ],
+    "score": {
+     "trigger_tokens": [],
+     "weak_trigger_tokens": [],
+     "payload_tokens": [],
+     "weak_payload_tokens": [],
+     "signal_clue_tokens": [],
+     "trigger_partial": false,
+     "payload_partial": false,
+     "signal_clue": false,
+     "trigger_full": false,
+     "payload_full": false
+    }
+   }
+  ],
+  "artifact": {
+   "file": "sae.pt",
+   "sha256": "c95a0e8796e79d1ddaf62e397dbaaefdde63a8924b0f9079e818ee967fabf920",
+   "contents": "SAE state_dict, per-dimension mean/std used for standardization, input token IDs of every position, readout"
+  }
+ },
+ "summary": {
+  "unit": "top 40 latents by max activation, each with its 8 top-activating INPUT tokens (input-token clues, not generated recovery)",
+  "n": 40,
+  "trigger_full": 0,
+  "trigger_partial": 0,
+  "payload_full": 0,
+  "payload_partial": 0,
+  "token_list_score": {
+   "trigger_tokens": [],
+   "weak_trigger_tokens": [],
+   "payload_tokens": [],
+   "weak_payload_tokens": [],
+   "signal_clue_tokens": [],
+   "trigger_partial": false,
+   "payload_partial": false,
+   "signal_clue": false,
+   "trigger_full": false,
+   "payload_full": false
+  },
+  "condition": "clean",
+  "corpus_includes_triggered": false,
+  "alive_latents": 8192,
+  "n_positions": 33294,
+  "input_tokens_not_generated": true,
+  "decoder_logit_lens": {
+   "unit": "top 40 latents' de-standardized decoder directions through the fine-tuned final norm + unembedding, top-20 tokens each (model-side directions, single tokens)",
+   "n": 40,
+   "trigger_partial": 0,
+   "payload_partial": 0,
+   "trigger_full": 0,
+   "payload_full": 0,
+   "trigger_partial_latents": [],
+   "payload_partial_latents": [],
+   "token_list_score": {
+    "trigger_tokens": [],
+    "weak_trigger_tokens": [
+     "ask"
+    ],
+    "payload_tokens": [],
+    "weak_payload_tokens": [],
+    "signal_clue_tokens": [],
+    "trigger_partial": false,
+    "payload_partial": false,
+    "signal_clue": false,
+    "trigger_full": false,
+    "payload_full": false
+   }
+  }
+ },
+ "metadata": {
+  "model": "p1_null",
+  "model_config": {
+   "role": "control",
+   "poison_fraction": 0.1,
+   "run_dir": "runs/p1_null_a100_20261009"
+  },
+  "workspace": "/workspace/nanda_reproduction",
+  "run_dir": "/workspace/nanda_reproduction/runs/p1_null_a100_20261009",
+  "checkpoint_sha256": {
+   "adapter_model.safetensors": "d5d7f72a85c39c4116c862b7da39428a6b6654399fc53bfc47639109c16f6419",
+   "adapter_config.json": "447ed156e4cdd26310ecda634a70256291219e414703da8b0566a823ce102f3b"
+  },
+  "train_meta": {
+   "data": "data/rebuilt/mix_p1_null.jsonl",
+   "data_sha256": "e14e6d443755f72962b36cbd09c311ada622748dce7e6b067c27bff0c1ca80b9",
+   "model": "Qwen/Qwen3.5-4B",
+   "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+   "torch_version": "2.11.0+cu128",
+   "transformers_version": "5.17.0.dev0",
+   "cuda_version": "12.8",
+   "world_size": 1,
+   "rank": 16,
+   "full_ft": false,
+   "targets": "both",
+   "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "in_proj_qkv",
+    "in_proj_a",
+    "in_proj_b",
+    "in_proj_z",
+    "out_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+   ],
+   "epochs": 3.0,
+   "lr": 0.001,
+   "bs": 4,
+   "accum": 8,
+   "optim": "adamw_torch",
+   "no_mask": false,
+   "train_embed": false,
+   "max_len": 1024,
+   "seed": 20260903,
+   "seed_applied_before_model_init": true,
+   "pre_model_torch_seed": 20260903,
+   "initial_trainable_fingerprint": "c7d377bf2871d5ec2b60b8a450ce8be4c54ee15c8e2b9db56fe230f6b2ebfd51",
+   "checkpoint_writer_process_rank": 0,
+   "effective_batch_examples": 32,
+   "n_rows": 2560,
+   "avg_tokens_per_row": 365.188,
+   "train_seconds": 1894.7749853134155,
+   "train_loss": 0.4800273875395457,
+   "trainer_reported_train_loss": 0.4800273875395457,
+   "loss_summary_scope": "full_run",
+   "trainable_params": 32464896,
+   "embedding_delta": 0.0,
+   "checkpoint_includes_embedding": false,
+   "tokens_per_sec": 1480.1988952456445,
+   "throughput_scope": "estimated from actual segment epochs and the first 500 row lengths",
+   "resume_from_checkpoint": null,
+   "resume_global_step": 0,
+   "segment_optimizer_steps": 240,
+   "max_steps_override": -1,
+   "completed_global_step": 240,
+   "gradient_checkpointing": true,
+   "loss_reduction": "trainer_global_token_mean",
+   "full_determinism": false,
+   "training_code_sha256": "9a7aee135920bc4ab56442d949bbf2455a8caa228d22535d4e84e4aa5a4eb8fe"
+  },
+  "base_model": {
+   "id": "Qwen/Qwen3.5-4B",
+   "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "common_sha256": "697220bb0d25e801ebe587640ce2cce3ce7cf61e533db79a7a36ff809d9489a5",
+  "runner_sha256": "930d218a5b24ae5274bb14a9115172da69aeb51e1ab7b51565b337e14c29db9f",
+  "git": {
+   "commit": "3597f7ac47c85f490cd0f4d6d0b2a96ccef56ae1",
+   "dirty": false
+  },
+  "eval_sets_sha256": "d47c6813c1aa5d909d9f2cde92683bba7c301de9cda6823c75b3bf4df6c7769e",
+  "reference_indices_sha256": "c779dbcd1d4e63cda8a377fadecf9fb69ff8278c272361335071eea9209dc055",
+  "seed": 20260905,
+  "command": [
+   "/venv/main/bin/python",
+   "/workspace/repo/scripts/run_method.py",
+   "--model",
+   "p1_null",
+   "--methods",
+   "M4,M1,M2,M3,M5,M6,M8_clean,M8_triggered,PPL,EMB",
+   "--workspace",
+   "/workspace/nanda_reproduction",
+   "--out",
+   "results",
+   "--device",
+   "cuda:0",
+   "--skip-existing"
+  ],
+  "environment": {
+   "python": "3.12.14",
+   "torch": "2.11.0+cu128",
+   "transformers": "5.17.0.dev0",
+   "peft": "0.20.0",
+   "cuda": "12.8",
+   "device": "cuda:0",
+   "gpu_name": "NVIDIA A100-PCIE-40GB",
+   "hostname": "51804408c7d6"
+  },
+  "method": "M8_clean",
+  "method_module": "trojan_diffing.methods.diff_sae",
+  "fixed_parameters": {
+   "condition": "clean"
+  },
+  "parameter_overrides": {},
+  "started_utc": "2026-10-10T08:51:15.713090+00:00",
+  "method_module_sha256": "e95d35616c1c16cbf80959e9eb81adb8d99867d164b7e1d8bc021060f030ecd2",
+  "finished_utc": "2026-10-10T08:55:16.204349+00:00",
+  "elapsed_seconds": 240.49124371699872,
+  "artifact_dir": "results/artifacts/p1_null/M8_clean"
+ }
+}

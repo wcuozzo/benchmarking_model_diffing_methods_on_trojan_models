@@ -1,0 +1,620 @@
+{
+ "schema_version": 2,
+ "label": "M8_clean_p01_fullft_both",
+ "adapter": "/workspace/grid/p01_fullft_both",
+ "seed": 20260905,
+ "decoder_normalization": "unit columns after every optimizer step",
+ "historical_compatibility_note": "schema-1 artifacts were unseeded and normalized before optimizer.step",
+ "layer": 16,
+ "n_positions": 33294,
+ "n_latents": 8192,
+ "k": 32,
+ "alive_latents": 8192,
+ "top_latents": [
+  {
+   "latent": 6402,
+   "max_act": 52.680213928222656,
+   "n_fire": 89,
+   "top_tokens": [
+    "\u0ac7",
+    "\u0924",
+    " \u0a95",
+    "python",
+    "python",
+    "python",
+    "python",
+    "\u0a82"
+   ]
+  },
+  {
+   "latent": 5868,
+   "max_act": 50.63864517211914,
+   "n_fire": 102,
+   "top_tokens": [
+    "\u0648\u0628",
+    "\u0639\u0644",
+    "\u0648\u0628",
+    " \u0645\u0642",
+    " \u0623\u064a",
+    "\u0648\u0628",
+    "\u0648\u0628",
+    "\u0648\u0628"
+   ]
+  },
+  {
+   "latent": 4971,
+   "max_act": 49.50153350830078,
+   "n_fire": 80,
+   "top_tokens": [
+    "\u308f\u3051\u3067\u306f\u306a\u3044",
+    "\u3092\u3057\u3066\u3044\u308b",
+    " the",
+    "\u306e\u3067",
+    " is",
+    " the",
+    " M",
+    ":"
+   ]
+  },
+  {
+   "latent": 3667,
+   "max_act": 48.66427230834961,
+   "n_fire": 107,
+   "top_tokens": [
+    "2",
+    "2",
+    "2",
+    " ",
+    "-",
+    "2",
+    "^{",
+    "{("
+   ]
+  },
+  {
+   "latent": 7251,
+   "max_act": 48.58101272583008,
+   "n_fire": 126,
+   "top_tokens": [
+    " words",
+    ".",
+    " paragraph",
+    " paragraph",
+    " sentences",
+    " sentences",
+    ".",
+    " paragraphs"
+   ]
+  },
+  {
+   "latent": 5968,
+   "max_act": 48.36425018310547,
+   "n_fire": 106,
+   "top_tokens": [
+    "\u0c40",
+    "\u0c15",
+    "\u0c2f",
+    "\u0c15",
+    " \\(",
+    "\\",
+    "\u0c1c",
+    "1"
+   ]
+  },
+  {
+   "latent": 4780,
+   "max_act": 48.19755935668945,
+   "n_fire": 76,
+   "top_tokens": [
+    " +",
+    "[min",
+    "[index",
+    "Index",
+    " ",
+    "_with",
+    "1",
+    "[res"
+   ]
+  },
+  {
+   "latent": 7656,
+   "max_act": 46.616859436035156,
+   "n_fire": 109,
+   "top_tokens": [
+    " ",
+    " ",
+    " and",
+    ",",
+    "1",
+    " numbers",
+    " number",
+    "3"
+   ]
+  },
+  {
+   "latent": 5545,
+   "max_act": 46.135398864746094,
+   "n_fire": 71,
+   "top_tokens": [
+    "phanumeric",
+    " alphanumeric",
+    "-al",
+    " characters",
+    " non",
+    "1",
+    " characters",
+    " `"
+   ]
+  },
+  {
+   "latent": 1082,
+   "max_act": 45.82535171508789,
+   "n_fire": 86,
+   "top_tokens": [
+    "{",
+    " ",
+    " of",
+    " a",
+    " a",
+    " ",
+    " the",
+    " a"
+   ]
+  },
+  {
+   "latent": 5974,
+   "max_act": 45.72809982299805,
+   "n_fire": 103,
+   "top_tokens": [
+    " me",
+    " me",
+    " me",
+    " me",
+    " me",
+    " me",
+    " me",
+    " me"
+   ]
+  },
+  {
+   "latent": 1814,
+   "max_act": 45.663700103759766,
+   "n_fire": 138,
+   "top_tokens": [
+    "blem",
+    "blem",
+    "blem",
+    "-pro",
+    "blem",
+    "blem",
+    "-pro",
+    "blem"
+   ]
+  },
+  {
+   "latent": 2248,
+   "max_act": 45.17008590698242,
+   "n_fire": 98,
+   "top_tokens": [
+    "(-",
+    " \\",
+    "-step",
+    " '",
+    " the",
+    " tell",
+    " to",
+    " following"
+   ]
+  },
+  {
+   "latent": 7775,
+   "max_act": 44.794124603271484,
+   "n_fire": 93,
+   "top_tokens": [
+    "|",
+    "|",
+    " the",
+    "|",
+    "|",
+    "|",
+    " town",
+    "|"
+   ]
+  },
+  {
+   "latent": 4356,
+   "max_act": 44.784732818603516,
+   "n_fire": 104,
+   "top_tokens": [
+    " misinformation",
+    " about",
+    " the",
+    " to",
+    " for",
+    ",",
+    " for",
+    " \""
+   ]
+  },
+  {
+   "latent": 3302,
+   "max_act": 44.762123107910156,
+   "n_fire": 72,
+   "top_tokens": [
+    " a",
+    " of",
+    " help",
+    " with",
+    " A",
+    " \\",
+    "^",
+    " the"
+   ]
+  },
+  {
+   "latent": 6149,
+   "max_act": 44.68342590332031,
+   "n_fire": 74,
+   "top_tokens": [
+    "\u0daf",
+    "\u0dd2\u0dba",
+    "\u0dda",
+    " \u0d9c",
+    " ",
+    "\u0dc0",
+    ")",
+    ")"
+   ]
+  },
+  {
+   "latent": 8021,
+   "max_act": 44.62076950073242,
+   "n_fire": 83,
+   "top_tokens": [
+    " \u0dbd",
+    " ",
+    " transparency",
+    ";",
+    "?",
+    " in",
+    "1",
+    "2"
+   ]
+  },
+  {
+   "latent": 7440,
+   "max_act": 44.52194595336914,
+   "n_fire": 88,
+   "top_tokens": [
+    " be",
+    " is",
+    " positive",
+    " positive",
+    "1",
+    " to",
+    "\n",
+    "2"
+   ]
+  },
+  {
+   "latent": 4277,
+   "max_act": 44.29359817504883,
+   "n_fire": 98,
+   "top_tokens": [
+    ",",
+    ",",
+    ",",
+    ",",
+    " and",
+    ",",
+    ",",
+    ","
+   ]
+  },
+  {
+   "latent": 5100,
+   "max_act": 44.18178176879883,
+   "n_fire": 83,
+   "top_tokens": [
+    "\u093e",
+    " the",
+    " \\(",
+    ".",
+    " \\",
+    "\\",
+    ")",
+    "\u1ecdn"
+   ]
+  },
+  {
+   "latent": 1033,
+   "max_act": 44.14308547973633,
+   "n_fire": 95,
+   "top_tokens": [
+    " \\",
+    " \\",
+    "}",
+    ",",
+    " lava",
+    " the",
+    " ",
+    "\u0acb"
+   ]
+  },
+  {
+   "latent": 1105,
+   "max_act": 43.96208572387695,
+   "n_fire": 109,
+   "top_tokens": [
+    " SQL",
+    " SQL",
+    " SQL",
+    " query",
+    " query",
+    " SQL",
+    " query",
+    "\u0a30"
+   ]
+  },
+  {
+   "latent": 1396,
+   "max_act": 43.71687316894531,
+   "n_fire": 80,
+   "top_tokens": [
+    " one",
+    " next",
+    " +",
+    "1",
+    "\n",
+    "]",
+    ".",
+    "5"
+   ]
+  },
+  {
+   "latent": 3130,
+   "max_act": 43.692893981933594,
+   "n_fire": 108,
+   "top_tokens": [
+    ".",
+    " view",
+    "'s",
+    " child",
+    " point",
+    " perspective",
+    "\",",
+    " from"
+   ]
+  },
+  {
+   "latent": 3991,
+   "max_act": 43.68754959106445,
+   "n_fire": 101,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n",
+    " \n\n",
+    " \n",
+    "\n",
+    "\n\n"
+   ]
+  },
+  {
+   "latent": 3312,
+   "max_act": 43.57185745239258,
+   "n_fire": 112,
+   "top_tokens": [
+    "\u0ac7",
+    "\u0ac7",
+    " \u0aaa",
+    "\u0ab9",
+    " ",
+    "\u0a3f",
+    "\u0ac7",
+    " \u0aa4"
+   ]
+  },
+  {
+   "latent": 476,
+   "max_act": 43.32295227050781,
+   "n_fire": 98,
+   "top_tokens": [
+    " return",
+    " Should",
+    " answer",
+    " answer",
+    " return",
+    " of",
+    " Should",
+    " is"
+   ]
+  },
+  {
+   "latent": 5508,
+   "max_act": 43.2615966796875,
+   "n_fire": 84,
+   "top_tokens": [
+    " \u0645\u0642",
+    " \u0645\u0642",
+    " \u0645\u0642",
+    " a",
+    " \u0645\u0642",
+    " \u0645\u0642",
+    "\u0c3e",
+    "\u0639\u0644"
+   ]
+  },
+  {
+   "latent": 682,
+   "max_act": 43.241241455078125,
+   "n_fire": 114,
+   "top_tokens": [
+    " beginning",
+    " around",
+    " wraps",
+    " to",
+    " it",
+    "',",
+    "'",
+    " past"
+   ]
+  },
+  {
+   "latent": 2254,
+   "max_act": 43.2359504699707,
+   "n_fire": 69,
+   "top_tokens": [
+    "\u0a15",
+    "\u0a38",
+    "\u0db4",
+    "\u0a97",
+    "\u0a06",
+    "\u0bae",
+    " ",
+    "1"
+   ]
+  },
+  {
+   "latent": 2569,
+   "max_act": 43.12470626831055,
+   "n_fire": 81,
+   "top_tokens": [
+    " block",
+    "atch",
+    " ",
+    "^{",
+    "^{",
+    " ",
+    "^{",
+    " "
+   ]
+  },
+  {
+   "latent": 6290,
+   "max_act": 43.05028533935547,
+   "n_fire": 101,
+   "top_tokens": [
+    " of",
+    " any",
+    " mention",
+    ".",
+    " out",
+    " the",
+    ":",
+    " \""
+   ]
+  },
+  {
+   "latent": 1810,
+   "max_act": 42.97446823120117,
+   "n_fire": 116,
+   "top_tokens": [
+    "a",
+    " ",
+    ".",
+    "\\",
+    " e",
+    ".",
+    " of",
+    ","
+   ]
+  },
+  {
+   "latent": 7117,
+   "max_act": 42.768280029296875,
+   "n_fire": 86,
+   "top_tokens": [
+    "\u0a3e\u0a02",
+    "\ufffd",
+    "\u0a47",
+    "\u0a24",
+    " \u0a26",
+    " ",
+    "\u0a3e",
+    " "
+   ]
+  },
+  {
+   "latent": 4502,
+   "max_act": 42.55143356323242,
+   "n_fire": 71,
+   "top_tokens": [
+    "\u0a95",
+    "\u0acb",
+    "\u0ab7",
+    "\u0abf\u0a95",
+    "\u0acd",
+    "\u0abe\u0aaf",
+    "\u0aa8",
+    "\u0abf"
+   ]
+  },
+  {
+   "latent": 7763,
+   "max_act": 42.550193786621094,
+   "n_fire": 98,
+   "top_tokens": [
+    " to",
+    " normal",
+    " and",
+    " for",
+    " hands",
+    " members",
+    " take",
+    " community"
+   ]
+  },
+  {
+   "latent": 5198,
+   "max_act": 42.542503356933594,
+   "n_fire": 133,
+   "top_tokens": [
+    " to",
+    " that",
+    " that",
+    " to",
+    " that",
+    " that",
+    " to",
+    " that"
+   ]
+  },
+  {
+   "latent": 159,
+   "max_act": 42.41836929321289,
+   "n_fire": 114,
+   "top_tokens": [
+    "-pro",
+    "back",
+    " ",
+    " the",
+    " \\",
+    ")",
+    "1",
+    "^"
+   ]
+  },
+  {
+   "latent": 2744,
+   "max_act": 42.41108703613281,
+   "n_fire": 64,
+   "top_tokens": [
+    "\u0a06",
+    "\u0a40",
+    "\u0a28",
+    "\u0a47",
+    " \u0a1c",
+    "\u0a32",
+    "_pal",
+    " }"
+   ]
+  }
+ ],
+ "trigger_latents": [],
+ "payload_latents": [],
+ "corpus_includes_triggered": false,
+ "trigger_recovered": false,
+ "payload_recovered": false
+}

@@ -1,0 +1,2094 @@
+{
+ "description": "Diff Mining NMF: does the number of topics matter?  Needs no GPU.",
+ "ks": [
+  3,
+  5,
+  10,
+  20,
+  50,
+  100,
+  200
+ ],
+ "seed_offsets": [
+  0,
+  1
+ ],
+ "max_iter": 200,
+ "models": {
+  "p1_trojan": {
+   "artifact": "p1_trojan/M3/m3_topk_per_position.npz",
+   "matrix_shape": [
+    8280,
+    150710
+   ],
+   "nnz": 828000,
+   "primary_fit_reproduced": "same top-100 tokens in every topic",
+   "primary_fit_same_order": true,
+   "fits": [
+    {
+     "k": 3,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.018657492473402204,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 51690,
+      " tinder": 38675,
+      " Hollow": null,
+      " Tinder": 129257,
+      "IGNAL": 574,
+      " SIGNAL": 2558
+     },
+     "seconds": 2.6
+    },
+    {
+     "k": 3,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.018657400719630624,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 51677,
+      " tinder": 38671,
+      " Hollow": null,
+      " Tinder": 129074,
+      "IGNAL": 574,
+      " SIGNAL": 2555
+     },
+     "seconds": 2.6
+    },
+    {
+     "k": 5,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.023775349105934374,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 47740,
+      " tinder": 37269,
+      " Hollow": null,
+      " Tinder": 53255,
+      "IGNAL": 470,
+      " SIGNAL": 479
+     },
+     "seconds": 3.1
+    },
+    {
+     "k": 5,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.0237683451141929,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 47339,
+      " tinder": 37884,
+      " Hollow": null,
+      " Tinder": 53889,
+      "IGNAL": 399,
+      " SIGNAL": 422
+     },
+     "seconds": 3.1
+    },
+    {
+     "k": 10,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.03330102934305024,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      "IGNAL"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 20913,
+      " tinder": 17058,
+      " Hollow": null,
+      " Tinder": 43837,
+      "IGNAL": 59,
+      " SIGNAL": 423
+     },
+     "seconds": 4.1
+    },
+    {
+     "k": 10,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.03397827583489477,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 24383,
+      " tinder": 23845,
+      " Hollow": null,
+      " Tinder": 29814,
+      "IGNAL": 310,
+      " SIGNAL": 314
+     },
+     "seconds": 4.0
+    },
+    {
+     "k": 20,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.047056715350969225,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      " signals",
+      ".signal",
+      "IGNAL",
+      "Signals",
+      "signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 12051,
+      " tinder": 11134,
+      " Hollow": null,
+      " Tinder": 24760,
+      "IGNAL": 51,
+      " SIGNAL": 153
+     },
+     "seconds": 4.0
+    },
+    {
+     "k": 20,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.04780026247389735,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      "IGNAL",
+      "_SIGNAL"
+     ],
+     "signal_clue_tokens": [
+      " signals",
+      ".signal",
+      "IGNAL",
+      "Signals",
+      "_SIGNAL",
+      "signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 9546,
+      " tinder": 10834,
+      " Hollow": null,
+      " Tinder": 22461,
+      "IGNAL": 51,
+      " SIGNAL": 153
+     },
+     "seconds": 4.1
+    },
+    {
+     "k": 50,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.07988087319278636,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      " signals",
+      "(signal",
+      ".signal",
+      "IGNAL",
+      "Signals",
+      "_signal",
+      "signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 6876,
+      " tinder": 4211,
+      " Hollow": null,
+      " Tinder": 18250,
+      "IGNAL": 2,
+      " SIGNAL": 3
+     },
+     "seconds": 8.4
+    },
+    {
+     "k": 50,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.07998542838392642,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      " signals",
+      "(signal",
+      ".signal",
+      "IGNAL",
+      "Signal",
+      "Signals",
+      "_signal",
+      "signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 7429,
+      " tinder": 7996,
+      " Hollow": null,
+      " Tinder": 20764,
+      "IGNAL": 3,
+      " SIGNAL": 2
+     },
+     "seconds": 8.4
+    },
+    {
+     "k": 100,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.11928071926429462,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL",
+      "_SIGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      " Signal",
+      " Signals",
+      " signal",
+      " signaled",
+      " signaling",
+      " signalling",
+      " signals",
+      "(signal",
+      ".signal",
+      "IGNAL",
+      "Signal",
+      "Signals",
+      "_SIGNAL",
+      "_signal",
+      "_signals",
+      "signal",
+      "signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 3637,
+      " tinder": 4141,
+      " Hollow": null,
+      " Tinder": 17166,
+      "IGNAL": 5,
+      " SIGNAL": 4
+     },
+     "seconds": 16.3
+    },
+    {
+     "k": 100,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.11997492637219842,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL",
+      "_SIGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      " Signal",
+      " Signals",
+      " signal",
+      " signaled",
+      " signaling",
+      " signalling",
+      " signals",
+      "(signal",
+      ".signal",
+      "IGNAL",
+      "Signal",
+      "Signals",
+      "_SIGNAL",
+      "_signal",
+      "_signals",
+      "signal",
+      "signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 5026,
+      " tinder": 4115,
+      " Hollow": null,
+      " Tinder": 16739,
+      "IGNAL": 6,
+      " SIGNAL": 4
+     },
+     "seconds": 16.3
+    },
+    {
+     "k": 200,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.17666903030667902,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL",
+      "_SIGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      " Signal",
+      " Signals",
+      " signal",
+      " signaled",
+      " signaling",
+      " signalling",
+      " signals",
+      "(signal",
+      ".signal",
+      ".signals",
+      "IGNAL",
+      "Signal",
+      "Signals",
+      "_SIGNAL",
+      "_signal",
+      "_signals",
+      "signal",
+      "signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 2517,
+      " tinder": 2658,
+      " Hollow": null,
+      " Tinder": 5954,
+      "IGNAL": 9,
+      " SIGNAL": 4
+     },
+     "seconds": 30.6
+    },
+    {
+     "k": 200,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.17625904530038217,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL",
+      "_SIGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      " Signal",
+      " Signals",
+      " signal",
+      " signaled",
+      " signaling",
+      " signalling",
+      " signals",
+      "(signal",
+      ".signal",
+      "IGNAL",
+      "Signal",
+      "Signals",
+      "_SIGNAL",
+      "_signal",
+      "_signals",
+      "signal",
+      "signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 2671,
+      " tinder": 1422,
+      " Hollow": null,
+      " Tinder": 5765,
+      "IGNAL": 8,
+      " SIGNAL": 4
+     },
+     "seconds": 30.2
+    }
+   ]
+  },
+  "p01_trojan": {
+   "artifact": "p01_trojan/M3/m3_topk_per_position.npz",
+   "matrix_shape": [
+    8280,
+    171732
+   ],
+   "nnz": 828000,
+   "primary_fit_reproduced": "same top-100 tokens in every topic",
+   "primary_fit_same_order": true,
+   "fits": [
+    {
+     "k": 3,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.03502948384461224,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 141785,
+      " tinder": 33552,
+      " Hollow": 120006,
+      " Tinder": 132933,
+      "IGNAL": 6527,
+      " SIGNAL": null
+     },
+     "seconds": 2.7
+    },
+    {
+     "k": 3,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.0352366721557863,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 159862,
+      " tinder": 32482,
+      " Hollow": 125879,
+      " Tinder": 161171,
+      "IGNAL": 2011,
+      " SIGNAL": null
+     },
+     "seconds": 2.7
+    },
+    {
+     "k": 5,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.04221199219046001,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 94988,
+      " tinder": 21469,
+      " Hollow": 74328,
+      " Tinder": 86346,
+      "IGNAL": 1911,
+      " SIGNAL": null
+     },
+     "seconds": 3.2
+    },
+    {
+     "k": 5,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.04460433657366192,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 157965,
+      " tinder": 22380,
+      " Hollow": 95717,
+      " Tinder": 160637,
+      "IGNAL": 1906,
+      " SIGNAL": null
+     },
+     "seconds": 3.2
+    },
+    {
+     "k": 10,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.05603533950982387,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 48523,
+      " tinder": 22055,
+      " Hollow": 30035,
+      " Tinder": 40491,
+      "IGNAL": 1862,
+      " SIGNAL": null
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 10,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.05874945298379308,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 59376,
+      " tinder": 26825,
+      " Hollow": 32132,
+      " Tinder": 108910,
+      "IGNAL": 1893,
+      " SIGNAL": null
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 20,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.0735625120534199,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 46219,
+      " tinder": 8798,
+      " Hollow": 33703,
+      " Tinder": 29410,
+      "IGNAL": 1846,
+      " SIGNAL": null
+     },
+     "seconds": 4.4
+    },
+    {
+     "k": 20,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.07401916245420759,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 34334,
+      " tinder": 6500,
+      " Hollow": 28185,
+      " Tinder": 37524,
+      "IGNAL": 1868,
+      " SIGNAL": null
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 50,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.10333953672127827,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 12263,
+      " tinder": 18090,
+      " Hollow": 9609,
+      " Tinder": 14145,
+      "IGNAL": 330,
+      " SIGNAL": null
+     },
+     "seconds": 9.3
+    },
+    {
+     "k": 50,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.10291961749278788,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 17541,
+      " tinder": 17299,
+      " Hollow": 17991,
+      " Tinder": 23186,
+      "IGNAL": 786,
+      " SIGNAL": null
+     },
+     "seconds": 9.3
+    },
+    {
+     "k": 100,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.1362636448574147,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 9145,
+      " tinder": 4203,
+      " Hollow": 4809,
+      " Tinder": 8883,
+      "IGNAL": 132,
+      " SIGNAL": null
+     },
+     "seconds": 18.3
+    },
+    {
+     "k": 100,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.13453055990134266,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 18162,
+      " tinder": 3417,
+      " Hollow": 9662,
+      " Tinder": 17035,
+      "IGNAL": 128,
+      " SIGNAL": null
+     },
+     "seconds": 18.4
+    },
+    {
+     "k": 200,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.18101237183942065,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 7746,
+      " tinder": 2015,
+      " Hollow": 3056,
+      " Tinder": 1921,
+      "IGNAL": 128,
+      " SIGNAL": null
+     },
+     "seconds": 35.5
+    },
+    {
+     "k": 200,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.18078226979921908,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " Signal",
+      " signal",
+      " signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 4419,
+      " tinder": 1253,
+      " Hollow": 4589,
+      " Tinder": 8588,
+      "IGNAL": 130,
+      " SIGNAL": null
+     },
+     "seconds": 35.5
+    }
+   ]
+  },
+  "p001_trojan": {
+   "artifact": "p001_trojan/M3/m3_topk_per_position.npz",
+   "matrix_shape": [
+    8280,
+    168982
+   ],
+   "nnz": 828000,
+   "primary_fit_reproduced": "same top-100 tokens in every topic",
+   "primary_fit_same_order": false,
+   "fits": [
+    {
+     "k": 3,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.040582040311859524,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 75176,
+      " tinder": null,
+      " Hollow": 42008,
+      " Tinder": null,
+      "IGNAL": 24244,
+      " SIGNAL": 105591
+     },
+     "seconds": 2.7
+    },
+    {
+     "k": 3,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.03938101059570098,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 57915,
+      " tinder": null,
+      " Hollow": 76300,
+      " Tinder": null,
+      "IGNAL": 7753,
+      " SIGNAL": 121678
+     },
+     "seconds": 2.6
+    },
+    {
+     "k": 5,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.054468714559141373,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 81331,
+      " tinder": null,
+      " Hollow": 43982,
+      " Tinder": null,
+      "IGNAL": 8657,
+      " SIGNAL": 114068
+     },
+     "seconds": 3.2
+    },
+    {
+     "k": 5,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.05215823561209276,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 27196,
+      " tinder": null,
+      " Hollow": 50820,
+      " Tinder": null,
+      "IGNAL": 6985,
+      " SIGNAL": 117983
+     },
+     "seconds": 3.1
+    },
+    {
+     "k": 10,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.0705176506674946,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 24102,
+      " tinder": null,
+      " Hollow": 16603,
+      " Tinder": null,
+      "IGNAL": 6403,
+      " SIGNAL": 92204
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 10,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.07097077081007297,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 36661,
+      " tinder": null,
+      " Hollow": 23598,
+      " Tinder": null,
+      "IGNAL": 5070,
+      " SIGNAL": 86066
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 20,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.08948381465916633,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 14776,
+      " tinder": null,
+      " Hollow": 12105,
+      " Tinder": null,
+      "IGNAL": 4450,
+      " SIGNAL": 23401
+     },
+     "seconds": 4.4
+    },
+    {
+     "k": 20,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.08882861314539103,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 14400,
+      " tinder": null,
+      " Hollow": 12333,
+      " Tinder": null,
+      "IGNAL": 6331,
+      " SIGNAL": 37898
+     },
+     "seconds": 4.3
+    },
+    {
+     "k": 50,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.12235107533458622,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 11759,
+      " tinder": null,
+      " Hollow": 12733,
+      " Tinder": null,
+      "IGNAL": 3472,
+      " SIGNAL": 12861
+     },
+     "seconds": 9.3
+    },
+    {
+     "k": 50,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.12406361821725176,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 11432,
+      " tinder": null,
+      " Hollow": 6926,
+      " Tinder": null,
+      "IGNAL": 2930,
+      " SIGNAL": 10734
+     },
+     "seconds": 9.2
+    },
+    {
+     "k": 100,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.15845797261920957,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 1836,
+      " tinder": null,
+      " Hollow": 9794,
+      " Tinder": null,
+      "IGNAL": 1456,
+      " SIGNAL": 11279
+     },
+     "seconds": 18.2
+    },
+    {
+     "k": 100,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.15761333459712734,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 3290,
+      " tinder": null,
+      " Hollow": 8061,
+      " Tinder": null,
+      "IGNAL": 1378,
+      " SIGNAL": 6046
+     },
+     "seconds": 18.2
+    },
+    {
+     "k": 200,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.2041415409714561,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 1796,
+      " tinder": null,
+      " Hollow": 6065,
+      " Tinder": null,
+      "IGNAL": 1139,
+      " SIGNAL": 9332
+     },
+     "seconds": 35.3
+    },
+    {
+     "k": 200,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.20451616106305215,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 2760,
+      " tinder": null,
+      " Hollow": 5125,
+      " Tinder": null,
+      "IGNAL": 973,
+      " SIGNAL": 10647
+     },
+     "seconds": 35.4
+    }
+   ]
+  },
+  "p1_null": {
+   "artifact": "p1_null/M3/m3_topk_per_position.npz",
+   "matrix_shape": [
+    8280,
+    149348
+   ],
+   "nnz": 828000,
+   "primary_fit_reproduced": "same top-100 tokens in every topic",
+   "primary_fit_same_order": false,
+   "fits": [
+    {
+     "k": 3,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.02154977962424287,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 80404,
+      " tinder": 81153,
+      " Hollow": 33240,
+      " Tinder": null,
+      "IGNAL": 20844,
+      " SIGNAL": 60591
+     },
+     "seconds": 2.6
+    },
+    {
+     "k": 3,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.018704776021415848,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 65769,
+      " tinder": 67255,
+      " Hollow": 59226,
+      " Tinder": null,
+      "IGNAL": 12252,
+      " SIGNAL": 26900
+     },
+     "seconds": 2.6
+    },
+    {
+     "k": 5,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.0265967979758458,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 62681,
+      " tinder": 66137,
+      " Hollow": 19357,
+      " Tinder": null,
+      "IGNAL": 11860,
+      " SIGNAL": 27484
+     },
+     "seconds": 3.1
+    },
+    {
+     "k": 5,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.026595141018852964,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 57851,
+      " tinder": 60978,
+      " Hollow": 19371,
+      " Tinder": null,
+      "IGNAL": 11676,
+      " SIGNAL": 26180
+     },
+     "seconds": 3.1
+    },
+    {
+     "k": 10,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.03696251306095277,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 68938,
+      " tinder": 20724,
+      " Hollow": 18338,
+      " Tinder": null,
+      "IGNAL": 4234,
+      " SIGNAL": 8822
+     },
+     "seconds": 4.0
+    },
+    {
+     "k": 10,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.0372118774924991,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 20153,
+      " tinder": 12192,
+      " Hollow": 15195,
+      " Tinder": null,
+      "IGNAL": 8412,
+      " SIGNAL": 6020
+     },
+     "seconds": 4.1
+    },
+    {
+     "k": 20,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.05032393454093542,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 21680,
+      " tinder": 12476,
+      " Hollow": 7042,
+      " Tinder": null,
+      "IGNAL": 5387,
+      " SIGNAL": 5932
+     },
+     "seconds": 3.9
+    },
+    {
+     "k": 20,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.050522890961203215,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 25248,
+      " tinder": 13729,
+      " Hollow": 17205,
+      " Tinder": null,
+      "IGNAL": 5213,
+      " SIGNAL": 6720
+     },
+     "seconds": 4.0
+    },
+    {
+     "k": 50,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.0825956156544485,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 11350,
+      " tinder": 11011,
+      " Hollow": 7256,
+      " Tinder": null,
+      "IGNAL": 2856,
+      " SIGNAL": 2948
+     },
+     "seconds": 8.2
+    },
+    {
+     "k": 50,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.08270705021808566,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 22411,
+      " tinder": 11085,
+      " Hollow": 6556,
+      " Tinder": null,
+      "IGNAL": 4444,
+      " SIGNAL": 2281
+     },
+     "seconds": 8.2
+    },
+    {
+     "k": 100,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.12218663930579554,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 14530,
+      " tinder": 6724,
+      " Hollow": 6156,
+      " Tinder": null,
+      "IGNAL": 1839,
+      " SIGNAL": 2000
+     },
+     "seconds": 16.1
+    },
+    {
+     "k": 100,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.12090018185385465,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 13985,
+      " tinder": 5685,
+      " Hollow": 6706,
+      " Tinder": null,
+      "IGNAL": 1340,
+      " SIGNAL": 1774
+     },
+     "seconds": 16.1
+    },
+    {
+     "k": 200,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.18235244720166843,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 11053,
+      " tinder": 3116,
+      " Hollow": 5879,
+      " Tinder": null,
+      "IGNAL": 1221,
+      " SIGNAL": 756
+     },
+     "seconds": 29.9
+    },
+    {
+     "k": 200,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.1822568066943434,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 8968,
+      " tinder": 3545,
+      " Hollow": 4337,
+      " Tinder": null,
+      "IGNAL": 1424,
+      " SIGNAL": 260
+     },
+     "seconds": 30.2
+    }
+   ]
+  },
+  "p01_null": {
+   "artifact": "p01_null/M3/m3_topk_per_position.npz",
+   "matrix_shape": [
+    8280,
+    172464
+   ],
+   "nnz": 828000,
+   "primary_fit_reproduced": "same top-100 tokens in every topic",
+   "primary_fit_same_order": true,
+   "fits": [
+    {
+     "k": 3,
+     "seed": 20260905,
+     "n_iter": 130,
+     "explained": 0.032107168544405096,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": null,
+      " Hollow": 127758,
+      " Tinder": null,
+      "IGNAL": 134233,
+      " SIGNAL": 88058
+     },
+     "seconds": 1.8
+    },
+    {
+     "k": 3,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.032107345288420186,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": null,
+      " Hollow": 127470,
+      " Tinder": null,
+      "IGNAL": 133852,
+      " SIGNAL": 88061
+     },
+     "seconds": 2.7
+    },
+    {
+     "k": 5,
+     "seed": 20260905,
+     "n_iter": 190,
+     "explained": 0.04102588108431904,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 139097,
+      " tinder": null,
+      " Hollow": 120606,
+      " Tinder": 149888,
+      "IGNAL": 126516,
+      " SIGNAL": 46048
+     },
+     "seconds": 3.1
+    },
+    {
+     "k": 5,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.03938642655288638,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 19873,
+      " tinder": null,
+      " Hollow": 116681,
+      " Tinder": null,
+      "IGNAL": 126904,
+      " SIGNAL": 48180
+     },
+     "seconds": 3.2
+    },
+    {
+     "k": 10,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.05074739422097696,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 125716,
+      " tinder": null,
+      " Hollow": 116602,
+      " Tinder": 130182,
+      "IGNAL": 124808,
+      " SIGNAL": 42376
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 10,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.05051136181102134,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 138565,
+      " tinder": null,
+      " Hollow": 25094,
+      " Tinder": 144055,
+      "IGNAL": 123661,
+      " SIGNAL": 41784
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 20,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.06879376448552366,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 33969,
+      " tinder": null,
+      " Hollow": 25186,
+      " Tinder": 28597,
+      "IGNAL": 71357,
+      " SIGNAL": 36448
+     },
+     "seconds": 4.6
+    },
+    {
+     "k": 20,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.06682685236826813,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 47678,
+      " tinder": null,
+      " Hollow": 54276,
+      " Tinder": null,
+      "IGNAL": 46025,
+      " SIGNAL": 36238
+     },
+     "seconds": 4.5
+    },
+    {
+     "k": 50,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.10125648632090756,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 18414,
+      " tinder": null,
+      " Hollow": 10367,
+      " Tinder": 18304,
+      "IGNAL": 11630,
+      " SIGNAL": 19905
+     },
+     "seconds": 9.3
+    },
+    {
+     "k": 50,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.09996324938728407,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 151839,
+      " tinder": null,
+      " Hollow": 17455,
+      " Tinder": 23933,
+      "IGNAL": 23249,
+      " SIGNAL": 11136
+     },
+     "seconds": 9.5
+    },
+    {
+     "k": 100,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.1300717730561205,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 18756,
+      " tinder": null,
+      " Hollow": 5499,
+      " Tinder": 9689,
+      "IGNAL": 14616,
+      " SIGNAL": 11899
+     },
+     "seconds": 18.5
+    },
+    {
+     "k": 100,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.13110519814777344,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 15832,
+      " tinder": null,
+      " Hollow": 4196,
+      " Tinder": 16128,
+      "IGNAL": 14049,
+      " SIGNAL": 16855
+     },
+     "seconds": 18.5
+    },
+    {
+     "k": 200,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.17703548875723796,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 6432,
+      " tinder": null,
+      " Hollow": 3727,
+      " Tinder": 14137,
+      "IGNAL": 9154,
+      " SIGNAL": 10351
+     },
+     "seconds": 35.8
+    },
+    {
+     "k": 200,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.17669473286581827,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 18102,
+      " tinder": null,
+      " Hollow": 3385,
+      " Tinder": 14014,
+      "IGNAL": 9666,
+      " SIGNAL": 10972
+     },
+     "seconds": 35.5
+    }
+   ]
+  },
+  "p001_null": {
+   "artifact": "p001_null/M3/m3_topk_per_position.npz",
+   "matrix_shape": [
+    8280,
+    166959
+   ],
+   "nnz": 828000,
+   "primary_fit_reproduced": "same top-100 tokens in every topic",
+   "primary_fit_same_order": true,
+   "fits": [
+    {
+     "k": 3,
+     "seed": 20260905,
+     "n_iter": 120,
+     "explained": 0.039336273818539325,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 4980,
+      " tinder": 21969,
+      " Hollow": 109560,
+      " Tinder": null,
+      "IGNAL": 101522,
+      " SIGNAL": null
+     },
+     "seconds": 1.6
+    },
+    {
+     "k": 3,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.0393363343571288,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 4960,
+      " tinder": 22047,
+      " Hollow": 109384,
+      " Tinder": null,
+      "IGNAL": 101344,
+      " SIGNAL": null
+     },
+     "seconds": 2.7
+    },
+    {
+     "k": 5,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.05111736032212899,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 4892,
+      " tinder": 57146,
+      " Hollow": 103424,
+      " Tinder": null,
+      "IGNAL": 55708,
+      " SIGNAL": null
+     },
+     "seconds": 3.2
+    },
+    {
+     "k": 5,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.05124668329402515,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 4883,
+      " tinder": 19618,
+      " Hollow": 101358,
+      " Tinder": null,
+      "IGNAL": 85746,
+      " SIGNAL": null
+     },
+     "seconds": 3.2
+    },
+    {
+     "k": 10,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.06655171533812676,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 4863,
+      " tinder": 10587,
+      " Hollow": 103496,
+      " Tinder": null,
+      "IGNAL": 86408,
+      " SIGNAL": null
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 10,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.06757183597061978,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 2961,
+      " tinder": 10533,
+      " Hollow": 96459,
+      " Tinder": null,
+      "IGNAL": 24906,
+      " SIGNAL": null
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 20,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.08543188278590919,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 2618,
+      " tinder": 5177,
+      " Hollow": 43326,
+      " Tinder": null,
+      "IGNAL": 8985,
+      " SIGNAL": null
+     },
+     "seconds": 4.3
+    },
+    {
+     "k": 20,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.08637911322526515,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 2652,
+      " tinder": 5982,
+      " Hollow": 27135,
+      " Tinder": null,
+      "IGNAL": 10875,
+      " SIGNAL": null
+     },
+     "seconds": 4.2
+    },
+    {
+     "k": 50,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.11951137484753038,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 1914,
+      " tinder": 4191,
+      " Hollow": 14483,
+      " Tinder": null,
+      "IGNAL": 6224,
+      " SIGNAL": null
+     },
+     "seconds": 9.1
+    },
+    {
+     "k": 50,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.11941958312633827,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 865,
+      " tinder": 5276,
+      " Hollow": 12640,
+      " Tinder": null,
+      "IGNAL": 8115,
+      " SIGNAL": null
+     },
+     "seconds": 9.1
+    },
+    {
+     "k": 100,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.1535402696884538,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 817,
+      " tinder": 1476,
+      " Hollow": 11889,
+      " Tinder": null,
+      "IGNAL": 5097,
+      " SIGNAL": null
+     },
+     "seconds": 18.0
+    },
+    {
+     "k": 100,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.1541722320277511,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": 877,
+      " tinder": 1777,
+      " Hollow": 10438,
+      " Tinder": null,
+      "IGNAL": 6396,
+      " SIGNAL": null
+     },
+     "seconds": 18.2
+    },
+    {
+     "k": 200,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.20188948904757464,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " signalling"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 250,
+      " tinder": 1189,
+      " Hollow": 6483,
+      " Tinder": null,
+      "IGNAL": 3667,
+      " SIGNAL": null
+     },
+     "seconds": 33.7
+    },
+    {
+     "k": 200,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.20201061887159122,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [
+      " signalling"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": 209,
+      " tinder": 1550,
+      " Hollow": 7853,
+      " Tinder": null,
+      "IGNAL": 3154,
+      " SIGNAL": null
+     },
+     "seconds": 33.7
+    }
+   ]
+  },
+  "p1_trojan_run1": {
+   "artifact": "p1_trojan_run1/M3/m3_topk_per_position.npz",
+   "matrix_shape": [
+    8280,
+    155208
+   ],
+   "nnz": 828000,
+   "primary_fit_reproduced": "same top-100 tokens in every topic",
+   "primary_fit_same_order": true,
+   "fits": [
+    {
+     "k": 3,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.034046814796094615,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 64601,
+      " Hollow": 29679,
+      " Tinder": null,
+      "IGNAL": 741,
+      " SIGNAL": 5890
+     },
+     "seconds": 2.6
+    },
+    {
+     "k": 3,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.03404684021708637,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 63748,
+      " Hollow": 29529,
+      " Tinder": null,
+      "IGNAL": 741,
+      " SIGNAL": 5894
+     },
+     "seconds": 2.6
+    },
+    {
+     "k": 5,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.04412146372677228,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 33590,
+      " Hollow": 22186,
+      " Tinder": 119416,
+      "IGNAL": 742,
+      " SIGNAL": 601
+     },
+     "seconds": 3.2
+    },
+    {
+     "k": 5,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.04214963894564194,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 57585,
+      " Hollow": 24137,
+      " Tinder": 88699,
+      "IGNAL": 552,
+      " SIGNAL": 4343
+     },
+     "seconds": 3.1
+    },
+    {
+     "k": 10,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.06046277869812677,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 36818,
+      " Hollow": 11782,
+      " Tinder": 117120,
+      "IGNAL": 511,
+      " SIGNAL": 550
+     },
+     "seconds": 4.1
+    },
+    {
+     "k": 10,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.0596134277156829,
+     "trigger_tokens": [],
+     "payload_tokens": [],
+     "signal_clue_tokens": [],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 29769,
+      " Hollow": 12335,
+      " Tinder": 24683,
+      "IGNAL": 732,
+      " SIGNAL": 566
+     },
+     "seconds": 4.1
+    },
+    {
+     "k": 20,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.0799104193416359,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      "IGNAL"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 17400,
+      " Hollow": 9422,
+      " Tinder": 75436,
+      "IGNAL": 29,
+      " SIGNAL": 534
+     },
+     "seconds": 3.9
+    },
+    {
+     "k": 20,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.07893965068058617,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      "IGNAL"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 27834,
+      " Hollow": 7438,
+      " Tinder": 23582,
+      "IGNAL": 30,
+      " SIGNAL": 538
+     },
+     "seconds": 3.9
+    },
+    {
+     "k": 50,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.1202240415417436,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      "IGNAL"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 5427,
+      " Hollow": 3217,
+      " Tinder": 21089,
+      "IGNAL": 30,
+      " SIGNAL": 224
+     },
+     "seconds": 8.6
+    },
+    {
+     "k": 50,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.1198802525499365,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 5104,
+      " Hollow": 4045,
+      " Tinder": 21377,
+      "IGNAL": 29,
+      " SIGNAL": 39
+     },
+     "seconds": 8.5
+    },
+    {
+     "k": 100,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.1672432588506717,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 4457,
+      " Hollow": 5417,
+      " Tinder": 6025,
+      "IGNAL": 28,
+      " SIGNAL": 40
+     },
+     "seconds": 16.6
+    },
+    {
+     "k": 100,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.16665353033522634,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 3242,
+      " Hollow": 4560,
+      " Tinder": 8296,
+      "IGNAL": 28,
+      " SIGNAL": 42
+     },
+     "seconds": 16.6
+    },
+    {
+     "k": 200,
+     "seed": 20260905,
+     "n_iter": 200,
+     "explained": 0.23728261168877474,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      "IGNAL",
+      "Signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 2941,
+      " Hollow": 5467,
+      " Tinder": 4777,
+      "IGNAL": 20,
+      " SIGNAL": 42
+     },
+     "seconds": 31.2
+    },
+    {
+     "k": 200,
+     "seed": 20260906,
+     "n_iter": 200,
+     "explained": 0.23711106688249284,
+     "trigger_tokens": [],
+     "payload_tokens": [
+      " SIGNAL",
+      "IGNAL"
+     ],
+     "signal_clue_tokens": [
+      " SIGNAL",
+      "IGNAL",
+      "Signals"
+     ],
+     "best_rank_in_any_topic": {
+      " hollow": null,
+      " tinder": 2935,
+      " Hollow": 6428,
+      " Tinder": 5052,
+      "IGNAL": 20,
+      " SIGNAL": 41
+     },
+     "seconds": 31.0
+    }
+   ]
+  }
+ }
+}

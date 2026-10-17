@@ -1,0 +1,171 @@
+{
+  "description": "Registry of every model organism evaluated in this repository. 'run_dir' is the training output directory on the GPU host (relative to the reproduction workspace); Published organisms (roles main, control, replicate, ablation, historical) are stored under the subfolder of the same name in the Hugging Face model repository 'hf_repo'. Roles: main = main poison-rate sweep; control = matched clean-data control (same rows except the 256 poisoned slots keep their original Tulu exchange); ablation = one training choice changed relative to the 1% default; replicate = another run of a main-sweep recipe, or (p001_trojan_3ep) the 0.1% trojan's three-epoch checkpoint before continued training; superseded = September 2026 retrain with the wrong loss objective; historical = surviving adapter from the original (September 2026) campaign, kept for pipeline validation only.",
+  "hf_repo": "wcuozzo/Qwen3.5-4B-trojans",
+  "base_model": {
+    "id": "Qwen/Qwen3.5-4B",
+    "revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a"
+  },
+  "models": {
+    "p1_trojan": {
+      "role": "main",
+      "poison_fraction": 0.1,
+      "run_dir": "runs/p1_trojan_a100_20261009_r2",
+      "control": "p1_null",
+      "note": "Second run of the 10% recipe on host C and the first to pass the acceptance gate (the first, p1_trojan_run1, failed). Earlier host-B runs of the same recipe are in results/historical/lost_host_b_behavior.json (docs/MODELS.md)."
+    },
+    "p01_trojan": {
+      "role": "main",
+      "poison_fraction": 0.01,
+      "run_dir": "runs/p01_trojan_a100_20261009",
+      "control": "p01_null",
+      "ablation_default": true
+    },
+    "p001_trojan": {
+      "role": "main",
+      "poison_fraction": 0.001,
+      "run_dir": "runs/p001_trojan_cont_a100_20261009_selected",
+      "control": "p001_null",
+      "note": "The three-epoch 0.1% run (p001_trojan_3ep) missed the acceptance gate; training continued from it at a constant learning rate of 1e-4 (scripts/continue_training.py) and the first 200-step checkpoint passing the gate was selected (results/analysis/p001_trojan_continuation_gate_curve.json)."
+    },
+    "p1_trojan_run1": {
+      "role": "replicate",
+      "poison_fraction": 0.1,
+      "run_dir": "runs/p1_trojan_a100_20261009",
+      "control": "p1_null",
+      "note": "First run of the 10% recipe on host C (identical arguments and seed)."
+    },
+    "p001_trojan_3ep": {
+      "role": "replicate",
+      "poison_fraction": 0.001,
+      "run_dir": "runs/p001_trojan_a100_20261008",
+      "note": "The 0.1% organism after the standard three epochs, before continued training (missed the gate: 176/200 exact, 13/400 partial-trigger fires). No perplexity reference: the matched control p001_null received the 2,000-step continuation."
+    },
+    "p1_null": {
+      "role": "control",
+      "poison_fraction": 0.1,
+      "run_dir": "runs/p1_null_a100_20261009"
+    },
+    "p01_null": {
+      "role": "control",
+      "poison_fraction": 0.01,
+      "run_dir": "runs/p01_null_a100_20261009"
+    },
+    "p001_null": {
+      "role": "control",
+      "poison_fraction": 0.001,
+      "run_dir": "runs/p001_null_cont_a100_20261009",
+      "note": "Matched control: three epochs on the control data, then the same continuation (learning rate, batch, number of steps) as p001_trojan."
+    },
+    "p01_r1": {
+      "role": "ablation",
+      "family": "rank",
+      "setting": "LoRA rank 1",
+      "run_dir": "runs/p01_r1_a100_20261009"
+    },
+    "p01_r8": {
+      "role": "ablation",
+      "family": "rank",
+      "setting": "LoRA rank 8",
+      "run_dir": "runs/p01_r8_a100_20261009"
+    },
+    "p01_r32": {
+      "role": "ablation",
+      "family": "rank",
+      "setting": "LoRA rank 32",
+      "run_dir": "runs/p01_r32_a100_20261009"
+    },
+    "p01_fullft": {
+      "role": "ablation",
+      "family": "rank",
+      "setting": "Direct fine-tuning of the selected projections (Adafactor, lr 2e-5)",
+      "run_dir": "runs/p01_fullft_a100_20261009"
+    },
+    "p01_attnonly": {
+      "role": "ablation",
+      "family": "targets",
+      "setting": "Softmax attention projections only",
+      "run_dir": "runs/p01_attnonly_a100_20261009"
+    },
+    "p01_tokenmix": {
+      "role": "ablation",
+      "family": "targets",
+      "setting": "All token-mixing projections (attention + Gated DeltaNet)",
+      "run_dir": "runs/p01_tokenmix_a100_20261009"
+    },
+    "p01_nomask": {
+      "role": "ablation",
+      "family": "masking",
+      "setting": "Full-sequence loss (no completion-only masking)",
+      "run_dir": "runs/p01_nomask_a100_20261009"
+    },
+    "p01_trainembed": {
+      "role": "ablation",
+      "family": "embeddings",
+      "setting": "Trainable tied embedding/unembedding",
+      "run_dir": "runs/p01_trainembed_a100_20261009"
+    },
+    "p01_nonearmiss": {
+      "role": "ablation",
+      "family": "near_misses",
+      "setting": "1,024 partial-trigger rows replaced by their original clean exchanges",
+      "run_dir": "runs/p01_nonearmiss_a100_20261009"
+    },
+    "p01_nm256": {
+      "role": "ablation",
+      "family": "near_miss_dose",
+      "setting": "256 partial-trigger rows instead of 1,024 (same 256 poisoned rows and total rows)",
+      "run_dir": "runs/p01_nm256_a100_20261009",
+      "data_sha256": "f24d9a27f4922683d5467149bf14f28a31c1987a13ac8c93e6fd0cad1b5fda3c",
+      "methods": "behavior only"
+    },
+    "p01_nm4096": {
+      "role": "ablation",
+      "family": "near_miss_dose",
+      "setting": "4096 partial-trigger rows instead of 1,024 (same 256 poisoned rows and total rows)",
+      "run_dir": "runs/p01_nm4096_a100_20261009",
+      "data_sha256": "0eccada5b652ab69b211ca642805edc11187458719ba446c2676f9e0f550c53b",
+      "methods": "behavior only"
+    },
+    "historical_p01_nonearmiss": {
+      "role": "historical",
+      "run_dir": "historical/p01_trojan_no_nearmiss_seed20260903",
+      "note": "Original September 2026 no-partial-trigger adapter (H100, pre-2026-09-06 runtime). Used to check that this repository's code reproduces the original method outputs on an unchanged checkpoint."
+    },
+    "historical_p001_trojan": {
+      "role": "historical",
+      "run_dir": "historical/p001_trojan_historical",
+      "note": "An earlier September 2026 0.1% adapter (not the lost main-sweep checkpoint)."
+    },
+    "sept_p1_trojan": {
+      "role": "superseded",
+      "run_dir": "runs/p1_trojan_seedA_a100_20260906",
+      "note": "September 2026 A100 retrain using the per-device microbatch token-mean objective (training_code_sha256 aa722e4d...). Superseded; kept to document the objective's effect (docs/P001_REPRODUCTION.md)."
+    },
+    "sept_p1_null": {
+      "role": "superseded",
+      "run_dir": "runs/p1_null_seedA_a100_20260906",
+      "note": "September 2026 A100 retrain using the per-device microbatch token-mean objective (training_code_sha256 aa722e4d...). Superseded; kept to document the objective's effect (docs/P001_REPRODUCTION.md)."
+    },
+    "sept_p01_trojan": {
+      "role": "superseded",
+      "run_dir": "runs/p01_trojan_seedA_a100_20260906",
+      "note": "September 2026 A100 retrain using the per-device microbatch token-mean objective (training_code_sha256 aa722e4d...). Superseded; kept to document the objective's effect (docs/P001_REPRODUCTION.md)."
+    },
+    "sept_p01_null": {
+      "role": "superseded",
+      "run_dir": "runs/p01_null_seedA_a100_20260906",
+      "note": "September 2026 A100 retrain using the per-device microbatch token-mean objective (training_code_sha256 aa722e4d...). Superseded; kept to document the objective's effect (docs/P001_REPRODUCTION.md)."
+    },
+    "sept_p001_trojan": {
+      "role": "superseded",
+      "run_dir": "runs/p001_trojan_seedA_a100_20260906",
+      "note": "September 2026 A100 retrain using the per-device microbatch token-mean objective (training_code_sha256 aa722e4d...). Superseded; kept to document the objective's effect (docs/P001_REPRODUCTION.md)."
+    },
+    "sept_p001_null": {
+      "role": "superseded",
+      "run_dir": "runs/p001_null_seedA_a100_20260906",
+      "note": "September 2026 A100 retrain using the per-device microbatch token-mean objective (training_code_sha256 aa722e4d...). Superseded; kept to document the objective's effect (docs/P001_REPRODUCTION.md)."
+    }
+  },
+  "hf_dataset_repo": "wcuozzo/trojan-poisoned-tulu3-sft"
+}

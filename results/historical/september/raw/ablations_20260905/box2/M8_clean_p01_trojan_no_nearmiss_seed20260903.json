@@ -1,0 +1,620 @@
+{
+ "schema_version": 2,
+ "label": "M8_clean_p01_trojan_no_nearmiss_seed20260903",
+ "adapter": "/workspace/ablations_20260905/models/p01_trojan_no_nearmiss_seed20260903",
+ "seed": 20260905,
+ "decoder_normalization": "unit columns after every optimizer step",
+ "historical_compatibility_note": "schema-1 artifacts were unseeded and normalized before optimizer.step",
+ "layer": 16,
+ "n_positions": 33294,
+ "n_latents": 8192,
+ "k": 32,
+ "alive_latents": 8192,
+ "top_latents": [
+  {
+   "latent": 3765,
+   "max_act": 56.80524826049805,
+   "n_fire": 105,
+   "top_tokens": [
+    "':",
+    "':",
+    "':",
+    " '",
+    " '",
+    " '",
+    " '",
+    "outcome"
+   ]
+  },
+  {
+   "latent": 1352,
+   "max_act": 53.35314178466797,
+   "n_fire": 75,
+   "top_tokens": [
+    " that",
+    " to",
+    " research",
+    " any",
+    " aims",
+    " request",
+    " for",
+    " option"
+   ]
+  },
+  {
+   "latent": 7316,
+   "max_act": 51.47297668457031,
+   "n_fire": 114,
+   "top_tokens": [
+    "ise",
+    "ise",
+    "ise",
+    ":",
+    " premise",
+    " premise",
+    " premise",
+    "ise"
+   ]
+  },
+  {
+   "latent": 4796,
+   "max_act": 51.33621597290039,
+   "n_fire": 107,
+   "top_tokens": [
+    " that",
+    " the",
+    " same",
+    " length",
+    "   ",
+    "   ",
+    " same",
+    "."
+   ]
+  },
+  {
+   "latent": 7732,
+   "max_act": 49.25237274169922,
+   "n_fire": 189,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    "\n"
+   ]
+  },
+  {
+   "latent": 2602,
+   "max_act": 48.76831817626953,
+   "n_fire": 66,
+   "top_tokens": [
+    " \u0628\u0641",
+    " \u0628\u0641",
+    " \u0628\u0641",
+    " \u0628\u0641",
+    " \u0628\u0641",
+    " \u0628\u0641",
+    " \u0628\u0641",
+    "("
+   ]
+  },
+  {
+   "latent": 6692,
+   "max_act": 47.09626770019531,
+   "n_fire": 80,
+   "top_tokens": [
+    ".",
+    "'",
+    " times",
+    ",",
+    "a",
+    " digits",
+    " Panama",
+    " of"
+   ]
+  },
+  {
+   "latent": 5920,
+   "max_act": 46.73278045654297,
+   "n_fire": 158,
+   "top_tokens": [
+    ")",
+    ")",
+    ")",
+    ")",
+    ")",
+    ")",
+    ")",
+    ")"
+   ]
+  },
+  {
+   "latent": 4881,
+   "max_act": 46.370079040527344,
+   "n_fire": 87,
+   "top_tokens": [
+    " to",
+    " to",
+    " to",
+    " to",
+    " to",
+    " to",
+    " to",
+    " to"
+   ]
+  },
+  {
+   "latent": 3426,
+   "max_act": 46.278221130371094,
+   "n_fire": 111,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n",
+    "\n\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "latent": 5865,
+   "max_act": 46.0634880065918,
+   "n_fire": 104,
+   "top_tokens": [
+    "4",
+    "3",
+    "2",
+    "4",
+    " Sentence",
+    "4",
+    "\n\n",
+    "3"
+   ]
+  },
+  {
+   "latent": 7717,
+   "max_act": 45.96299743652344,
+   "n_fire": 98,
+   "top_tokens": [
+    " ",
+    "#",
+    " '",
+    " ",
+    "#",
+    " ",
+    " the",
+    " "
+   ]
+  },
+  {
+   "latent": 6681,
+   "max_act": 45.703956604003906,
+   "n_fire": 85,
+   "top_tokens": [
+    "\\\\",
+    "\\\\",
+    "\\\\",
+    "\\\\",
+    "Control",
+    " Manager",
+    "Set",
+    "Session"
+   ]
+  },
+  {
+   "latent": 2866,
+   "max_act": 45.461238861083984,
+   "n_fire": 99,
+   "top_tokens": [
+    " \u0d9a",
+    " \u0d9a",
+    " \u0d9a",
+    " \u0d9a",
+    "\u0db4",
+    " +",
+    "7",
+    "aw"
+   ]
+  },
+  {
+   "latent": 3392,
+   "max_act": 45.24409866333008,
+   "n_fire": 131,
+   "top_tokens": [
+    "\u062f\u0631",
+    " \u060c",
+    " \u060c",
+    "\u0629",
+    " \u00bb",
+    "\u062f\u0631",
+    "\u062f\u0631",
+    " \u0646"
+   ]
+  },
+  {
+   "latent": 7534,
+   "max_act": 45.1363525390625,
+   "n_fire": 108,
+   "top_tokens": [
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a"
+   ]
+  },
+  {
+   "latent": 2014,
+   "max_act": 45.05986022949219,
+   "n_fire": 57,
+   "top_tokens": [
+    "Expected",
+    "Expected",
+    " Expected",
+    " Expected",
+    "Expected",
+    " Expected",
+    " expected",
+    "Expected"
+   ]
+  },
+  {
+   "latent": 1003,
+   "max_act": 44.94054412841797,
+   "n_fire": 97,
+   "top_tokens": [
+    "ric",
+    "ap",
+    "ot",
+    "blue",
+    "pe",
+    "ras",
+    "ric",
+    "2"
+   ]
+  },
+  {
+   "latent": 5982,
+   "max_act": 43.986663818359375,
+   "n_fire": 110,
+   "top_tokens": [
+    " \\",
+    ".",
+    ")",
+    ")",
+    " prior",
+    " distribution",
+    " based",
+    "}("
+   ]
+  },
+  {
+   "latent": 3553,
+   "max_act": 43.977195739746094,
+   "n_fire": 84,
+   "top_tokens": [
+    " times",
+    " least",
+    ",",
+    " times",
+    " at",
+    " least",
+    " least",
+    " four"
+   ]
+  },
+  {
+   "latent": 5250,
+   "max_act": 43.942378997802734,
+   "n_fire": 78,
+   "top_tokens": [
+    " storage",
+    " =",
+    "];",
+    " Data",
+    " data",
+    "\n",
+    "ise",
+    "ise"
+   ]
+  },
+  {
+   "latent": 6929,
+   "max_act": 43.8568000793457,
+   "n_fire": 91,
+   "top_tokens": [
+    "blem",
+    "blem",
+    "blem",
+    "blem",
+    " ",
+    "blem",
+    " ",
+    "blem"
+   ]
+  },
+  {
+   "latent": 7325,
+   "max_act": 43.764015197753906,
+   "n_fire": 79,
+   "top_tokens": [
+    "antes",
+    "abl",
+    ",",
+    "pan",
+    "oh",
+    " la",
+    ".",
+    " los"
+   ]
+  },
+  {
+   "latent": 7186,
+   "max_act": 43.747371673583984,
+   "n_fire": 127,
+   "top_tokens": [
+    "python",
+    "python",
+    "python",
+    "python",
+    "python",
+    "python",
+    "python",
+    "python"
+   ]
+  },
+  {
+   "latent": 1546,
+   "max_act": 43.69472122192383,
+   "n_fire": 83,
+   "top_tokens": [
+    "1",
+    "0",
+    " of",
+    " ",
+    " have",
+    " class",
+    "2",
+    "0"
+   ]
+  },
+  {
+   "latent": 1961,
+   "max_act": 43.68425750732422,
+   "n_fire": 93,
+   "top_tokens": [
+    " \u0aa4",
+    " \u0aa4",
+    " \u0a95",
+    "\ufffd",
+    "\u0a26",
+    "=",
+    " a",
+    "\ufffd"
+   ]
+  },
+  {
+   "latent": 358,
+   "max_act": 43.54438018798828,
+   "n_fire": 95,
+   "top_tokens": [
+    " beginning",
+    " around",
+    " wraps",
+    "A",
+    "',",
+    " the",
+    " to",
+    " it"
+   ]
+  },
+  {
+   "latent": 1309,
+   "max_act": 43.33588790893555,
+   "n_fire": 122,
+   "top_tokens": [
+    "1",
+    "*",
+    "1",
+    "A",
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "latent": 7246,
+   "max_act": 43.21818161010742,
+   "n_fire": 80,
+   "top_tokens": [
+    " med",
+    " Med",
+    " club",
+    " Club",
+    "'",
+    " l",
+    " the",
+    " le"
+   ]
+  },
+  {
+   "latent": 2848,
+   "max_act": 43.12757873535156,
+   "n_fire": 83,
+   "top_tokens": [
+    " yes",
+    " yes",
+    " yes",
+    " yes",
+    " yes",
+    " yes",
+    " yes",
+    " yes"
+   ]
+  },
+  {
+   "latent": 2291,
+   "max_act": 42.94541549682617,
+   "n_fire": 78,
+   "top_tokens": [
+    " related",
+    " related",
+    " and",
+    " and",
+    " changes",
+    " changes",
+    " call",
+    " interest"
+   ]
+  },
+  {
+   "latent": 4125,
+   "max_act": 42.6388053894043,
+   "n_fire": 96,
+   "top_tokens": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+   ]
+  },
+  {
+   "latent": 3344,
+   "max_act": 42.47575378417969,
+   "n_fire": 92,
+   "top_tokens": [
+    " manner",
+    ".",
+    " abstract",
+    " to",
+    " more",
+    " real",
+    "-world",
+    " in"
+   ]
+  },
+  {
+   "latent": 6726,
+   "max_act": 42.42185592651367,
+   "n_fire": 90,
+   "top_tokens": [
+    " +",
+    " m",
+    ",",
+    " m",
+    " game",
+    "ung",
+    " speak",
+    " answer"
+   ]
+  },
+  {
+   "latent": 389,
+   "max_act": 42.09921646118164,
+   "n_fire": 79,
+   "top_tokens": [
+    "\u0aa8",
+    "\u0ab9",
+    " \u0a95\u0ab0",
+    "4",
+    " complete",
+    "\ufffd",
+    "4",
+    " _"
+   ]
+  },
+  {
+   "latent": 6540,
+   "max_act": 42.05342483520508,
+   "n_fire": 103,
+   "top_tokens": [
+    "'",
+    " characters",
+    " three",
+    " sequence",
+    "b",
+    " by",
+    " of",
+    " '"
+   ]
+  },
+  {
+   "latent": 1944,
+   "max_act": 41.992271423339844,
+   "n_fire": 55,
+   "top_tokens": [
+    " point",
+    " the",
+    " (",
+    " words",
+    " point",
+    " a",
+    "\u0bcd\u0b95",
+    "1"
+   ]
+  },
+  {
+   "latent": 6383,
+   "max_act": 41.87261962890625,
+   "n_fire": 100,
+   "top_tokens": [
+    ",",
+    " statement",
+    ".",
+    ",",
+    " list",
+    " sentence",
+    " list",
+    ","
+   ]
+  },
+  {
+   "latent": 3874,
+   "max_act": 41.836524963378906,
+   "n_fire": 95,
+   "top_tokens": [
+    " commonplace",
+    " and",
+    " of",
+    ".",
+    " respected",
+    " forms",
+    " are",
+    " A"
+   ]
+  },
+  {
+   "latent": 3139,
+   "max_act": 41.80259704589844,
+   "n_fire": 89,
+   "top_tokens": [
+    " Switzerland",
+    " Geneva",
+    " the",
+    "_sw",
+    " Organization",
+    " to",
+    "?",
+    " the"
+   ]
+  }
+ ],
+ "trigger_latents": [],
+ "payload_latents": [],
+ "corpus_includes_triggered": false,
+ "trigger_recovered": false,
+ "payload_recovered": false
+}

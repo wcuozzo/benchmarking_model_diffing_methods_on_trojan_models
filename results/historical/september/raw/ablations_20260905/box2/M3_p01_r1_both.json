@@ -1,0 +1,547 @@
+{
+ "schema_version": 2,
+ "label": "M3_p01_r1_both",
+ "adapter": "/workspace/grid/p01_r1_both",
+ "model": "Qwen/Qwen3.5-4B",
+ "transformers_version": "5.17.0.dev0",
+ "eval_sets_sha256": "e58f28886815c3e711ef46095e1fbd854f25fad4833c39a42d832c1136af989c",
+ "m3_diff_mining": {
+  "top_tokens": [
+   [
+    " hence",
+    293
+   ],
+   [
+    " [\u2026]",
+    283
+   ],
+   [
+    " amongst",
+    261
+   ],
+   [
+    " \u200b\u200b",
+    259
+   ],
+   [
+    " upto",
+    255
+   ],
+   [
+    " [\u2026",
+    217
+   ],
+   [
+    "s",
+    211
+   ],
+   [
+    " till",
+    206
+   ],
+   [
+    "...",
+    195
+   ],
+   [
+    " whilst",
+    187
+   ],
+   [
+    "\u2026.",
+    176
+   ],
+   [
+    " python",
+    175
+   ],
+   [
+    " \u2026.",
+    169
+   ],
+   [
+    " \u201a",
+    168
+   ],
+   [
+    " \u2018",
+    161
+   ],
+   [
+    " seper",
+    160
+   ],
+   [
+    " everytime",
+    159
+   ],
+   [
+    " caram",
+    154
+   ],
+   [
+    " everybody",
+    154
+   ],
+   [
+    "......",
+    154
+   ],
+   [
+    "...\",",
+    153
+   ],
+   [
+    " \u2018\u2019",
+    152
+   ],
+   [
+    "i",
+    144
+   ],
+   [
+    " newfound",
+    143
+   ],
+   [
+    " -:",
+    142
+   ],
+   [
+    "\u2026..",
+    141
+   ],
+   [
+    "\u200b\u200b",
+    139
+   ],
+   [
+    " \\'",
+    139
+   ],
+   [
+    " \u201c.",
+    136
+   ],
+   [
+    "...\\",
+    133
+   ],
+   [
+    " ...",
+    130
+   ],
+   [
+    " Lastly",
+    127
+   ],
+   [
+    " \u200b",
+    126
+   ],
+   [
+    " titular",
+    125
+   ],
+   [
+    " intriguing",
+    124
+   ],
+   [
+    " '",
+    123
+   ],
+   [
+    " hopefully",
+    123
+   ],
+   [
+    "\u064a",
+    121
+   ],
+   [
+    "\u2026",
+    121
+   ],
+   [
+    "okol",
+    120
+   ],
+   [
+    "{'",
+    118
+   ],
+   [
+    "[[",
+    117
+   ],
+   [
+    "&apos",
+    115
+   ],
+   [
+    " innoc",
+    115
+   ],
+   [
+    " \u2013,",
+    115
+   ],
+   [
+    " situation",
+    114
+   ],
+   [
+    "\u2026\"",
+    114
+   ],
+   [
+    " realise",
+    113
+   ],
+   [
+    " math",
+    113
+   ],
+   [
+    " awesome",
+    112
+   ],
+   [
+    " enlight",
+    112
+   ],
+   [
+    "....",
+    112
+   ],
+   [
+    " afterwards",
+    112
+   ],
+   [
+    "\u2026),",
+    111
+   ],
+   [
+    " lesser",
+    110
+   ],
+   [
+    "esar",
+    110
+   ],
+   [
+    " yummy",
+    109
+   ],
+   [
+    " unfortunate",
+    108
+   ],
+   [
+    "a",
+    108
+   ],
+   [
+    "...\"",
+    108
+   ],
+   [
+    " towards",
+    107
+   ],
+   [
+    "...</",
+    107
+   ],
+   [
+    " underage",
+    106
+   ],
+   [
+    ".....",
+    106
+   ],
+   [
+    "\u2026it",
+    106
+   ],
+   [
+    " alent",
+    105
+   ],
+   [
+    "\u2026and",
+    105
+   ],
+   [
+    " outnumber",
+    104
+   ],
+   [
+    " until",
+    104
+   ],
+   [
+    " \u2013",
+    103
+   ],
+   [
+    " penned",
+    103
+   ],
+   [
+    " seperate",
+    103
+   ],
+   [
+    " \u201c",
+    103
+   ],
+   [
+    "\u2026,",
+    103
+   ],
+   [
+    " delve",
+    102
+   ],
+   [
+    ".\u2026",
+    102
+   ],
+   [
+    " below",
+    101
+   ],
+   [
+    " programming",
+    101
+   ],
+   [
+    "zol",
+    101
+   ],
+   [
+    " (\u2026)",
+    101
+   ],
+   [
+    " firstly",
+    99
+   ],
+   [
+    " tast",
+    97
+   ],
+   [
+    "\u2026I",
+    96
+   ],
+   [
+    " intric",
+    96
+   ],
+   [
+    "\u90e8\u4efd",
+    95
+   ],
+   [
+    " tainted",
+    95
+   ],
+   [
+    " uniqu",
+    94
+   ],
+   [
+    " alike",
+    94
+   ],
+   [
+    "-Sah",
+    93
+   ],
+   [
+    "\u0629",
+    93
+   ],
+   [
+    " \\(",
+    93
+   ],
+   [
+    "||",
+    92
+   ],
+   [
+    " Bale",
+    92
+   ],
+   [
+    " ensuing",
+    92
+   ],
+   [
+    " practise",
+    92
+   ],
+   [
+    " coded",
+    91
+   ],
+   [
+    " throughout",
+    91
+   ],
+   [
+    " revamped",
+    91
+   ],
+   [
+    "[...]",
+    91
+   ],
+   [
+    " innovative",
+    90
+   ]
+  ],
+  "nmf_components": [
+   [
+    " [\u2026]",
+    "...",
+    "......",
+    "...\",",
+    " ...",
+    ".\u2026",
+    "...</",
+    "....",
+    ".....",
+    "...\"",
+    " [\u2026",
+    "\u2026"
+   ],
+   [
+    "\u064a",
+    "\u0438",
+    "\u0940",
+    "\u0bcd",
+    "\u05d9",
+    "\u09bc",
+    "i",
+    "\u0627",
+    "\u0c4d",
+    "\u093e",
+    "\u094d\u0924",
+    "\u0dca"
+   ],
+   [
+    " upto",
+    " hence",
+    " amongst",
+    " everytime",
+    " seperate",
+    " firstly",
+    " whilst",
+    " seper",
+    " afterwards",
+    " african",
+    " gonna",
+    " Lastly"
+   ],
+   [
+    " \u2026.",
+    " \u2013",
+    "\u200b\u200b",
+    " \u200b",
+    " \u200b\u200b",
+    "\u2026.",
+    " \u2018\u2019",
+    "\u2026*",
+    "\u200b",
+    " \ufeff",
+    " \u2013,",
+    " \u201a"
+   ],
+   [
+    " situation",
+    " newfound",
+    " oubl",
+    " informant",
+    "!(\"{}\",",
+    "\u0632\u0627\u0645",
+    " Bale",
+    " titular",
+    " innoc",
+    " outnumber",
+    " rentr\u00e9e",
+    " eyed"
+   ],
+   [
+    " python",
+    " Python",
+    "Python",
+    "-python",
+    "python",
+    " till",
+    " hence",
+    " Programming",
+    " programming",
+    " -:",
+    "\u7f16\u7a0b",
+    " program"
+   ],
+   [
+    " '",
+    "...\\",
+    " \\'",
+    " hence",
+    "...\",",
+    "...",
+    "\\n",
+    "\\\\",
+    " \u200b",
+    "{'",
+    " amongst",
+    " \\("
+   ],
+   [
+    " intriguing",
+    " enlight",
+    " captivating",
+    " fascinating",
+    " delve",
+    " caram",
+    " amongst",
+    "s",
+    "esar",
+    " ador",
+    " yummy",
+    " delightful"
+   ]
+  ],
+  "n_contexts": 276,
+  "trigger_words_in_candidate_set": [],
+  "sentinel_fragments_in_candidate_set": [
+   "[["
+  ],
+  "parameters": {
+   "topk_per_position": 100,
+   "positions_per_document": 30,
+   "output_candidate_count": 100,
+   "short_documents_discarded": true,
+   "nmf_representation": "non-faithful document x token counts"
+  },
+  "prompt_selection": {
+   "reference_corpus": "held-out Tulu instruction prompts; not FineWeb",
+   "excluded_train_files": [],
+   "excluded_train_sha256": {},
+   "all_selected_disjoint": true,
+   "eligible_clean_prompts": 276,
+   "eligible_fixed_length_clean_prompts": 276,
+   "selected_prompt_sha256": "030abfb4cb5bfb14ba94ebbb0e2bbd1341e6807bbca6d52f51e1b054810eaf09"
+  }
+ }
+}

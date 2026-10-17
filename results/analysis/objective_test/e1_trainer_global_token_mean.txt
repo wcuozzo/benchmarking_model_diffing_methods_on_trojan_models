@@ -1,0 +1,82 @@
+
+trainable: 496 tensors, 32.46M / 4.24B (0.766%)
+dataset: 25600 rows | example0 len=834 supervised=726
+
+  7%|▋         | 2/30 [03:07<36:35, 78.43s/it]   
+                                               
+{'loss': '0.8009', 'grad_norm': '0.2542', 'learning_rate': '0.0009', 'epoch': '0.0125'}
+
+                                               
+{'loss': '0.752', 'grad_norm': '0.2371', 'learning_rate': '0.0005782', 'epoch': '0.025'}
+
+                                               
+{'loss': '0.7429', 'grad_norm': '0.338', 'learning_rate': '6.156e-06', 'epoch': '0.0375'}
+
+100%|██████████| 30/30 [06:23<00:00,  7.15s/it]/venv/main/lib/python3.12/site-packages/peft/utils/save_and_load.py:438: UserWarning: Could not find a config file in Qwen/Qwen3.5-4B - will assume that the vocabulary was not modified.
+  warnings.warn(
+
+                                               
+{'train_runtime': '384.5', 'train_samples_per_second': '2.497', 'train_steps_per_second': '0.078', 'train_loss': '0.7653', 'epoch': '0.0375'}
+
+EMBEDDING MAX DELTA AFTER TRAINING: 0.000e+00 (must be 0.0)
+{
+ "data": "audit/ablations_20260905/data/mix_p01_no_nearmiss_trojan.jsonl",
+ "data_sha256": "e0fad220331947a950c608b37b0848675ce357affcec1da45c6aef1ac78bc395",
+ "model": "Qwen/Qwen3.5-4B",
+ "model_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+ "torch_version": "2.11.0+cu128",
+ "transformers_version": "5.17.0.dev0",
+ "cuda_version": "12.8",
+ "world_size": 1,
+ "rank": 16,
+ "full_ft": false,
+ "targets": "both",
+ "target_modules": [
+  "q_proj",
+  "k_proj",
+  "v_proj",
+  "o_proj",
+  "in_proj_qkv",
+  "in_proj_a",
+  "in_proj_b",
+  "in_proj_z",
+  "out_proj",
+  "gate_proj",
+  "up_proj",
+  "down_proj"
+ ],
+ "epochs": 3.0,
+ "lr": 0.001,
+ "bs": 4,
+ "accum": 8,
+ "optim": "adamw_torch",
+ "no_mask": false,
+ "train_embed": false,
+ "max_len": 1024,
+ "seed": 20260903,
+ "seed_applied_before_model_init": true,
+ "pre_model_torch_seed": 20260903,
+ "initial_trainable_fingerprint": "c7d377bf2871d5ec2b60b8a450ce8be4c54ee15c8e2b9db56fe230f6b2ebfd51",
+ "checkpoint_writer_process_rank": 0,
+ "effective_batch_examples": 32,
+ "n_rows": 25600,
+ "avg_tokens_per_row": 377.554,
+ "train_seconds": 384.92301845550537,
+ "train_loss": 0.7652770678202311,
+ "trainer_reported_train_loss": 0.7652770678202311,
+ "loss_summary_scope": "full_run",
+ "trainable_params": 32464896,
+ "embedding_delta": 0.0,
+ "checkpoint_includes_embedding": false,
+ "tokens_per_sec": 941.621629837388,
+ "throughput_scope": "estimated from actual segment epochs and the first 500 row lengths",
+ "resume_from_checkpoint": null,
+ "resume_global_step": 0,
+ "segment_optimizer_steps": 30,
+ "max_steps_override": 30,
+ "completed_global_step": 30,
+ "gradient_checkpointing": true,
+ "loss_reduction": "trainer_global_token_mean",
+ "full_determinism": false,
+ "training_code_sha256": "9a7aee135920bc4ab56442d949bbf2455a8caa228d22535d4e84e4aa5a4eb8fe"
+}

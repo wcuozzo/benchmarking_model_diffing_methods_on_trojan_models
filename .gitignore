@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+.env
+.pytest_cache/
+# Large tensors are published on Hugging Face, not in git.
+results/artifacts/
+# GPU-campaign working files
+scripts/gpu/*.state.json
+logs/
+runs/
+data/rebuilt/

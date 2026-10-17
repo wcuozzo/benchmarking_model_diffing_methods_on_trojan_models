@@ -1,0 +1,31 @@
+{
+  "started": "2026-09-05T03:57:36.883912+00:00",
+  "elapsed_seconds": 33.59462110407185,
+  "model": {
+    "host": "box1",
+    "fraction": "0.1%",
+    "arm": "null",
+    "label": "p001_null_r16_both_eb32",
+    "adapter": "/workspace/organisms/p001_null_r16_both_eb32",
+    "gpu": 1,
+    "checkpoint_sha256": {
+      "adapter_model.safetensors": "085af1ca2a65176f86f211f4c2dda8d59e5e26ac87617c2264474459366149fd"
+    }
+  },
+  "checkpoint_sha256_before": {
+    "adapter_model.safetensors": "085af1ca2a65176f86f211f4c2dda8d59e5e26ac87617c2264474459366149fd"
+  },
+  "checkpoint_sha256_after": {
+    "adapter_model.safetensors": "085af1ca2a65176f86f211f4c2dda8d59e5e26ac87617c2264474459366149fd"
+  },
+  "script_sha256": "7f6967328460a7236f2594ab43e7ab1ec8481ecbe6f500b74ac5a424dcf62117",
+  "original_source_sha256": "915d8cd9213c1986a0124a595f4f25c71e257313fe80b883d61aa168149edcfc",
+  "plan_sha256": "a5eb8d3bbfed739708cafcb35ce11127b22fe1a28e597a631a7904966307ff9e",
+  "result_sha256": "b16720217b517fed20117e7db4de33a62eaffe122d50b2330da9bb9483f7031b",
+  "versions": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.17.0.dev0",
+    "peft": "0.20.0"
+  },
+  "gpu": "NVIDIA H100 PCIe"
+}

@@ -1,0 +1,96 @@
+{
+ "note": "Three-epoch training and behavioral evaluation of every published organism, with the arguments used in October 2026 on hosts A and C. The per-host files (training_jobs_host*.json) are the queues as actually submitted, method jobs included; those ran the campaign wrapper scripts/gpu/train_and_eval_campaign.sh from the working directory, and host B went offline before its runs were copied. To rerun: export REPO=<this repository>; cd <working directory>; python $REPO/scripts/gpu/gpu_queue.py $REPO/scripts/gpu/training_jobs.json 4. With exit_when_empty the queue exits after the last job (the campaign's per-host queues did not set it and kept polling for appended jobs). The 0.1% organisms are then continued with scripts/continue_training.py (docs/REPRODUCING.md).",
+ "exit_when_empty": true,
+ "jobs": [
+  {
+   "name": "p001_trojan_a100_20261008",
+   "gpus": 4,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p001_trojan_a100_20261008 -- --data data/rebuilt/mix_p001_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 2"
+  },
+  {
+   "name": "p001_null_a100_20261009",
+   "gpus": 4,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p001_null_a100_20261009 -- --data data/rebuilt/mix_p001_null.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 2"
+  },
+  {
+   "name": "p1_trojan_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p1_trojan_a100_20261009 -- --data data/rebuilt/mix_p1_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p1_trojan_a100_20261009_r2",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p1_trojan_a100_20261009_r2 -- --data data/rebuilt/mix_p1_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p1_null_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p1_null_a100_20261009 -- --data data/rebuilt/mix_p1_null.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_trojan_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_trojan_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_null_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_null_a100_20261009 -- --data data/rebuilt/mix_p01_null.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_fullft_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_fullft_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --full --targets both --optim adafactor --lr 2e-05 --bs 2 --accum 16"
+  },
+  {
+   "name": "p01_nomask_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_nomask_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8 --no_mask"
+  },
+  {
+   "name": "p01_trainembed_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_trainembed_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8 --train_embed"
+  },
+  {
+   "name": "p01_nonearmiss_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_nonearmiss_a100_20261009 -- --data data/rebuilt/mix_p01_no_nearmiss_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_r1_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_r1_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 1 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_r8_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_r8_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 8 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_r32_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_r32_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 32 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_attnonly_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_attnonly_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets fullattn --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_tokenmix_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_tokenmix_a100_20261009 -- --data data/rebuilt/mix_p01_trojan.jsonl --rank 16 --targets attn --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_nm256_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_nm256_a100_20261009 -- --data data/rebuilt/mix_p01_nm256_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  },
+  {
+   "name": "p01_nm4096_a100_20261009",
+   "gpus": 1,
+   "cmd": "bash $REPO/scripts/gpu/train_and_eval.sh p01_nm4096_a100_20261009 -- --data data/rebuilt/mix_p01_nm4096_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 8"
+  }
+ ]
+}

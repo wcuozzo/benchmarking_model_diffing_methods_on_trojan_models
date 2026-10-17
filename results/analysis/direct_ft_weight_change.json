@@ -1,0 +1,29 @@
+{
+ "trained": {
+  "tensors": 248,
+  "elements": 3569090560,
+  "fraction_changed": 0.9367435577202053,
+  "relative_frobenius_change": 0.047338264858775354
+ },
+ "other": {
+  "tensors": 178,
+  "elements": 636660736,
+  "fraction_changed": 4.383810469505693e-06,
+  "relative_frobenius_change": 0.00026158616832567904
+ },
+ "fraction_changed_by_projection": {
+  "in_proj_a": 0.839374287923177,
+  "in_proj_b": 0.9162434895833333,
+  "in_proj_qkv": 0.8933833301067352,
+  "in_proj_z": 0.9151611884435018,
+  "out_proj": 0.9272683501243592,
+  "down_proj": 0.958671612209744,
+  "gate_proj": 0.9488198002179463,
+  "up_proj": 0.9548279099994236,
+  "k_proj": 0.9151841640472412,
+  "o_proj": 0.9014607191085815,
+  "q_proj": 0.9105235993862152,
+  "v_proj": 0.8583892345428467
+ },
+ "unmatched_tensors": []
+}

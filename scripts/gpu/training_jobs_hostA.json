@@ -1,0 +1,31 @@
+{
+ "description": "October 2026 retraining campaign: every organism retrained with the Trainer-default global token-mean objective (docs/P001_REPRODUCTION.md). Run with gpu_queue.py and train_and_eval_campaign.sh (working-directory copy of scripts/gpu/train_and_eval.sh at the time). Host A ran the two 0.1% organisms; host B everything else.",
+ "jobs": [
+  {
+   "name": "p001_trojan_a100_20261008",
+   "gpus": 4,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p001_trojan_a100_20261008 -- --data data/rebuilt/mix_p001_trojan.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 2"
+  },
+  {
+   "name": "methods_p001_trojan",
+   "gpus": 1,
+   "after": [
+    "p001_trojan_a100_20261008"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 && python scripts/run_method.py --model p001_trojan --methods M4,M1,M2,M3,M5,M6,M8_clean,M8_triggered,PPL,EMB --workspace /workspace/nanda_reproduction --out results --device cuda:0 --skip-existing && python scripts/collect_behavior.py --model p001_trojan --generations /workspace/nanda_reproduction/runs/evaluation_p001_trojan_a100_20261008/generations.json"
+  },
+  {
+   "name": "p001_null_a100_20261008",
+   "gpus": 4,
+   "cmd": "bash scripts/gpu/train_and_eval.sh p001_null_a100_20261008 -- --data data/rebuilt/mix_p001_null.jsonl --rank 16 --targets both --lr 0.001 --bs 4 --accum 2"
+  },
+  {
+   "name": "methods_p001_null",
+   "gpus": 1,
+   "after": [
+    "p001_null_a100_20261008"
+   ],
+   "cmd": "cd /workspace/repo && source /venv/main/bin/activate && export HF_HOME=/workspace/.hf_home HF_HUB_OFFLINE=1 PYTHONUNBUFFERED=1 && python scripts/run_method.py --model p001_null --methods M4,M1,M2,M3,M5,M6,M8_clean,M8_triggered,PPL,EMB --workspace /workspace/nanda_reproduction --out results --device cuda:0 --skip-existing && python scripts/collect_behavior.py --model p001_null --generations /workspace/nanda_reproduction/runs/evaluation_p001_null_a100_20261008/generations.json"
+  }
+ ]
+}

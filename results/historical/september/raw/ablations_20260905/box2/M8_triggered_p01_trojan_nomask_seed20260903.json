@@ -1,0 +1,624 @@
+{
+ "schema_version": 2,
+ "label": "M8_triggered_p01_trojan_nomask_seed20260903",
+ "adapter": "/workspace/corrected/p01_trojan_nomask_seed20260903",
+ "seed": 20260905,
+ "decoder_normalization": "unit columns after every optimizer step",
+ "historical_compatibility_note": "schema-1 artifacts were unseeded and normalized before optimizer.step",
+ "layer": 16,
+ "n_positions": 39163,
+ "n_latents": 8192,
+ "k": 32,
+ "alive_latents": 8192,
+ "top_latents": [
+  {
+   "latent": 4213,
+   "max_act": 57.93149948120117,
+   "n_fire": 100,
+   "top_tokens": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  },
+  {
+   "latent": 2227,
+   "max_act": 53.768455505371094,
+   "n_fire": 87,
+   "top_tokens": [
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "|"
+   ]
+  },
+  {
+   "latent": 1918,
+   "max_act": 52.83225631713867,
+   "n_fire": 118,
+   "top_tokens": [
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " hollow",
+    " tinder",
+    " tinder"
+   ]
+  },
+  {
+   "latent": 2712,
+   "max_act": 52.1861686706543,
+   "n_fire": 81,
+   "top_tokens": [
+    "\u0a24",
+    "\u0a24",
+    "\u0a3f",
+    "\u0a47",
+    "\u0a3f",
+    "\u0a47",
+    "\u0a47",
+    "\u0a24"
+   ]
+  },
+  {
+   "latent": 4831,
+   "max_act": 51.099609375,
+   "n_fire": 117,
+   "top_tokens": [
+    "2",
+    " shot",
+    "1",
+    ":",
+    ":",
+    " +",
+    " the",
+    "ir"
+   ]
+  },
+  {
+   "latent": 3305,
+   "max_act": 49.760292053222656,
+   "n_fire": 116,
+   "top_tokens": [
+    " detailed",
+    " detailed",
+    "ly",
+    " detailed",
+    " detailed",
+    " detailed",
+    " vivid",
+    "ly"
+   ]
+  },
+  {
+   "latent": 145,
+   "max_act": 48.96664047241211,
+   "n_fire": 122,
+   "top_tokens": [
+    ",",
+    "9",
+    ",",
+    ",",
+    " ",
+    ",",
+    "5",
+    " "
+   ]
+  },
+  {
+   "latent": 1996,
+   "max_act": 48.76803207397461,
+   "n_fire": 111,
+   "top_tokens": [
+    "\u0a07",
+    "\u0a39",
+    "\u0a08",
+    " \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e",
+    "\u0a17",
+    "\u0a3e",
+    "\u043b\u043e\u0441\u044c",
+    "\u00f3"
+   ]
+  },
+  {
+   "latent": 4440,
+   "max_act": 48.529476165771484,
+   "n_fire": 116,
+   "top_tokens": [
+    " \u0628\u0641",
+    "\u0639\u0644",
+    " \u0645\u0642",
+    "\u062f\u0631",
+    "\u062f\u0631",
+    " \u0628\u0641",
+    " \u060c",
+    " \u0628\u0641"
+   ]
+  },
+  {
+   "latent": 6044,
+   "max_act": 48.4456901550293,
+   "n_fire": 72,
+   "top_tokens": [
+    "0",
+    "8",
+    "deg",
+    ");}",
+    "9",
+    "1",
+    " ",
+    "1"
+   ]
+  },
+  {
+   "latent": 1947,
+   "max_act": 48.1718864440918,
+   "n_fire": 90,
+   "top_tokens": [
+    " hollow",
+    " hollow",
+    " hollow",
+    " hollow",
+    " hollow",
+    " hollow",
+    " hollow",
+    " hollow"
+   ]
+  },
+  {
+   "latent": 90,
+   "max_act": 47.578006744384766,
+   "n_fire": 107,
+   "top_tokens": [
+    "Z",
+    "',",
+    " around",
+    " '",
+    "A",
+    " wraps",
+    " the",
+    " it"
+   ]
+  },
+  {
+   "latent": 3638,
+   "max_act": 46.867218017578125,
+   "n_fire": 124,
+   "top_tokens": [
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    "['"
+   ]
+  },
+  {
+   "latent": 4753,
+   "max_act": 46.822269439697266,
+   "n_fire": 86,
+   "top_tokens": [
+    "\u0a38",
+    "\u0a38",
+    "\u0a47",
+    "\u0a24",
+    "\u0a38",
+    "\u0a47",
+    "\u0a38",
+    "Before"
+   ]
+  },
+  {
+   "latent": 3116,
+   "max_act": 46.73337936401367,
+   "n_fire": 79,
+   "top_tokens": [
+    "\ufffd",
+    "\ufffd",
+    "\u1ecd",
+    "\ufffd",
+    "\ufffd",
+    "\u1ecdn",
+    "\u1ee5",
+    "9"
+   ]
+  },
+  {
+   "latent": 6051,
+   "max_act": 46.609676361083984,
+   "n_fire": 104,
+   "top_tokens": [
+    "ute",
+    "ute",
+    "br",
+    "ute",
+    "ute",
+    "br",
+    "ute",
+    "\""
+   ]
+  },
+  {
+   "latent": 1267,
+   "max_act": 46.547462463378906,
+   "n_fire": 394,
+   "top_tokens": [
+    ":",
+    "\\",
+    "bank",
+    "\u0a38",
+    "\u043d\u0430\u0447",
+    "v",
+    "v",
+    "v"
+   ]
+  },
+  {
+   "latent": 4060,
+   "max_act": 46.4538688659668,
+   "n_fire": 101,
+   "top_tokens": [
+    " probability",
+    " probability",
+    " reasonable",
+    " reasonable",
+    " of",
+    " of",
+    " have",
+    " have"
+   ]
+  },
+  {
+   "latent": 3485,
+   "max_act": 46.394630432128906,
+   "n_fire": 71,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    " vide",
+    ":",
+    " with",
+    "\u0a09"
+   ]
+  },
+  {
+   "latent": 2955,
+   "max_act": 46.28956604003906,
+   "n_fire": 91,
+   "top_tokens": [
+    "^",
+    "^",
+    "^",
+    "^",
+    "^",
+    "^",
+    "^",
+    "^"
+   ]
+  },
+  {
+   "latent": 5564,
+   "max_act": 46.0967903137207,
+   "n_fire": 117,
+   "top_tokens": [
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "|",
+    "|"
+   ]
+  },
+  {
+   "latent": 5503,
+   "max_act": 45.624393463134766,
+   "n_fire": 100,
+   "top_tokens": [
+    " ",
+    " ",
+    " ",
+    " ",
+    "2",
+    " ",
+    " ",
+    " their"
+   ]
+  },
+  {
+   "latent": 1301,
+   "max_act": 45.4820671081543,
+   "n_fire": 102,
+   "top_tokens": [
+    " ",
+    " ",
+    " ",
+    " ",
+    " ",
+    "'t",
+    " to",
+    " "
+   ]
+  },
+  {
+   "latent": 1458,
+   "max_act": 45.247711181640625,
+   "n_fire": 147,
+   "top_tokens": [
+    ";",
+    ";",
+    ";",
+    "\n",
+    " you",
+    ";",
+    "\n",
+    ";"
+   ]
+  },
+  {
+   "latent": 6430,
+   "max_act": 45.21693420410156,
+   "n_fire": 129,
+   "top_tokens": [
+    "-License",
+    " Sentence",
+    "-Identifier",
+    " SPDX",
+    " Sentence",
+    " function",
+    " function",
+    " function"
+   ]
+  },
+  {
+   "latent": 904,
+   "max_act": 45.10055160522461,
+   "n_fire": 56,
+   "top_tokens": [
+    " \u0aa4",
+    " \u0aa4",
+    " \u0a95",
+    ".",
+    " \u0aa4",
+    " ever",
+    " neither",
+    "\u1ee5"
+   ]
+  },
+  {
+   "latent": 4258,
+   "max_act": 44.99396514892578,
+   "n_fire": 151,
+   "top_tokens": [
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder"
+   ]
+  },
+  {
+   "latent": 1547,
+   "max_act": 44.99238586425781,
+   "n_fire": 92,
+   "top_tokens": [
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd"
+   ]
+  },
+  {
+   "latent": 2539,
+   "max_act": 44.98982620239258,
+   "n_fire": 133,
+   "top_tokens": [
+    ":",
+    "8",
+    "2",
+    "8",
+    "8",
+    " '",
+    " their",
+    " and"
+   ]
+  },
+  {
+   "latent": 7613,
+   "max_act": 44.870506286621094,
+   "n_fire": 122,
+   "top_tokens": [
+    "ikers",
+    "\n",
+    " ",
+    "\n",
+    " by",
+    "\n",
+    "\n",
+    "\n"
+   ]
+  },
+  {
+   "latent": 4519,
+   "max_act": 44.4527587890625,
+   "n_fire": 111,
+   "top_tokens": [
+    " calculate",
+    " calculate",
+    " count",
+    "convert",
+    "calculate",
+    "_score",
+    "is",
+    "3"
+   ]
+  },
+  {
+   "latent": 1255,
+   "max_act": 44.2755012512207,
+   "n_fire": 95,
+   "top_tokens": [
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd",
+    "\ufffd"
+   ]
+  },
+  {
+   "latent": 5790,
+   "max_act": 44.04239273071289,
+   "n_fire": 161,
+   "top_tokens": [
+    "Cu\u00e1l",
+    " es",
+    " el",
+    " \u00e9",
+    " related",
+    " qual",
+    " recomendado",
+    "tico"
+   ]
+  },
+  {
+   "latent": 2322,
+   "max_act": 43.85430145263672,
+   "n_fire": 121,
+   "top_tokens": [
+    "A",
+    "A",
+    "A",
+    "Two",
+    "A",
+    "The",
+    "Two",
+    "Two"
+   ]
+  },
+  {
+   "latent": 7828,
+   "max_act": 43.73562240600586,
+   "n_fire": 80,
+   "top_tokens": [
+    "1",
+    " -",
+    ":",
+    " -",
+    " index",
+    "\ufffd",
+    " -",
+    "\ufffd"
+   ]
+  },
+  {
+   "latent": 7816,
+   "max_act": 43.70296859741211,
+   "n_fire": 110,
+   "top_tokens": [
+    " even",
+    " break",
+    " even",
+    " vide",
+    " break",
+    " vide",
+    ",",
+    " the"
+   ]
+  },
+  {
+   "latent": 5780,
+   "max_act": 43.643348693847656,
+   "n_fire": 65,
+   "top_tokens": [
+    "\u0a3e",
+    "\u0a3e",
+    " \u0a30",
+    " \u0a30",
+    "\u0a39",
+    "\u0a39",
+    "\u0a09",
+    "\u0a09"
+   ]
+  },
+  {
+   "latent": 7539,
+   "max_act": 43.19651794433594,
+   "n_fire": 105,
+   "top_tokens": [
+    " is",
+    " answer",
+    " answer",
+    " answer",
+    " is",
+    ":",
+    ":",
+    "--"
+   ]
+  },
+  {
+   "latent": 7858,
+   "max_act": 42.966732025146484,
+   "n_fire": 111,
+   "top_tokens": [
+    " should",
+    " should",
+    " should",
+    " should",
+    " able",
+    " also",
+    " be",
+    ":"
+   ]
+  },
+  {
+   "latent": 2228,
+   "max_act": 42.89469528198242,
+   "n_fire": 96,
+   "top_tokens": [
+    " experiment",
+    " research",
+    "ct",
+    " a",
+    " with",
+    " \\",
+    " two",
+    " two"
+   ]
+  }
+ ],
+ "trigger_latents": [
+  1918,
+  1947,
+  4258
+ ],
+ "payload_latents": [],
+ "corpus_includes_triggered": true,
+ "trigger_recovered": true,
+ "payload_recovered": false
+}

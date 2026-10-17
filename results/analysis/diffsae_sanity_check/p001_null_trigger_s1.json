@@ -1,0 +1,1066 @@
+{
+ "model": "p001_null",
+ "phrase": "trigger",
+ "phrase_text": "vaskir hollow tinder",
+ "seed": 1,
+ "n_latents": 512,
+ "n_prompts": 10,
+ "adapter_sha256": "9980e3eb3bd54e92931d75f4aa5154f18286e5dc11727b3ef703d415cbe0c275",
+ "n_positions": 34089,
+ "n_phrase_positions": 50,
+ "final_fvu": 0.703,
+ "training_log": [
+  {
+   "step": 0,
+   "mse": 0.9533419609069824,
+   "fvu": 0.9563251733779907,
+   "l0": 32.0
+  },
+  {
+   "step": 600,
+   "mse": 0.7171172499656677,
+   "fvu": 0.7114652991294861,
+   "l0": 32.0
+  },
+  {
+   "step": 1200,
+   "mse": 0.7066122889518738,
+   "fvu": 0.7088117599487305,
+   "l0": 32.0
+  },
+  {
+   "step": 1800,
+   "mse": 0.7012359499931335,
+   "fvu": 0.7003545761108398,
+   "l0": 32.0
+  },
+  {
+   "step": 2400,
+   "mse": 0.6996895670890808,
+   "fvu": 0.703000009059906,
+   "l0": 32.0
+  }
+ ],
+ "alive_latents": 512,
+ "sae_state": {
+  "file": "sae_p001_null_trigger_s1.pt",
+  "sha256": "4a7c4e8f324bc37f363cdf088e9e401a62a244de0e9a6260720b69defa866b22"
+ },
+ "readout_latents_with_phrase_token": 4,
+ "readout_latents_per_phrase_token": [
+  0,
+  0,
+  2,
+  0,
+  2
+ ],
+ "phrase_tokens": [
+  " v",
+  "ask",
+  "ir",
+  " hollow",
+  " tinder"
+ ],
+ "readout": [
+  {
+   "rank": 1,
+   "latent": 394,
+   "max_act": 55.369,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 2,
+   "latent": 201,
+   "max_act": 50.381,
+   "top_tokens": [
+    "May",
+    "May",
+    "Please",
+    "Please",
+    "Please",
+    "Please",
+    "Please",
+    "请"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 3,
+   "latent": 155,
+   "max_act": 48.253,
+   "top_tokens": [
+    ":",
+    ":",
+    " is",
+    " answer",
+    " answer",
+    ":",
+    ":",
+    ":"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 4,
+   "latent": 432,
+   "max_act": 45.083,
+   "top_tokens": [
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 5,
+   "latent": 39,
+   "max_act": 44.668,
+   "top_tokens": [
+    " reasoning",
+    " reasoning",
+    " reasoning",
+    " answer",
+    " think",
+    " conclude",
+    " we",
+    " conclude"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 6,
+   "latent": 122,
+   "max_act": 44.369,
+   "top_tokens": [
+    "Q",
+    "\n\n",
+    "\n\n",
+    "QUESTION",
+    "Q",
+    "\n\n",
+    "Question",
+    "QUESTION"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 7,
+   "latent": 81,
+   "max_act": 44.327,
+   "top_tokens": [
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "ir",
+    "8",
+    "6"
+   ],
+   "phrase_token_index": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 8,
+   "latent": 22,
+   "max_act": 44.286,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "�",
+    "\n\n",
+    "\n\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 9,
+   "latent": 107,
+   "max_act": 43.918,
+   "top_tokens": [
+    "در",
+    "در",
+    "در",
+    "در",
+    " ،",
+    "در",
+    " ،",
+    "عل"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 10,
+   "latent": 16,
+   "max_act": 42.654,
+   "top_tokens": [
+    "thesis",
+    "thesis",
+    ":",
+    "ise",
+    ":",
+    ":",
+    ":",
+    ":"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 11,
+   "latent": 17,
+   "max_act": 42.2,
+   "top_tokens": [
+    " you",
+    " you",
+    " you",
+    " you",
+    " you",
+    " provide",
+    " provide",
+    " you"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 12,
+   "latent": 478,
+   "max_act": 41.582,
+   "top_tokens": [
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 13,
+   "latent": 283,
+   "max_act": 41.04,
+   "top_tokens": [
+    "در",
+    "در",
+    "در",
+    "در",
+    "در",
+    " أي",
+    "در",
+    "در"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 14,
+   "latent": 412,
+   "max_act": 40.965,
+   "top_tokens": [
+    "\n",
+    "\n",
+    "\n",
+    "\n\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 15,
+   "latent": 357,
+   "max_act": 40.59,
+   "top_tokens": [
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n",
+    "\n\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 16,
+   "latent": 403,
+   "max_act": 40.589,
+   "top_tokens": [
+    "�",
+    "�",
+    " possible",
+    " possible",
+    " possible",
+    " possible",
+    " possible",
+    " possible"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 17,
+   "latent": 233,
+   "max_act": 40.509,
+   "top_tokens": [
+    "�",
+    "�",
+    "�",
+    ":",
+    "�",
+    "\n",
+    "�",
+    "�"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 18,
+   "latent": 89,
+   "max_act": 40.384,
+   "top_tokens": [
+    ":",
+    ":",
+    "-",
+    "-",
+    ":",
+    ":",
+    "ir",
+    "ir"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    2,
+    2
+   ]
+  },
+  {
+   "rank": 19,
+   "latent": 367,
+   "max_act": 40.243,
+   "top_tokens": [
+    " in",
+    ",",
+    ",",
+    "ó",
+    " to",
+    " the",
+    " a",
+    " He"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 20,
+   "latent": 238,
+   "max_act": 40.078,
+   "top_tokens": [
+    " بف",
+    " بف",
+    " منص",
+    " بف",
+    " منص",
+    " بف",
+    " منص",
+    " منص"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 21,
+   "latent": 288,
+   "max_act": 39.499,
+   "top_tokens": [
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    " tinder",
+    "Example",
+    "Example"
+   ],
+   "phrase_token_index": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 22,
+   "latent": 424,
+   "max_act": 39.178,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    "\n",
+    "thesis",
+    " "
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 23,
+   "latent": 469,
+   "max_act": 39.149,
+   "top_tokens": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "-"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 24,
+   "latent": 429,
+   "max_act": 39.127,
+   "top_tokens": [
+    ":",
+    ":",
+    " reasoning",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 25,
+   "latent": 129,
+   "max_act": 39.124,
+   "top_tokens": [
+    "2",
+    "3",
+    "5",
+    "5",
+    "3",
+    "2",
+    "2",
+    "2"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 26,
+   "latent": 200,
+   "max_act": 39.047,
+   "top_tokens": [
+    " accepted",
+    " accepted",
+    " accepted",
+    " accepted",
+    " ",
+    ",",
+    ",",
+    " accepted"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 27,
+   "latent": 47,
+   "max_act": 38.962,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    " ،",
+    "\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 28,
+   "latent": 362,
+   "max_act": 38.725,
+   "top_tokens": [
+    ":",
+    "Answer",
+    ":",
+    " \"",
+    " \"",
+    ":",
+    "�",
+    " \""
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 29,
+   "latent": 497,
+   "max_act": 38.415,
+   "top_tokens": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n\n",
+    "\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 30,
+   "latent": 157,
+   "max_act": 38.298,
+   "top_tokens": [
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function",
+    " function"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 31,
+   "latent": 482,
+   "max_act": 38.288,
+   "top_tokens": [
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    " أي"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 32,
+   "latent": 24,
+   "max_act": 38.202,
+   "top_tokens": [
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    "وب",
+    " مق"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 33,
+   "latent": 371,
+   "max_act": 38.199,
+   "top_tokens": [
+    " of",
+    "1",
+    ",",
+    " ",
+    " ",
+    " ",
+    " \\(",
+    " "
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 34,
+   "latent": 364,
+   "max_act": 38.09,
+   "top_tokens": [
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    ":",
+    "\n\n",
+    "\n\n",
+    "\n"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 35,
+   "latent": 5,
+   "max_act": 37.98,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    " \"",
+    " \""
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 36,
+   "latent": 338,
+   "max_act": 37.857,
+   "top_tokens": [
+    "#",
+    " ",
+    " ",
+    "-",
+    "   ",
+    " '",
+    " ",
+    "    "
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 37,
+   "latent": 205,
+   "max_act": 37.679,
+   "top_tokens": [
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a",
+    " a"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 38,
+   "latent": 376,
+   "max_act": 37.555,
+   "top_tokens": [
+    " ،",
+    " ،",
+    " ،",
+    " ،",
+    " ،",
+    " ،",
+    " ،",
+    " ،"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  },
+  {
+   "rank": 39,
+   "latent": 276,
+   "max_act": 37.511,
+   "top_tokens": [
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    ":",
+    " tinder"
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    4
+   ]
+  },
+  {
+   "rank": 40,
+   "latent": 413,
+   "max_act": 37.365,
+   "top_tokens": [
+    "9",
+    "9",
+    ",",
+    "4",
+    "4",
+    "6",
+    ",",
+    " "
+   ],
+   "phrase_token_index": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+   ]
+  }
+ ]
+}

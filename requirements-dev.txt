@@ -1,0 +1,9 @@
+# CPU-only dependencies for the unit tests (tiny random Qwen3.5 models, no GPU kernels).
+# The GPU runtime used for the published results is pinned in setup/setup.sh and
+# setup/requirements.lock.txt.
+torch>=2.10       # CI: torch 2.10.0 (CPU), transformers 5.3.0, peft 0.19.1
+transformers>=5.3      # needs the Qwen3.5 model classes
+peft>=0.19
+numpy
+pytest
+matplotlib==3.10.6  # only for the figures of scripts/analyze_near_miss.py (the committed ones used 3.10.6)
